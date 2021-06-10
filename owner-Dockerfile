@@ -5,15 +5,4 @@ ARG userid=1000
 ARG groupid=1000
 
 USER root
-COPY tmp/data /tmp/data
-RUN usermod --uid ${userid} sensetime \
-    && groupmod --gid ${groupid} sensetime \
-    && cp -rf /tmp/data/.git* /tmp/data/.tmux.conf /home/sensetime/ \
-    && rm -rf /home/sensetime/.ssh \
-    && cp -rf /tmp/data/.ssh/ /home/sensetime/.ssh \
-    && cp -rf /tmp/data/.aws/ /home/sensetime/.aws \
-    && chown -R ${userid}:${groupid} /home/sensetime/ \
-    && rm -rf /tmp/*
-
-USER sensetime
-
+WORKDIR /home/roboterrain
