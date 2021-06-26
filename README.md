@@ -1,4 +1,3 @@
-# LRSMT
 <img align=right width=150px  src="static/images/logo.png" />
 
 # LRSMT: LEGGED ROBOT SIMULATOR IN MULTIPLE TERRIAN
