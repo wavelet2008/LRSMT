@@ -1,8 +1,0 @@
-ARG source_image_name
-FROM ${source_image_name}
-
-ARG userid=1000
-ARG groupid=1000
-
-USER root
-WORKDIR /home/roboterrain

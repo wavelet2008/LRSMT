@@ -1,0 +1,786 @@
+#VRML_OBJ R2020b utf8
+Robot {
+  translation -3.20991 0.309906 3.91018
+  rotation 0.15170500345242666 -0.6945520158062676 0.7032660160045765 -7.530717958648125e-05
+  children [
+    GPS {
+    }
+    InertialUnit {
+      translation 0 0.05 0
+      name "imu"
+    }
+    DEF body Group {
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.666667 0 0
+            }
+          }
+          geometry Box {
+            size 0.152 0.09 0.43
+          }
+        }
+        Transform {
+          translation 0.132 0 0
+          children [
+            Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0.333333 0
+                }
+              }
+              geometry Box {
+                size 0.112 0.09 0.04
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.132 0 0
+          children [
+            Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0.333333 0
+                }
+              }
+              geometry Box {
+                size 0.112 0.09 0.04
+              }
+            }
+          ]
+        }
+        Transform {
+          translation 0.184 0 0
+          children [
+            Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0.498039
+                }
+              }
+              geometry Box {
+                size 0.008 0.09 0.43
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.184 0 0
+          children [
+            Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0.498039
+                }
+              }
+              geometry Box {
+                size 0.008 0.09 0.43
+              }
+            }
+          ]
+        }
+      ]
+    }
+    DEF fr_6 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 0.25269369558435795
+        anchor -0.096 0 0.17
+      }
+      device [
+        PositionSensor {
+          name "pos_6"
+        }
+        RotationalMotor {
+          name "motor_6"
+          controlPID 15 0 0.5
+          maxVelocity 94.2
+          maxTorque 21
+        }
+      ]
+      endPoint Solid {
+        translation -0.09599941548482116 -3.9308999027009946e-05 0.16998136362798202
+        rotation 0.12256046685636145 -0.12288459745551296 0.9848239983226177 1.586183177663135
+        children [
+          DEF kuan_1 Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 1 0.333333 0
+              }
+            }
+            geometry Cylinder {
+              height 0.04
+              radius 0.045
+            }
+          }
+          DEF kuan_2 Group {
+            children [
+              Transform {
+                translation 0 0.026 0
+                children [
+                  Shape {
+                    appearance Appearance {
+                      material Material {
+                        diffuseColor 0.5 0.5 0.5
+                      }
+                    }
+                    geometry Cylinder {
+                      height 0.012
+                      radius 0.02
+                    }
+                  }
+                ]
+              }
+              Transform {
+                translation 0 0.026 0.05
+                children [
+                  Shape {
+                    appearance Appearance {
+                      material Material {
+                        diffuseColor 0.5 0.5 0.5
+                      }
+                    }
+                    geometry Box {
+                      size 0.03 0.012 0.1
+                    }
+                  }
+                ]
+              }
+              Transform {
+                translation 0 0.026 0.1
+                children [
+                  Shape {
+                    appearance Appearance {
+                      material Material {
+                        diffuseColor 0.5 0.5 0.5
+                      }
+                    }
+                    geometry Cylinder {
+                      height 0.012
+                      radius 0.02
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+          HingeJoint {
+            jointParameters HingeJointParameters {
+              position 0.270910206291762
+              axis 0 1 0
+              anchor 0 0.03 0.1
+            }
+            endPoint Solid {
+              translation 0 0.03 0.1
+              rotation 0 1 0 1.3179102062917445
+              children [
+                DEF XI Group {
+                  children [
+                    Transform {
+                      translation 0 -0.004 -0.115
+                      children [
+                        Shape {
+                          appearance Appearance {
+                            material Material {
+                              diffuseColor 0.5 0.5 0.5
+                            }
+                          }
+                          geometry Box {
+                            size 0.02 0.01 0.23
+                          }
+                        }
+                      ]
+                    }
+                    Transform {
+                      translation 0 -0.004 -0.23
+                      children [
+                        DEF foot Shape {
+                          appearance Appearance {
+                            material Material {
+                              diffuseColor 0 0.666667 0
+                            }
+                          }
+                          geometry Sphere {
+                            radius 0.015
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+                Transform {
+                  translation 0 -0.004 -0.23
+                  children [
+                    TouchSensor {
+                      translation 4.7584549889290173e-07 -1.922515480146103e-10 1.1584379042695048e-06
+                      rotation -0.1641818983692368 -0.013681824864103067 -0.9863351924757939 4.463020610254437e-14
+                      name "Foot_C"
+                      boundingObject USE foot
+                      physics Physics {
+                      }
+                    }
+                  ]
+                }
+              ]
+              name "solid_xi_"
+              boundingObject USE XI
+              physics Physics {
+                density -1
+                mass 0.25
+              }
+            }
+          }
+        ]
+        boundingObject USE kuan_1
+        physics Physics {
+          density -1
+          mass 0.25
+        }
+      }
+    }
+    DEF fl_7 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 0.2526936982763569
+        anchor 0.096 0 0.17
+      }
+      device [
+        RotationalMotor {
+          name "motor_7"
+          controlPID 15 0 0.5
+          maxVelocity 94.2
+          maxTorque 21
+        }
+        PositionSensor {
+          name "pos_7"
+        }
+      ]
+      endPoint Solid {
+        translation 0.09600057359229108 -3.930639049633781e-05 0.16998137274669617
+        rotation 0.12256072732644546 -0.12288435566865535 0.9848239960770208 1.5861830709339244
+        children [
+          Transform {
+            translation 0 -0.052 0
+            children [
+              USE kuan_2
+            ]
+          }
+          DEF fl_1 Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 1 0.333333 0
+              }
+            }
+            geometry Cylinder {
+              height 0.04
+              radius 0.045
+            }
+          }
+          HingeJoint {
+            jointParameters HingeJointParameters {
+              position 0.270900509536267
+              axis 0 1 0
+              anchor 0 -0.052 0.1
+            }
+            endPoint Solid {
+              translation 0 -0.022 0.1
+              rotation 0 1 0 1.3179005095362524
+              children [
+                TouchSensor {
+                  translation 4.780419991801121e-07 -0.004000000193125075 -0.2299988362343856
+                  rotation 0.5268379287975528 -0.004737751158251374 -0.8499525577902965 5.858386117913597e-14
+                  name "Foot_D"
+                  boundingObject USE foot
+                  physics Physics {
+                  }
+                }
+                USE XI
+              ]
+              name "solid_fl"
+              boundingObject USE XI
+              physics Physics {
+                density -1
+                mass 0.25
+              }
+            }
+          }
+        ]
+        name "solid(1)"
+        boundingObject USE fl_1
+        physics Physics {
+          density -1
+          mass 0.25
+        }
+      }
+    }
+    DEF rl_3 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 0.25269365069935856
+        anchor 0.096 0 -0.17
+      }
+      device [
+        RotationalMotor {
+          name "motor_3"
+          controlPID 15 0 0.5
+          maxVelocity 94.2
+          maxTorque 21
+        }
+        PositionSensor {
+          name "pos_3"
+        }
+      ]
+      endPoint Solid {
+        translation 0.09600057031346965 -3.95905943267379e-05 -0.17001899446609423
+        rotation 0.12256071211795096 -0.12288432390414392 0.9848240019332197 1.586183051139014
+        children [
+          DEF rl_1 Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 1 0.333333 0
+              }
+            }
+            geometry Cylinder {
+              height 0.04
+              radius 0.045
+            }
+          }
+          Transform {
+            translation 0 -0.052 0
+            children [
+              USE kuan_2
+            ]
+          }
+          HingeJoint {
+            jointParameters HingeJointParameters {
+              position 0.27089486160135595
+              axis 0 1 0
+              anchor 0 -0.06 0.1
+            }
+            endPoint Solid {
+              translation 0 -0.022000000000047863 0.1
+              rotation 0 1 0 1.3178948616013542
+              children [
+                TouchSensor {
+                  translation 5.238021911768698e-07 -0.004000000211533461 -0.22999872523678638
+                  rotation 0.06089581593249515 0.016069729204408443 0.9980147611158927 -6.563345654291158e-14
+                  name "Foot_B"
+                  boundingObject USE foot
+                  physics Physics {
+                  }
+                }
+                USE XI
+              ]
+              name "rl_solid"
+              boundingObject USE XI
+              physics Physics {
+                density -1
+                mass 0.25
+              }
+            }
+          }
+        ]
+        name "solid(2)"
+        boundingObject USE rl_1
+        physics Physics {
+          density -1
+          mass 0.25
+        }
+      }
+    }
+    DEF rr_2 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 0.2526936506439035
+        anchor -0.096 0 -0.17
+      }
+      device [
+        PositionSensor {
+          name "pos_2"
+        }
+        RotationalMotor {
+          name "motor_2"
+          controlPID 15 0 0.5
+          maxVelocity 94.2
+          maxTorque 21
+        }
+      ]
+      endPoint Solid {
+        translation -0.09599945582510272 -3.959258332096835e-05 -0.17001900370983153
+        rotation 0.12256055132407545 -0.12288450319456068 0.9848239995723931 1.586182852081476
+        children [
+          DEF rr_1 Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 1 0.333333 0
+              }
+            }
+            geometry Cylinder {
+              height 0.04
+              radius 0.045
+            }
+          }
+          Transform {
+            children [
+              USE kuan_2
+            ]
+          }
+          HingeJoint {
+            jointParameters HingeJointParameters {
+              position 0.27090415085748265
+              axis 0 1 0
+              anchor 0 0 0.1
+            }
+            endPoint Solid {
+              translation 0 0.030000000000054212 0.1
+              rotation 0 1 0 1.3179041508574825
+              children [
+                TouchSensor {
+                  translation 5.21874521541843e-07 -0.004000000210777621 -0.2299987299110326
+                  rotation 0.04795573547968432 0 -0.9988494618482819 4.0514242429189686e-14
+                  name "Foot_A"
+                  boundingObject USE foot
+                  physics Physics {
+                  }
+                }
+                USE XI
+              ]
+              name "rr_solid"
+              boundingObject USE XI
+              physics Physics {
+                density -1
+                mass 0.25
+              }
+            }
+          }
+        ]
+        name "solid(3)"
+        boundingObject USE rr_1
+        physics Physics {
+          density -1
+          mass 0.25
+        }
+      }
+    }
+    DEF fr_5 HingeJoint {
+      jointParameters HingeJointParameters {
+        position -0.2526671584132263
+        anchor -0.16 0 0.17
+      }
+      device [
+        PositionSensor {
+          name "pos_5"
+        }
+        RotationalMotor {
+          name "motor_5"
+          controlPID 15 0 0.5
+          maxVelocity 94.2
+          maxTorque 21
+        }
+      ]
+      endPoint Solid {
+        translation -0.16000057987340388 -4.625329662059831e-05 0.1700243483797177
+        rotation -0.12713186403721116 0.12745587011007356 0.9836627929940769 1.587378985007315
+        children [
+          USE kuan_1
+          DEF kuan_3 Group {
+            children [
+              Transform {
+                translation 0 -0.026 0
+                children [
+                  Shape {
+                    appearance Appearance {
+                      material Material {
+                      }
+                    }
+                    geometry Cylinder {
+                      height 0.012
+                      radius 0.02
+                    }
+                  }
+                ]
+              }
+              Transform {
+                translation 0 -0.026 -0.05
+                children [
+                  Shape {
+                    appearance Appearance {
+                      material Material {
+                      }
+                    }
+                    geometry Box {
+                      size 0.02 0.012 0.1
+                    }
+                  }
+                ]
+              }
+              Transform {
+                translation 0 -0.026 -0.1
+                children [
+                  Shape {
+                    appearance Appearance {
+                      material Material {
+                      }
+                    }
+                    geometry Cylinder {
+                      height 0.012
+                      radius 0.02
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+          HingeJoint {
+            jointParameters HingeJointParameters {
+              position -0.2708963106796347
+              axis 0 1 0
+              anchor 0 -0.026 -0.1
+            }
+            endPoint Solid {
+              translation 0 -0.026 -0.1
+              rotation 0 -1 0 1.3178963106796342
+              children [
+                DEF xi_2 Transform {
+                  translation 0 0 0.1
+                  children [
+                    Shape {
+                      appearance Appearance {
+                        material Material {
+                        }
+                      }
+                      geometry Box {
+                        size 0.02 0.012 0.2
+                      }
+                    }
+                  ]
+                }
+                HingeJoint {
+                  jointParameters HingeJointParameters {
+                    position 0.036460780537211565
+                    axis 0 1 0
+                    anchor 0 0 0.2
+                  }
+                  endPoint SolidReference {
+                    solidName "solid_xi_"
+                  }
+                }
+              ]
+              name "solid(6)"
+              boundingObject USE xi_2
+              physics Physics {
+                density -1
+                mass 0.25
+              }
+            }
+          }
+        ]
+        name "solid(6)"
+        boundingObject USE kuan_1
+        physics Physics {
+          density -1
+          mass 0.25
+        }
+      }
+    }
+    DEF fl_8 HingeJoint {
+      jointParameters HingeJointParameters {
+        position -0.2526671584866201
+        anchor 0.16 0 0.17
+      }
+      device [
+        RotationalMotor {
+          name "motor_8"
+          controlPID 15 0 0.5
+          maxVelocity 94.2
+          maxTorque 21
+        }
+        PositionSensor {
+          name "pos_8"
+        }
+      ]
+      endPoint Solid {
+        translation 0.15999943105918057 -4.623983853806672e-05 0.17002433516230392
+        rotation -0.1271315838333621 0.12745608706604408 0.9836628010969175 1.587379469649304
+        children [
+          USE kuan_1
+          Transform {
+            translation 0 0.052 0
+            children [
+              USE kuan_3
+            ]
+          }
+          HingeJoint {
+            jointParameters HingeJointParameters {
+              position -0.27089513899911544
+              axis 0 1 0
+              anchor 0 0 -0.1
+            }
+            endPoint Solid {
+              translation 0 0.025999999999945785 -0.1
+              rotation 0 -1 0 1.3178951389991138
+              children [
+                USE xi_2
+                HingeJoint {
+                  jointParameters HingeJointParameters {
+                    position 0.03645002225051067
+                    axis 0 1 0
+                    anchor 0 0 0.2
+                  }
+                  endPoint SolidReference {
+                    solidName "solid_fl"
+                  }
+                }
+              ]
+              boundingObject USE xi_2
+              physics Physics {
+                density -1
+                mass 0.25
+              }
+            }
+          }
+        ]
+        name "solid(4)"
+        boundingObject USE kuan_1
+        physics Physics {
+          density -1
+          mass 0.25
+        }
+      }
+    }
+    DEF rl_4 HingeJoint {
+      jointParameters HingeJointParameters {
+        position -0.25266715847512144
+        anchor 0.16 0 -0.17
+      }
+      device [
+        RotationalMotor {
+          name "motor_4"
+          controlPID 15 0 0.5
+          maxVelocity 94.2
+          maxTorque 21
+        }
+        PositionSensor {
+          name "pos_4"
+        }
+      ]
+      endPoint Solid {
+        translation 0.15999943450623233 -4.664616247370831e-05 -0.16997526176701924
+        rotation -0.12713157846275988 0.12745608881791856 0.983662801564035 1.587379493500022
+        children [
+          USE kuan_1
+          Transform {
+            translation 0 0.052 0
+            children [
+              USE kuan_3
+            ]
+          }
+          HingeJoint {
+            jointParameters HingeJointParameters {
+              position -0.27089054499575593
+              axis 0 1 0
+              anchor 0 0 -0.1
+            }
+            endPoint Solid {
+              translation 0 0.026000000000020757 -0.1
+              rotation 0 -1 0 1.317890544995754
+              children [
+                USE xi_2
+                HingeJoint {
+                  jointParameters HingeJointParameters {
+                    position 0.03644816655384792
+                    axis 0 1 0
+                    anchor 0 0 0.2
+                  }
+                  endPoint SolidReference {
+                    solidName "rl_solid"
+                  }
+                }
+              ]
+              boundingObject USE xi_2
+              physics Physics {
+                density -1
+                mass 0.25
+              }
+            }
+          }
+        ]
+        name "solid(5)"
+        boundingObject USE kuan_1
+        physics Physics {
+          density -1
+          mass 0.25
+        }
+      }
+    }
+    DEF rr_1 HingeJoint {
+      jointParameters HingeJointParameters {
+        position -0.2526671584128039
+        anchor -0.16 0 -0.17
+      }
+      device [
+        RotationalMotor {
+          name "motor_1"
+          controlPID 15 0 0.5
+          maxVelocity 94.2
+          maxTorque 21
+        }
+        PositionSensor {
+          name "pos_1"
+        }
+      ]
+      endPoint Solid {
+        translation -0.1600005393708559 -4.666007401732402e-05 -0.16997524809884862
+        rotation -0.127131914165462 0.12745580526999575 0.9836627949168367 1.5873790817428937
+        children [
+          Transform {
+            translation 0 -0.052 -0.1
+            children [
+              USE kuan_2
+            ]
+          }
+          USE kuan_1
+          HingeJoint {
+            jointParameters HingeJointParameters {
+              position -0.27089133294398077
+              axis 0 1 0
+              anchor 0 0 -0.1
+            }
+            endPoint Solid {
+              translation 0 -0.03799999999999365 -0.1
+              rotation 0 -1 0 1.3178913329439759
+              children [
+                USE xi_2
+                HingeJoint {
+                  jointParameters HingeJointParameters {
+                    position 0.036457975879578976
+                    axis 0 1 0
+                    anchor 0 0 0.2
+                  }
+                  endPoint SolidReference {
+                    solidName "rr_solid"
+                  }
+                }
+              ]
+              boundingObject USE xi_2
+              physics Physics {
+                density -1
+                mass 0.25
+              }
+            }
+          }
+        ]
+        name "solid(7)"
+        boundingObject USE kuan_1
+        physics Physics {
+          density -1
+          mass 0.25
+        }
+      }
+    }
+  ]
+  boundingObject USE body
+  physics Physics {
+    density -1
+    mass 5
+  }
+  controller "my_controller"
+}

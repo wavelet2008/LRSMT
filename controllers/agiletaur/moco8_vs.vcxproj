@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{B2AA53B0-6416-4406-8FF5-6D43BBA8B305}</ProjectGuid>
+    <RootNamespace>moco8_vs</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)</OutDir>
+    <IncludePath>C:\Users\hp\Desktop\莲动力 项目集合\MOCO8-ML Pro(无刷 实验平台)\仿真环境\moco8\controllers\moco8_vs\JCQP;C:\Users\hp\Desktop\莲动力 项目集合\MOCO8-ML Pro(无刷 实验平台)\仿真环境\moco8\controllers\moco8_vs\mpc;$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\eigen;C:\qpOASES\include;C:\Users\hp\Desktop\莲动力 项目集合\MOCO8-ML Pro(无刷 实验平台)\仿真环境\moco8\controllers\moco8_vs\include_wb;C:\Users\hp\Desktop\莲动力 项目集合\MOCO8-ML Pro(无刷 实验平台)\仿真环境\moco8\controllers\moco8_vs\include_vmc</IncludePath>
+    <SourcePath>$(VC_SourcePath);</SourcePath>
+    <LibraryPath>C:\Users\hp\Desktop\莲动力 项目集合\MOCO8-ML Pro(无刷 实验平台)\仿真环境\moco8\controllers\moco8_vs\libs;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64;C:\qpOASES\build\libs\Release</LibraryPath>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\eigen;C:\qpOASES\include;C:\Users\hp\Desktop\moco8\controllers\moco8_vs\include_vmc;C:\Users\hp\Desktop\moco8\controllers\moco8_vs\include_wb</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64;C:\qpOASES\build\libs\Release</LibraryPath>
+    <OutDir>$(SolutionDir)</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(WEBOTS_HOME)/include/controller/c;$(WEBOTS_HOME)/include/controller/cpp</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <SupportJustMyCode>false</SupportJustMyCode>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>_MBCS;_LIB;_WIN32;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(WEBOTS_HOME)/lib/controller</AdditionalLibraryDirectories>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\hp\Desktop\莲动力 项目集合\MOCO8-ML Pro(无刷 实验平台)\仿真环境\moco8\controllers\moco8_vs\JCQP;C:\Users\hp\Desktop\莲动力 项目集合\MOCO8-ML Pro(无刷 实验平台)\仿真环境\moco8\controllers\moco8_vs\mpc;…\ThirdPartyLib\include;$(WEBOTS_HOME)/include/controller/c;$(WEBOTS_HOME)/include/controller/cpp</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_MBCS;_LIB;_WIN32;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>/D _CRT_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Users\hp\Desktop\莲动力 项目集合\MOCO8-ML Pro(无刷 实验平台)\仿真环境\moco8\controllers\moco8_vs\libs;C:\Program Files %28x86%29\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x64;…\ThirdPartyLib\lib\x64;$(WEBOTS_HOME)/lib/controller</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;controller.lib;moco8_vs.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Accelerometer.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Brake.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Camera.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Compass.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Connector.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Device.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\DifferentialWheels.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Display.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\DistanceSensor.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Emitter.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Field.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\GPS.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Gyro.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\InertialUnit.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Joystick.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Keyboard.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\LED.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Lidar.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\LightSensor.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Motion.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Motor.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Mouse.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Node.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Pen.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\PositionSensor.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Radar.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\RangeFinder.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Receiver.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Robot.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Skin.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Speaker.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\Supervisor.cpp" />
+    <ClCompile Include="$(WEBOTS_HOME)\resources\languages\cpp\TouchSensor.cpp" />
+    <ClCompile Include="gait_src\bound.cpp" />
+    <ClCompile Include="gait_src\self_right.cpp" />
+    <ClCompile Include="gait_src\stand.cpp" />
+    <ClCompile Include="gait_src\pronk.cpp" />
+    <ClCompile Include="gait_src\climb.cpp" />
+    <ClCompile Include="gait_src\trot.cpp" />
+    <ClCompile Include="locomotion_src\adrc.cpp" />
+    <ClCompile Include="locomotion_src\hardware_interface.cpp" />
+    <ClCompile Include="locomotion_src\leg_planner1.cpp" />
+    <ClCompile Include="locomotion_src\locomotion_sfm.cpp" />
+    <ClCompile Include="locomotion_src\state_estimator.cpp" />
+    <ClCompile Include="locomotion_src\vmc_controller.cpp" />
+    <ClCompile Include="math_src\common_math.cpp" />
+    <ClCompile Include="math_src\eso.cpp" />
+    <ClCompile Include="math_src\fliter_math.cpp" />
+    <ClCompile Include="math_src\kin_math.cpp" />
+    <ClCompile Include="math_src\rtGetInf.cpp" />
+    <ClCompile Include="math_src\rtGetNaN.cpp" />
+    <ClCompile Include="math_src\RT_math.cpp" />
+    <ClCompile Include="math_src\rt_nonfinite.cpp" />
+    <ClCompile Include="moco8_vs.cpp" />
+    <ClCompile Include="mpc\convexMPC_interface.cpp" />
+    <ClCompile Include="mpc\RobotState.cpp" />
+    <ClCompile Include="mpc\SolverMPC.cpp" />
+    <ClCompile Include="source\optimize.cpp" />
+    <ClCompile Include="source\wbInterface.cpp" />
+    <ClCompile Include="source_vmc\can.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include_vmc\adrc.h" />
+    <ClInclude Include="include_vmc\base_struct.h" />
+    <ClInclude Include="include_vmc\can.h" />
+    <ClInclude Include="include_vmc\eso.h" />
+    <ClInclude Include="include_vmc\force_dis8_types.h" />
+    <ClInclude Include="include_vmc\force_dis_8.h" />
+    <ClInclude Include="include_vmc\gait_math.h" />
+    <ClInclude Include="include_vmc\ground_att_est_n.h" />
+    <ClInclude Include="include_vmc\include.h" />
+    <ClInclude Include="include_vmc\leg_planner.h" />
+    <ClInclude Include="include_vmc\locomotion_header.h" />
+    <ClInclude Include="include_vmc\rtGetInf.h" />
+    <ClInclude Include="include_vmc\rtGetNaN.h" />
+    <ClInclude Include="include_vmc\rtwtypes.h" />
+    <ClInclude Include="include_vmc\rt_defines.h" />
+    <ClInclude Include="include_vmc\rt_nonfinite.h" />
+    <ClInclude Include="include_wb\include.h" />
+    <ClInclude Include="include_wb\optimaize.h" />
+    <ClInclude Include="include_wb\wbInterface.h" />
+    <ClInclude Include="mpc\common_types.h" />
+    <ClInclude Include="mpc\convexMPC_interface.h" />
+    <ClInclude Include="mpc\cppTypes.h" />
+    <ClInclude Include="mpc\RobotState.h" />
+    <ClInclude Include="mpc\SolverMPC.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="moco8_vs.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x64\pthreadVC2.lib" />
+    <Library Include="..\..\..\..\..\..\qpOASES\build\libs\Release\qpOASES.lib" />
+    <Library Include="libs\moco8_vs.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="JCQP\CMakeLists.txt" />
+    <Text Include="JCQP\LICENSE.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
