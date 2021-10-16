@@ -1,12 +1,14 @@
-<img align=right width=150px  src="static/images/logo.png" />
+<img align=right width=150px  src="static/logo.png" />
 
 # LRSMT: LEGGED ROBOT SIMULATOR IN MULTIPLE TERRIAN
 
 Welcome to LRSMT! 
 
-<img src="static/images/project_overview.png" style="border-radius: 20px;">
+over view here
 
 ## 🛠 Quick Start
+0.  Download Webots 2021b in ubuntu18.04
+1.  Download the repo 
 
 ## 🏫 Documentations
 
