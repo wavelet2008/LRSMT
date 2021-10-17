@@ -14,6 +14,7 @@ Email: 1196075299@qq.com
 from controller import Robot
 import math
 import time
+
 # create the Robot instance.
 class SinglelegController(Robot):
     def __init__(self):
@@ -21,6 +22,9 @@ class SinglelegController(Robot):
         self.timeStep = 64 #time for controller simulation
         self.motor1 = self.getDevice("motor1")
         self.motor2 = self.getDevice("motor2")
+        self.keyboard = self.getKeyboard()
+        self.basictimestep = int(self.getBasicTimeStep())
+        self.keyboard.enable(self.basictimestep)
         self.upperleg_length = 0.1
         self.lowerleg_length = 0.2
         self.toe_length = 0.025
@@ -37,22 +41,44 @@ class SinglelegController(Robot):
         y = - endpoint[0]
         l = math.sqrt( x ** 2 + y ** 2) # virutal leg length
         psail = math.asin(x/l)
-        fail = math.acos((l ** 2 + 0.1 ** 2 - 0.1 ** 2) / (2 * l * 0.2))
+        fail = math.acos((l ** 2 + self.upperleg_length ** 2 - self.lowerleg_length ** 2) / (2 * l * self.upperleg_length))
+
         sita1 = fail - psail
         sita2 = fail + psail
+   
         # transfer from the motor position
-        sita1 = sita1 - 1.276569489045914
-        sita2 = 1.276569489045914 - sita2
+        sita1 = sita1 - 2.364711429998645
+        sita2 = 2.364711429998645 - sita2
         return [sita1, sita2]
-        
+
+    def motor_control(self, sita):
+        self.motor1.setPosition(sita[0])
+        self.motor2.setPosition(sita[1])
+
 
     def run(self):
+        # Initial position
+        x = -0.116
+        y = 0
+        sita = self.inverse_kinematic([x,y])
+        self.motor_control(sita)
+        
         # main loop control
-        for x in range(400):
-            x_axis = -0.116 - 0.001 * x
-            sita = self.inverse_kinematic([x_axis, 0])
-            self.motor1.setPosition(sita[0])
-            self.motor2.setPosition(sita[1])
+        while(self.step(self.timeStep) != -1):
+            #wait for keyboard reponse
+            print(x,y)
+            key = self.keyboard.getKey()
+            if(key == 315):
+                print('press w')
+                x -= 0.01
+            elif(key == 317):
+                x += 0.01
+            elif(key == 316):
+                y -= 0.01
+            elif(key == 314):
+                y += 0.01
+            sita = self.inverse_kinematic([x,y])
+            self.motor_control(sita)
 
 print("test_if_here")
 controller = SinglelegController()
