@@ -1,24 +1,24 @@
 """
 single_leg controller.
 This FILE is part of multi-legged robot field exploration model
-dataset_making.py to make data collection process dataset from human interaction
 
 This programm is explained by roboLAND in university of southern california.
 Please notify the source if you use it
 
 Copyright(c) 2021-2025 Ryoma Liu
-Email: 1196075299@qq.com
+Email: shipengl@usc.edu
 """
 #from controller import Robot, Motor, DistanceSensor
 
 from controller import Robot
+from curve_helper.bs_pline_path import bspline_planning
 import math
 import time
 
 # create the Robot instance.
-class SinglelegController(Robot):
+class Singleleg(Robot):
     def __init__(self):
-        super(SinglelegController, self).__init__()
+        super(Singleleg, self).__init__()
         self.timeStep = 64 #time for controller simulation
         self.motor1 = self.getDevice("motor1")
         self.motor2 = self.getDevice("motor2")
@@ -28,6 +28,9 @@ class SinglelegController(Robot):
         self.upperleg_length = 0.1
         self.lowerleg_length = 0.2
         self.toe_length = 0.025
+        self.foot_step = 0.15 #reasonable value between 0.1 and 0.2
+        self.step_height = 0.7 #reasonable value between 0.05 and 0.1
+        self.curve_ratio = 0.6   #reasonable value between 0.5 and 1
     
 
     def inverse_kinematic(self, endpoint):
@@ -55,31 +58,55 @@ class SinglelegController(Robot):
         self.motor1.setPosition(sita[0])
         self.motor2.setPosition(sita[1])
 
+    def set_trajetory_parameter(self, foot_step_, step_height, curve_ratio_):
+        self.foot_step = foot_step_
+        self.step_height = step_height
+        self.curve_ratio = curve_ratio_
+
+    def generate_b_spline_trajectory(self):
+        # define the five points for B-spline curve
+        point_a = [0.5*self.foot_step, -0.116]
+        point_b = [0.25*self.foot_step, -0.116 + self.curve_ratio * self.step_height]
+        point_c = [0, -0.116 + self.step_height]
+        point_d = [-0.25*self.foot_step, -0.116 + self.curve_ratio * self.step_height]
+        point_e = [-0.5*self.foot_step, -0.116]
+        point_list = [point_a, point_b, point_c, point_d, point_e]
+        # generate b-spline curve point
+        x, y, b_trajectories = bspline_planning(point_list, 100)
+        return b_trajectories
+
 
     def run(self):
         # Initial position
-        x = -0.116
-        y = 0
+        x = 0.5*self.foot_step
+        y = -0.116
         sita = self.inverse_kinematic([x,y])
         self.motor_control(sita)
-        
+        times = 0
         # main loop control
         while(self.step(self.timeStep) != -1):
-            #wait for keyboard reponse
-            print(x,y)
-            key = self.keyboard.getKey()
-            if(key == 315):
-                print('press w')
-                x -= 0.01
-            elif(key == 317):
-                x += 0.01
-            elif(key == 316):
-                y -= 0.01
-            elif(key == 314):
-                y += 0.01
-            sita = self.inverse_kinematic([x,y])
-            self.motor_control(sita)
+            times += 1
+            '''key board control
+            '''
+            # #wait for keyboard reponse
+            # print(x,y)
+            # key = self.keyboard.getKey()
+            # if(key == 315):
+            #     print('press w')
+            #     x -= 0.01
+            # elif(key == 317):
+            #     x += 0.01
+            # elif(key == 316):
+            #     y -= 0.01
+            # elif(key == 314):
+            #     y += 0.01
+            # sita = self.inverse_kinematic([x,y])
 
-print("test_if_here")
-controller = SinglelegController()
+            # generate the foot trajectories
+            trajectories = self.generate_b_spline_trajectory()
+            for waypoints in trajectories:
+                sita = self.inverse_kinematic(waypoints)
+                self.motor_control(sita)
+                print("iterate", times)
+controller = Singleleg()
 controller.run()
