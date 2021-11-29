@@ -1,0 +1,23 @@
+[0.199s] Invoking command in '/home/shipengl/LRSMT/agiletaur/src/webots_interface/webots_ros2_core': AMENT_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs LD_LIBRARY_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_core build --build-base /home/shipengl/LRSMT/agiletaur/build/webots_ros2_core/build install --prefix /home/shipengl/LRSMT/agiletaur/install/webots_ros2_core --record /home/shipengl/LRSMT/agiletaur/build/webots_ros2_core/install.log --single-version-externally-managed
+[0.384s] running egg_info
+[0.384s] writing ../../../build/webots_ros2_core/webots_ros2_core.egg-info/PKG-INFO
+[0.384s] writing dependency_links to ../../../build/webots_ros2_core/webots_ros2_core.egg-info/dependency_links.txt
+[0.384s] writing entry points to ../../../build/webots_ros2_core/webots_ros2_core.egg-info/entry_points.txt
+[0.385s] writing requirements to ../../../build/webots_ros2_core/webots_ros2_core.egg-info/requires.txt
+[0.385s] writing top-level names to ../../../build/webots_ros2_core/webots_ros2_core.egg-info/top_level.txt
+[0.404s] reading manifest file '../../../build/webots_ros2_core/webots_ros2_core.egg-info/SOURCES.txt'
+[0.406s] writing manifest file '../../../build/webots_ros2_core/webots_ros2_core.egg-info/SOURCES.txt'
+[0.406s] running build
+[0.406s] running build_py
+[0.407s] running install
+[0.408s] running install_lib
+[0.409s] running install_data
+[0.410s] running install_egg_info
+[0.412s] removing '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core-1.1.3-py3.8.egg-info' (and everything under it)
+[0.413s] Copying ../../../build/webots_ros2_core/webots_ros2_core.egg-info to /home/shipengl/LRSMT/agiletaur/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core-1.1.3-py3.8.egg-info
+[0.413s] running install_scripts
+[0.427s] Installing webots_differential_drive_node script to /home/shipengl/LRSMT/agiletaur/install/webots_ros2_core/lib/webots_ros2_core
+[0.427s] Installing webots_node script to /home/shipengl/LRSMT/agiletaur/install/webots_ros2_core/lib/webots_ros2_core
+[0.427s] Installing webots_robotic_arm_node script to /home/shipengl/LRSMT/agiletaur/install/webots_ros2_core/lib/webots_ros2_core
+[0.428s] writing list of installed files to '/home/shipengl/LRSMT/agiletaur/build/webots_ros2_core/install.log'
+[0.447s] Invoked command in '/home/shipengl/LRSMT/agiletaur/src/webots_interface/webots_ros2_core' returned '0': AMENT_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs LD_LIBRARY_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_core build --build-base /home/shipengl/LRSMT/agiletaur/build/webots_ros2_core/build install --prefix /home/shipengl/LRSMT/agiletaur/install/webots_ros2_core --record /home/shipengl/LRSMT/agiletaur/build/webots_ros2_core/install.log --single-version-externally-managed

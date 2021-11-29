@@ -1,0 +1,16 @@
+[0.208s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/firstcontroller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/firstcontroller -- -j16 -l16
+[0.251s] [ 50%] [32mBuilding CXX object CMakeFiles/firstcontroller.dir/src/firstcontroller.cpp.o[0m
+[1.565s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/firstcontroller/src/firstcontroller.cpp:[m[K In member function ‘[01m[Kvirtual void firstcontroller::firstcontroller::step()[m[K’:
+[1.565s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/firstcontroller/src/firstcontroller.cpp:16:4:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[1.565s]    16 |    [01;31m[Ki[m[K += 1;
+[1.565s]       |    [01;31m[K^[m[K
+[1.565s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/firstcontroller/src/firstcontroller.cpp:17:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.565s]    17 |    printf("step")
+[1.565s]       |                  [01;31m[K^[m[K
+[1.566s]       |                  [32m[K;[m[K
+[1.566s]    18 |   [32m[K}[m[K
+[1.566s]       |   [32m[K~[m[K               
+[2.229s] make[2]: *** [CMakeFiles/firstcontroller.dir/build.make:63: CMakeFiles/firstcontroller.dir/src/firstcontroller.cpp.o] Error 1
+[2.229s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/firstcontroller.dir/all] Error 2
+[2.229s] make: *** [Makefile:141: all] Error 2
+[2.233s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/firstcontroller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/firstcontroller -- -j16 -l16

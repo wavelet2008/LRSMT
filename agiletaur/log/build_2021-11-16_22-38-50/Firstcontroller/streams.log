@@ -1,0 +1,59 @@
+[0.187s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/Firstcontroller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shipengl/LRSMT/agiletaur/install/webots_ros2:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_universal_robot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_turtlebot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tiago:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tests:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tesla:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_mavic:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_epuck:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_importer:/opt/ros/foxy /usr/bin/cmake /home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/Firstcontroller -DCMAKE_INSTALL_PREFIX=/home/shipengl/LRSMT/agiletaur/install/Firstcontroller
+[0.228s] -- The C compiler identification is GNU 9.3.0
+[0.274s] -- The CXX compiler identification is GNU 9.3.0
+[0.278s] -- Check for working C compiler: /usr/bin/cc
+[0.329s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.330s] -- Detecting C compiler ABI info
+[0.380s] -- Detecting C compiler ABI info - done
+[0.390s] -- Detecting C compile features
+[0.390s] -- Detecting C compile features - done
+[0.392s] -- Check for working CXX compiler: /usr/bin/c++
+[0.454s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.455s] -- Detecting CXX compiler ABI info
+[0.513s] -- Detecting CXX compiler ABI info - done
+[0.530s] -- Detecting CXX compile features
+[0.530s] -- Detecting CXX compile features - done
+[0.533s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.552s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.553s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.713s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.784s] WARNING: Package name "Firstcontroller" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.803s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.804s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.804s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/Firstcontroller/include>
+[0.804s] -- Configured cppcheck exclude dirs and/or files: 
+[0.805s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.805s] -- Configured cpplint exclude dirs and/or files: 
+[0.806s] -- Added test 'lint_cmake' to check CMake code style
+[0.806s] -- Added test 'uncrustify' to check C / C++ code style
+[0.806s] -- Configured uncrustify additional arguments: 
+[0.807s] -- Added test 'xmllint' to check XML markup files
+[0.808s] -- Configuring done
+[0.811s] -- Generating done
+[0.812s] -- Build files have been written to: /home/shipengl/LRSMT/agiletaur/build/Firstcontroller
+[0.814s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/Firstcontroller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shipengl/LRSMT/agiletaur/install/webots_ros2:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_universal_robot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_turtlebot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tiago:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tests:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tesla:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_mavic:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_epuck:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_importer:/opt/ros/foxy /usr/bin/cmake /home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/Firstcontroller -DCMAKE_INSTALL_PREFIX=/home/shipengl/LRSMT/agiletaur/install/Firstcontroller
+[0.817s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/Firstcontroller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shipengl/LRSMT/agiletaur/install/webots_ros2:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_universal_robot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_turtlebot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tiago:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tests:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tesla:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_mavic:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_epuck:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_importer:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/Firstcontroller -- -j16 -l16
+[0.842s] [35m[1mScanning dependencies of target Firstcontroller[0m
+[0.850s] [ 50%] [32mBuilding CXX object CMakeFiles/Firstcontroller.dir/src/Firstcontroller.cpp.o[0m
+[0.869s] [100%] [32m[1mLinking CXX executable Firstcontroller[0m
+[0.898s] [100%] Built target Firstcontroller
+[0.906s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/Firstcontroller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shipengl/LRSMT/agiletaur/install/webots_ros2:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_universal_robot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_turtlebot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tiago:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tests:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tesla:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_mavic:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_epuck:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_importer:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/Firstcontroller -- -j16 -l16
+[0.930s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/Firstcontroller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shipengl/LRSMT/agiletaur/install/webots_ros2:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_universal_robot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_turtlebot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tiago:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tests:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tesla:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_mavic:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_epuck:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_importer:/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/Firstcontroller
+[0.936s] -- Install configuration: ""
+[0.936s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/Firstcontroller/lib/Firstcontroller/Firstcontroller
+[0.936s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/Firstcontroller/share/ament_index/resource_index/package_run_dependencies/Firstcontroller
+[0.936s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/Firstcontroller/share/ament_index/resource_index/parent_prefix_path/Firstcontroller
+[0.936s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/Firstcontroller/share/Firstcontroller/environment/ament_prefix_path.sh
+[0.936s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/Firstcontroller/share/Firstcontroller/environment/ament_prefix_path.dsv
+[0.936s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/Firstcontroller/share/Firstcontroller/environment/path.sh
+[0.937s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/Firstcontroller/share/Firstcontroller/environment/path.dsv
+[0.937s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/Firstcontroller/share/Firstcontroller/local_setup.bash
+[0.937s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/Firstcontroller/share/Firstcontroller/local_setup.sh
+[0.937s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/Firstcontroller/share/Firstcontroller/local_setup.zsh
+[0.937s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/Firstcontroller/share/Firstcontroller/local_setup.dsv
+[0.937s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/Firstcontroller/share/Firstcontroller/package.dsv
+[0.937s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/Firstcontroller/share/ament_index/resource_index/packages/Firstcontroller
+[0.937s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/Firstcontroller/share/Firstcontroller/cmake/FirstcontrollerConfig.cmake
+[0.937s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/Firstcontroller/share/Firstcontroller/cmake/FirstcontrollerConfig-version.cmake
+[0.937s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/Firstcontroller/share/Firstcontroller/package.xml
+[0.940s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/Firstcontroller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shipengl/LRSMT/agiletaur/install/webots_ros2:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_universal_robot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_turtlebot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tiago:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tests:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tesla:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_mavic:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_epuck:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_importer:/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/Firstcontroller

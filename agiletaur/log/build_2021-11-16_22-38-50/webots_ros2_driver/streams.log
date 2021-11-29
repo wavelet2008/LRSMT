@@ -1,0 +1,266 @@
+[0.173s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/webots_ros2_driver': CMAKE_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_control:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver:/home/shipengl/LRSMT/agiletaur/install/webots_ros2:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_universal_robot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_turtlebot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tiago:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tests:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tesla:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_mavic:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_epuck:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_importer:/opt/ros/foxy LD_LIBRARY_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/lib:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_universal_robot/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_turtlebot/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tiago/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tests/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tesla/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_mavic/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_epuck/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_importer/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/shipengl/LRSMT/agiletaur/src/webots_interface/webots_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver
+[0.212s] -- The C compiler identification is GNU 9.3.0
+[0.249s] -- The CXX compiler identification is GNU 9.3.0
+[0.254s] -- Check for working C compiler: /usr/bin/cc
+[0.300s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.301s] -- Detecting C compiler ABI info
+[0.348s] -- Detecting C compiler ABI info - done
+[0.361s] -- Detecting C compile features
+[0.361s] -- Detecting C compile features - done
+[0.364s] -- Check for working CXX compiler: /usr/bin/c++
+[0.427s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.428s] -- Detecting CXX compiler ABI info
+[0.487s] -- Detecting CXX compiler ABI info - done
+[0.499s] -- Detecting CXX compile features
+[0.499s] -- Detecting CXX compile features - done
+[0.503s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.522s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.522s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.675s] -- Found rosgraph_msgs: 1.0.0 (/opt/ros/foxy/share/rosgraph_msgs/cmake)
+[0.698s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.704s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.753s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.774s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.837s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.875s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.909s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.910s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.911s] -- Looking for pthread.h
+[0.958s] -- Looking for pthread.h - found
+[0.958s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.007s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.007s] -- Looking for pthread_create in pthreads
+[1.050s] -- Looking for pthread_create in pthreads - not found
+[1.050s] -- Looking for pthread_create in pthread
+[1.099s] -- Looking for pthread_create in pthread - found
+[1.100s] -- Found Threads: TRUE  
+[1.219s] -- Found pluginlib: 2.5.3 (/opt/ros/foxy/share/pluginlib/cmake)
+[1.241s] -- Found rclcpp_lifecycle: 2.4.0 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[1.265s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.352s] -- Found tf2_ros: 0.13.12 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.600s] -- Found vision_msgs: 2.0.0 (/opt/ros/foxy/share/vision_msgs/cmake)
+[1.691s] -- Found webots_ros2_msgs: 1.1.3 (/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake)
+[1.839s] -- Found TinyXML2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+[1.844s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable exact version "3.8.10") 
+[1.951s] -- Configuring done
+[1.970s] -- Generating done
+[1.972s] -- Build files have been written to: /home/shipengl/LRSMT/agiletaur/build/webots_ros2_driver
+[1.979s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/webots_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_control:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver:/home/shipengl/LRSMT/agiletaur/install/webots_ros2:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_universal_robot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_turtlebot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tiago:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tests:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tesla:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_mavic:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_epuck:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_importer:/opt/ros/foxy LD_LIBRARY_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/lib:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_universal_robot/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_turtlebot/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tiago/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tests/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tesla/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_mavic/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_epuck/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_importer/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/shipengl/LRSMT/agiletaur/src/webots_interface/webots_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver
+[1.981s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/webots_ros2_driver': CMAKE_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_control:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver:/home/shipengl/LRSMT/agiletaur/install/webots_ros2:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_universal_robot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_turtlebot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tiago:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tests:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tesla:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_mavic:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_epuck:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_importer:/opt/ros/foxy LD_LIBRARY_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/lib:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_universal_robot/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_turtlebot/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tiago/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tests/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tesla/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_mavic/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_epuck/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_importer/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/webots_ros2_driver -- -j16 -l16
+[2.007s] [35m[1mScanning dependencies of target webots_ros2_driver_imu[0m
+[2.008s] [35m[1mScanning dependencies of target driver[0m
+[2.042s] [ 16%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_imu.dir/src/plugins/dynamic/Ros2IMU.cpp.o[0m
+[2.042s] [ 16%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_imu.dir/src/plugins/Ros2SensorPlugin.cpp.o[0m
+[2.042s] [ 16%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_imu.dir/src/utils/Utils.cpp.o[0m
+[2.090s] [ 22%] [32mBuilding CXX object CMakeFiles/driver.dir/src/Driver.cpp.o[0m
+[2.095s] [ 27%] [32mBuilding CXX object CMakeFiles/driver.dir/src/WebotsNode.cpp.o[0m
+[2.095s] [ 33%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2LED.cpp.o[0m
+[2.096s] [ 38%] [32mBuilding CXX object CMakeFiles/driver.dir/src/PythonPlugin.cpp.o[0m
+[2.096s] [ 44%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/Ros2SensorPlugin.cpp.o[0m
+[2.096s] [ 50%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Lidar.cpp.o[0m
+[2.098s] [ 61%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2RangeFinder.cpp.o[0m
+[2.098s] [ 61%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2GPS.cpp.o[0m
+[2.099s] [ 66%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2LightSensor.cpp.o[0m
+[2.099s] [ 72%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o[0m
+[2.100s] [ 77%] [32mBuilding CXX object CMakeFiles/driver.dir/src/utils/Math.cpp.o[0m
+[2.104s] [ 83%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2DistanceSensor.cpp.o[0m
+[2.108s] [ 88%] [32mBuilding CXX object CMakeFiles/driver.dir/src/utils/Utils.cpp.o[0m
+[6.972s] [ 94%] [32m[1mLinking CXX shared library libwebots_ros2_driver_imu.so[0m
+[7.151s] [ 94%] Built target webots_ros2_driver_imu
+[9.526s] [100%] [32m[1mLinking CXX executable driver[0m
+[10.043s] [100%] Built target driver
+[10.053s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/webots_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_control:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver:/home/shipengl/LRSMT/agiletaur/install/webots_ros2:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_universal_robot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_turtlebot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tiago:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tests:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tesla:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_mavic:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_epuck:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_importer:/opt/ros/foxy LD_LIBRARY_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/lib:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_universal_robot/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_turtlebot/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tiago/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tests/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tesla/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_mavic/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_epuck/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_importer/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/webots_ros2_driver -- -j16 -l16
+[10.081s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/webots_ros2_driver': CMAKE_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_control:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver:/home/shipengl/LRSMT/agiletaur/install/webots_ros2:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_universal_robot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_turtlebot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tiago:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tests:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tesla:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_mavic:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_epuck:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_importer:/opt/ros/foxy LD_LIBRARY_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/lib:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_universal_robot/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_turtlebot/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tiago/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tests/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tesla/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_mavic/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_epuck/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_importer/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/webots_ros2_driver
+[10.087s] -- Install configuration: ""
+[10.087s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/webots_ros2_driver/environment/pythonpath.sh
+[10.087s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/webots_ros2_driver/environment/pythonpath.dsv
+[10.087s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages/webots_ros2_driver_webots
+[10.087s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages/webots_ros2_driver_webots/_vehicle.so
+[10.087s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages/webots_ros2_driver_webots/__init__.py
+[10.087s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages/webots_ros2_driver_webots/controller.py
+[10.087s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages/webots_ros2_driver_webots/vehicle.py
+[10.088s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages/webots_ros2_driver_webots/_controller.so
+[10.126s] Listing '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages/webots_ros2_driver_webots'...
+[10.126s] Compiling '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages/webots_ros2_driver_webots/__init__.py'...
+[10.126s] Compiling '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages/webots_ros2_driver_webots/controller.py'...
+[10.126s] Compiling '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages/webots_ros2_driver_webots/vehicle.py'...
+[10.129s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages/webots_ros2_driver
+[10.129s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages/webots_ros2_driver/utils.py
+[10.129s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages/webots_ros2_driver/webots_launcher.py
+[10.129s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages/webots_ros2_driver/__init__.py
+[10.154s] Listing '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages/webots_ros2_driver'...
+[10.154s] Compiling '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages/webots_ros2_driver/__init__.py'...
+[10.154s] Compiling '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages/webots_ros2_driver/utils.py'...
+[10.154s] Compiling '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages/webots_ros2_driver/webots_launcher.py'...
+[10.157s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include
+[10.157s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver
+[10.157s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/plugins
+[10.157s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static
+[10.157s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2LED.hpp
+[10.158s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Lidar.hpp
+[10.158s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2LightSensor.hpp
+[10.158s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Camera.hpp
+[10.158s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2DistanceSensor.hpp
+[10.158s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2RangeFinder.hpp
+[10.158s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2GPS.hpp
+[10.158s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/plugins/Ros2SensorPlugin.hpp
+[10.158s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/plugins/dynamic
+[10.158s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/plugins/dynamic/Ros2IMU.hpp
+[10.158s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/WebotsNode.hpp
+[10.158s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/utils
+[10.158s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/utils/Math.hpp
+[10.158s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/utils/Utils.hpp
+[10.158s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/PluginInterface.hpp
+[10.158s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/PythonPlugin.hpp
+[10.159s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/webots_ros2_driver/driver
+[10.162s] -- Set runtime path of "/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/webots_ros2_driver/driver" to ""
+[10.162s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/webots_ros2_driver
+[10.162s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/webots_ros2_driver/plugins
+[10.162s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/webots_ros2_driver/plugins/static
+[10.162s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/webots_ros2_driver/plugins/static/Ros2LED.hpp
+[10.162s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/webots_ros2_driver/plugins/static/Ros2Lidar.hpp
+[10.162s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/webots_ros2_driver/plugins/static/Ros2LightSensor.hpp
+[10.162s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/webots_ros2_driver/plugins/static/Ros2Camera.hpp
+[10.163s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/webots_ros2_driver/plugins/static/Ros2DistanceSensor.hpp
+[10.163s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/webots_ros2_driver/plugins/static/Ros2RangeFinder.hpp
+[10.163s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/webots_ros2_driver/plugins/static/Ros2GPS.hpp
+[10.163s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/webots_ros2_driver/plugins/Ros2SensorPlugin.hpp
+[10.163s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/webots_ros2_driver/plugins/dynamic
+[10.163s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/webots_ros2_driver/plugins/dynamic/Ros2IMU.hpp
+[10.163s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/webots_ros2_driver/WebotsNode.hpp
+[10.163s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/webots_ros2_driver/utils
+[10.163s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/webots_ros2_driver/utils/Math.hpp
+[10.163s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/webots_ros2_driver/utils/Utils.hpp
+[10.163s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/webots_ros2_driver/PluginInterface.hpp
+[10.163s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots_ros2_driver/webots_ros2_driver/PythonPlugin.hpp
+[10.163s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c
+[10.164s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots
+[10.164s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/led.h
+[10.164s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/device.h
+[10.164s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/emitter.h
+[10.164s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/robot.h
+[10.164s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/supervisor.h
+[10.164s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/skin.h
+[10.164s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/lidar_point.h
+[10.164s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/inertial_unit.h
+[10.164s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/joystick.h
+[10.164s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/camera_recognition_object.h
+[10.164s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/pen.h
+[10.164s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/range_finder.h
+[10.165s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/mouse_state.h
+[10.165s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/radio.h
+[10.165s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/position_sensor.h
+[10.165s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/contact_point.h
+[10.165s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/plugins
+[10.165s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window
+[10.165s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/default.h
+[10.165s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/generic_robot_window
+[10.165s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/generic_robot_window/generic.h
+[10.165s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/robot_window.h
+[10.165s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/robot_wwi.h
+[10.165s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/connector.h
+[10.165s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/motor.h
+[10.166s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/remote_control.h
+[10.166s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/camera.h
+[10.166s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/radar.h
+[10.166s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/lidar.h
+[10.166s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/mouse.h
+[10.166s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/vehicle
+[10.166s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/vehicle/car.h
+[10.166s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/vehicle/driver.h
+[10.166s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/types.h
+[10.166s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/radar_target.h
+[10.166s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/altimeter.h
+[10.166s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/receiver.h
+[10.166s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/keyboard.h
+[10.167s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/compass.h
+[10.167s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/utils
+[10.167s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/utils/motion.h
+[10.167s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/utils/ansi_codes.h
+[10.167s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/utils/system.h
+[10.167s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/utils/string.h
+[10.167s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/distance_sensor.h
+[10.167s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/gps.h
+[10.167s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/console.h
+[10.167s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/accelerometer.h
+[10.167s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/light_sensor.h
+[10.167s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/nodes.h
+[10.167s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/touch_sensor.h
+[10.167s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/display.h
+[10.168s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/brake.h
+[10.168s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/microphone.h
+[10.168s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/gyro.h
+[10.168s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/c/webots/speaker.h
+[10.168s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp
+[10.168s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots
+[10.168s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Gyro.hpp
+[10.168s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Skin.hpp
+[10.169s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Supervisor.hpp
+[10.169s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Node.hpp
+[10.169s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Connector.hpp
+[10.169s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Brake.hpp
+[10.169s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Speaker.hpp
+[10.169s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/LED.hpp
+[10.169s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Emitter.hpp
+[10.169s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/PositionSensor.hpp
+[10.169s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/ImageRef.hpp
+[10.169s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Accelerometer.hpp
+[10.169s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Keyboard.hpp
+[10.169s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Radar.hpp
+[10.169s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Device.hpp
+[10.169s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Display.hpp
+[10.169s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Joystick.hpp
+[10.169s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/vehicle
+[10.170s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/vehicle/Car.hpp
+[10.170s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/vehicle/Driver.hpp
+[10.170s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Field.hpp
+[10.170s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Camera.hpp
+[10.170s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/RangeFinder.hpp
+[10.170s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/TouchSensor.hpp
+[10.170s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Robot.hpp
+[10.170s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Receiver.hpp
+[10.170s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/utils
+[10.170s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/utils/Motion.hpp
+[10.170s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/utils/AnsiCodes.hpp
+[10.170s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/DistanceSensor.hpp
+[10.170s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Mouse.hpp
+[10.170s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Motor.hpp
+[10.170s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/GPS.hpp
+[10.171s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Pen.hpp
+[10.171s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/LightSensor.hpp
+[10.171s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Compass.hpp
+[10.171s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Lidar.hpp
+[10.171s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/Altimeter.hpp
+[10.171s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/include/webots/cpp/webots/InertialUnit.hpp
+[10.171s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/libwebots_ros2_driver_imu.so
+[10.171s] -- Set runtime path of "/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/libwebots_ros2_driver_imu.so" to ""
+[10.171s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib
+[10.171s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/libdriver.so
+[10.171s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/libController.so
+[10.171s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/libCppDriver.so
+[10.171s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/libcar.so
+[10.171s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/libCppCar.so
+[10.171s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/libCppController.so
+[10.172s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/webots_ros2_driver/webots_ros2_imu.xml
+[10.172s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/webots_ros2_driver/environment/library_path.sh
+[10.172s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/webots_ros2_driver/environment/library_path.dsv
+[10.172s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/ament_index/resource_index/package_run_dependencies/webots_ros2_driver
+[10.172s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/ament_index/resource_index/parent_prefix_path/webots_ros2_driver
+[10.172s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/webots_ros2_driver/environment/ament_prefix_path.sh
+[10.172s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/webots_ros2_driver/environment/ament_prefix_path.dsv
+[10.172s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/webots_ros2_driver/environment/path.sh
+[10.172s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/webots_ros2_driver/environment/path.dsv
+[10.172s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.bash
+[10.172s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.sh
+[10.172s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.zsh
+[10.172s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.dsv
+[10.172s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/webots_ros2_driver/package.dsv
+[10.173s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/ament_index/resource_index/packages/webots_ros2_driver
+[10.173s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/ament_index/resource_index/webots_ros2_driver__pluginlib__plugin/webots_ros2_driver
+[10.173s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/webots_ros2_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.173s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/webots_ros2_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.173s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/webots_ros2_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[10.173s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/webots_ros2_driver/cmake/webots_ros2_driverConfig.cmake
+[10.173s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/webots_ros2_driver/cmake/webots_ros2_driverConfig-version.cmake
+[10.173s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/webots_ros2_driver/package.xml
+[10.177s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/webots_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_control:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver:/home/shipengl/LRSMT/agiletaur/install/webots_ros2:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_universal_robot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_turtlebot:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tiago:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tests:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tesla:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_mavic:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_epuck:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_importer:/opt/ros/foxy LD_LIBRARY_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/lib:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_universal_robot/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_turtlebot/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tiago/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tests/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tesla/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_mavic/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_epuck/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_importer/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/webots_ros2_driver

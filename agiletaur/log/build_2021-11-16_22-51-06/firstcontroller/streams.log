@@ -1,0 +1,22 @@
+[0.204s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/firstcontroller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shipengl/LRSMT/agiletaur/install/webots_ros2:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tesla:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_importer /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/firstcontroller -- -j16 -l16
+[0.241s] [100%] Built target firstcontroller
+[0.251s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/firstcontroller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shipengl/LRSMT/agiletaur/install/webots_ros2:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tesla:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_importer /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/firstcontroller -- -j16 -l16
+[0.271s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/firstcontroller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shipengl/LRSMT/agiletaur/install/webots_ros2:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tesla:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_importer /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/firstcontroller
+[0.284s] -- Install configuration: ""
+[0.287s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/lib/firstcontroller/firstcontroller
+[0.287s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/ament_index/resource_index/package_run_dependencies/firstcontroller
+[0.287s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/ament_index/resource_index/parent_prefix_path/firstcontroller
+[0.288s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/environment/ament_prefix_path.sh
+[0.288s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/environment/ament_prefix_path.dsv
+[0.288s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/environment/path.sh
+[0.289s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/environment/path.dsv
+[0.289s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/local_setup.bash
+[0.289s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/local_setup.sh
+[0.290s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/local_setup.zsh
+[0.291s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/local_setup.dsv
+[0.291s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/package.dsv
+[0.293s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/ament_index/resource_index/packages/firstcontroller
+[0.294s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/cmake/firstcontrollerConfig.cmake
+[0.294s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/cmake/firstcontrollerConfig-version.cmake
+[0.294s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/package.xml
+[0.298s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/firstcontroller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shipengl/LRSMT/agiletaur/install/webots_ros2:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_tesla:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_core:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_importer /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/firstcontroller

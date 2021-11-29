@@ -1,0 +1,18 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/msg/detail/dds_fastrtps/wb_camera_recognition_object__type_support.cpp.o"
+  "CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/msg/detail/dds_fastrtps/wb_camera_recognition_objects__type_support.cpp.o"
+  "CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/srv/detail/dds_fastrtps/set_int__type_support.cpp.o"
+  "libwebots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libwebots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/msg/detail/dds_fastrtps/wb_camera_recognition_object__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/msg/detail/dds_fastrtps/wb_camera_recognition_objects__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/msg/detail/wb_camera_recognition_object__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/msg/detail/wb_camera_recognition_objects__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/srv/detail/dds_fastrtps/set_int__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/srv/detail/set_int__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

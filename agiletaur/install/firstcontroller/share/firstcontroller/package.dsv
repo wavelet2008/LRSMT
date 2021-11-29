@@ -1,0 +1,11 @@
+source;share/firstcontroller/hook/cmake_prefix_path.ps1
+source;share/firstcontroller/hook/cmake_prefix_path.dsv
+source;share/firstcontroller/hook/cmake_prefix_path.sh
+source;share/firstcontroller/hook/ld_library_path_lib.ps1
+source;share/firstcontroller/hook/ld_library_path_lib.dsv
+source;share/firstcontroller/hook/ld_library_path_lib.sh
+source;share/firstcontroller/local_setup.bash
+source;share/firstcontroller/local_setup.dsv
+source;share/firstcontroller/local_setup.ps1
+source;share/firstcontroller/local_setup.sh
+source;share/firstcontroller/local_setup.zsh

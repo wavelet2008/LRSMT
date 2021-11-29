@@ -1,0 +1,10 @@
+/home/shipengl/LRSMT/agiletaur/build/firstcontroller/CMakeFiles/install/strip.dir
+/home/shipengl/LRSMT/agiletaur/build/firstcontroller/CMakeFiles/install/local.dir
+/home/shipengl/LRSMT/agiletaur/build/firstcontroller/CMakeFiles/install.dir
+/home/shipengl/LRSMT/agiletaur/build/firstcontroller/CMakeFiles/list_install_components.dir
+/home/shipengl/LRSMT/agiletaur/build/firstcontroller/CMakeFiles/rebuild_cache.dir
+/home/shipengl/LRSMT/agiletaur/build/firstcontroller/CMakeFiles/firstcontroller.dir
+/home/shipengl/LRSMT/agiletaur/build/firstcontroller/CMakeFiles/edit_cache.dir
+/home/shipengl/LRSMT/agiletaur/build/firstcontroller/CMakeFiles/test.dir
+/home/shipengl/LRSMT/agiletaur/build/firstcontroller/CMakeFiles/firstcontroller_uninstall.dir
+/home/shipengl/LRSMT/agiletaur/build/firstcontroller/CMakeFiles/uninstall.dir

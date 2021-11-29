@@ -1,0 +1,28 @@
+[35m[1mScanning dependencies of target firstcontroller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/firstcontroller.dir/src/firstcontroller.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libfirstcontroller.so[0m
+[100%] Built target firstcontroller
+-- Install configuration: ""
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/firstcontroller.xml
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/lib/libfirstcontroller.so
+-- Set runtime path of "/home/shipengl/LRSMT/agiletaur/install/firstcontroller/lib/libfirstcontroller.so" to ""
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/environment/library_path.sh
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/environment/library_path.dsv
+-- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/ament_index/resource_index/package_run_dependencies/firstcontroller
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/ament_index/resource_index/parent_prefix_path/firstcontroller
+-- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/environment/ament_prefix_path.sh
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/environment/path.sh
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/environment/path.dsv
+-- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/local_setup.bash
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/local_setup.sh
+-- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/local_setup.zsh
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/local_setup.dsv
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/package.dsv
+-- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/ament_index/resource_index/packages/firstcontroller
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/ament_index/resource_index/webots_ros2_driver__pluginlib__plugin/firstcontroller
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/cmake/firstcontrollerConfig.cmake
+-- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/cmake/firstcontrollerConfig-version.cmake
+-- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/firstcontroller/share/firstcontroller/package.xml
