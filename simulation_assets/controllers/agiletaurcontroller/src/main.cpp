@@ -30,9 +30,9 @@ int main(int argc, char **argv)
 	Lower_proxy.Init(timeStep);
 	Upper_proxy.Init();
 	monitor.Init();
-	
+	std::cout<<"Init the robot done" <<std::endl;
 	while (robot->step(timeStep) != -1){
-		// Lower_proxy.PublishControlCommand();
+		Lower_proxy.PublishControlCommand();
 	}
-	return 123;
+	return 0;
 }

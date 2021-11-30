@@ -51,7 +51,7 @@ target_link_libraries(agiletaur_controller
                       ${GLOG_LIBRARIES}
                       glog::glog
                       qpOASES
-                      config
+                      config++
                       )
 
 install(

@@ -11,84 +11,47 @@ namespace control {
 
   
 int ControlConfig::LoadParams() {
-    std::cout << "enter the load params" << std::endl;
-    config_t cfg = robot_config_;
-    config_init(&cfg);
+  Config cfg;
+  // Read the file. If there is an error, report it and exit.
+  try
+  {
+    cfg.readFile("agiletaur.cfg");
+  }
+  catch(const FileIOException &fioex)
+  {
+    std::cerr << "I/O error while reading file." << std::endl;
+    return(EXIT_FAILURE);
+  }
+  catch(const ParseException &pex)
+  {
+    std::cerr << "Parse error at " << pex.getFile() << ":" << pex.getLine()
+              << " - " << pex.getError() << std::endl;
+    return(EXIT_FAILURE);
+  }
+  // Get the configure file name.
+  string name = cfg.lookup("NAME");
+  cout << "Read Configure File From: " << name << endl;
 
-    /* Read the file. If there is an error, report it and exit. */
-    if(! config_read_file(&cfg, "example.cfg"))
-    {
-      fprintf(stderr, "%s:%d - %s\n", config_error_file(&cfg),
-              config_error_line(&cfg), config_error_text(&cfg));
-      config_destroy(&cfg);
-      return(EXIT_FAILURE);
-    }
-
-    /* Get the store name. */
-    if(config_lookup_string(&cfg, "name", &str))
-      printf("Store name: %s\n\n", str);
-    else
-      fprintf(stderr, "No 'name' setting in configuration file.\n");
-
-    /* Output a list of all books in the inventory. */
-    setting = config_lookup(&cfg, "inventory.books");
-    if(setting != NULL)
-    {
-      int count = config_setting_length(setting);
-      int i;
-
-      printf("%-30s  %-30s   %-6s  %s\n", "TITLE", "AUTHOR", "PRICE", "QTY");
-
-      for(i = 0; i < count; ++i)
-      {
-        config_setting_t *book = config_setting_get_elem(setting, i);
-
-        /* Only output the record if all of the expected fields are present. */
-        const char *title, *author;
-        double price;
-        int qty;
-
-        if(!(config_setting_lookup_string(book, "title", &title)
-            && config_setting_lookup_string(book, "author", &author)
-            && config_setting_lookup_float(book, "price", &price)
-            && config_setting_lookup_int(book, "qty", &qty)))
-          continue;
-
-        printf("%-30s  %-30s  $%6.2f  %3d\n", title, author, price, qty);
-      }
-      putchar('\n');
-    }
-
-    /* Output a list of all movies in the inventory. */
-    setting = config_lookup(&cfg, "inventory.movies");
-    if(setting != NULL)
-    {
-      unsigned int count = config_setting_length(setting);
-      unsigned int i;
-
-      printf("%-30s  %-10s   %-6s  %s\n", "TITLE", "MEDIA", "PRICE", "QTY");
-      for(i = 0; i < count; ++i)
-      {
-        config_setting_t *movie = config_setting_get_elem(setting, i);
-
-        /* Only output the record if all of the expected fields are present. */
-        const char *title, *media;
-        double price;
-        int qty;
-
-        if(!(config_setting_lookup_string(movie, "title", &title)
-            && config_setting_lookup_string(movie, "media", &media)
-            && config_setting_lookup_float(movie, "price", &price)
-            && config_setting_lookup_int(movie, "qty", &qty)))
-          continue;
-
-        printf("%-30s  %-10s  $%6.2f  %3d\n", title, media, price, qty);
-      }
-      putchar('\n');
-    }
-
-    config_destroy(&cfg);
-    return(EXIT_SUCCESS);
+  /* Output a list of all books in the inventory. */
+  cfg.lookupValue("ROBOT.BODY_WEIGHT", robot_config_.robot_base.BODY_WEIGHT);
+  cfg.lookupValue("ROBOT.UPPER_LEG_LENGTH", 
+                                  robot_config_.robot_base.UPPER_LEG_LENGTH);
+  cfg.lookupValue("ROBOT.LOWER_LEG_LENGTH", 
+                                  robot_config_.robot_base.LOWER_LEG_LENGTH);
+  cfg.lookupValue("ROBOT.KP_LF", robot_config_.robot_controller.KP_LF);
+  cfg.lookupValue("ROBOT.KD_LF", robot_config_.robot_controller.KD_LF);
+  cfg.lookupValue("ROBOT.KI_LF", robot_config_.robot_controller.KD_LF);
+  cfg.lookupValue("ROBOT.KP_LB", robot_config_.robot_controller.KP_LB);
+  cfg.lookupValue("ROBOT.KD_LB", robot_config_.robot_controller.KD_LB);
+  cfg.lookupValue("ROBOT.KI_LB", robot_config_.robot_controller.KI_LB);
+  cfg.lookupValue("ROBOT.KP_RF", robot_config_.robot_controller.KP_RF);
+  cfg.lookupValue("ROBOT.KD_RF", robot_config_.robot_controller.KD_RF);
+  cfg.lookupValue("ROBOT.KI_RF", robot_config_.robot_controller.KI_RF);
+  cfg.lookupValue("ROBOT.KP_RB", robot_config_.robot_controller.KP_RB);
+  cfg.lookupValue("ROBOT.KD_RB", robot_config_.robot_controller.KD_RB);
+  cfg.lookupValue("ROBOT.KI_RB", robot_config_.robot_controller.KI_RB);
+  cout << "Load all parameters to robot_config_ struct" << endl;
+  return(EXIT_SUCCESS);
 }
 }  // namespace control
 }  // namespace agiletaur

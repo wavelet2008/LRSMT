@@ -255,4 +255,15 @@ CMakeFiles/agiletaur_controller.dir/src/proxy/lowerproxy.cpp.o: /usr/local/webot
 
 CMakeFiles/agiletaur_controller.dir/src/proxy/upperproxy.cpp.o: ../include/proxy/upperproxy.h
 CMakeFiles/agiletaur_controller.dir/src/proxy/upperproxy.cpp.o: ../src/proxy/upperproxy.cpp
+CMakeFiles/agiletaur_controller.dir/src/proxy/upperproxy.cpp.o: /usr/local/webots/include/controller/c/webots/gps.h
+CMakeFiles/agiletaur_controller.dir/src/proxy/upperproxy.cpp.o: /usr/local/webots/include/controller/c/webots/inertial_unit.h
+CMakeFiles/agiletaur_controller.dir/src/proxy/upperproxy.cpp.o: /usr/local/webots/include/controller/c/webots/joystick.h
+CMakeFiles/agiletaur_controller.dir/src/proxy/upperproxy.cpp.o: /usr/local/webots/include/controller/c/webots/keyboard.h
+CMakeFiles/agiletaur_controller.dir/src/proxy/upperproxy.cpp.o: /usr/local/webots/include/controller/c/webots/motor.h
+CMakeFiles/agiletaur_controller.dir/src/proxy/upperproxy.cpp.o: /usr/local/webots/include/controller/c/webots/nodes.h
+CMakeFiles/agiletaur_controller.dir/src/proxy/upperproxy.cpp.o: /usr/local/webots/include/controller/c/webots/position_sensor.h
+CMakeFiles/agiletaur_controller.dir/src/proxy/upperproxy.cpp.o: /usr/local/webots/include/controller/c/webots/robot.h
+CMakeFiles/agiletaur_controller.dir/src/proxy/upperproxy.cpp.o: /usr/local/webots/include/controller/c/webots/touch_sensor.h
+CMakeFiles/agiletaur_controller.dir/src/proxy/upperproxy.cpp.o: /usr/local/webots/include/controller/c/webots/types.h
+CMakeFiles/agiletaur_controller.dir/src/proxy/upperproxy.cpp.o: /usr/local/webots/include/controller/cpp/webots/Robot.hpp
 

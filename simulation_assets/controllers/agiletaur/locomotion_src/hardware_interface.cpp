@@ -6,7 +6,7 @@
 #if RUN_WEBOTS
 #include "wbInterface.h"
 #endif
-//²âÁ¿ÍÓÂÝÒÇÊý¾Ý    »¡¶ÈÖÆ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½    ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 float FLT_ATT_RATE=0;//WS
 float FLT_ATT_RT = 20;
 void subscribe_imu_to_webot(robotTypeDef* rob,float dt)
@@ -101,19 +101,19 @@ void subscribe_imu_to_webot(robotTypeDef* rob,float dt)
 #endif
 }
 
-void subscribe_webot_to_vmc(float dt)//½«´«¸ÐÆ÷Êý¾Ý¸³Öµ¸øVMC
+void subscribe_webot_to_vmc(float dt)//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý¸ï¿½Öµï¿½ï¿½VMC
 {
   int i=0,j=0;
   for(i=0;i<4;i++)
   {
-		leg_motor[i].t_to_i[0]=pos_force_p.t_to_i;//ÉèÖÃÅ¤¾ØÏµÊý<<-----------------------------
+		leg_motor[i].t_to_i[0]=pos_force_p.t_to_i;//ï¿½ï¿½ï¿½ï¿½Å¤ï¿½ï¿½Ïµï¿½ï¿½<<-----------------------------
 		leg_motor[i].t_to_i[1]=leg_motor[i].t_to_i[0];
 		
 		#if Q_NOW_USE_SET
 		vmc[i].sita1=vmc[i].tar_sita1;
 		vmc[i].sita2=vmc[i].tar_sita2;
 		#else
-		if(vmc[i].param.q_now_use_tar){//Ê¹ÓÃÆÚÍû×÷Îªµ±Ç°·´À¡  ¶æ¹·Ä£Ê½
+		if(vmc[i].param.q_now_use_tar){//Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½  ï¿½æ¹·Ä£Ê½
 			vmc[i].sita1=vmc[i].tar_sita1;
 			vmc[i].sita2=vmc[i].tar_sita2;		
 		}else{
@@ -129,7 +129,7 @@ void subscribe_webot_to_vmc(float dt)//½«´«¸ÐÆ÷Êý¾Ý¸³Öµ¸øVMC
     robotwb.Leg[i].is_ground= vmc[i].ground;
     robotwb.Leg[i].trig_state=vmc[i].param.trig_state;
 		
-    #if !GROUND_USE_EST//Ê¹ÓÃ×ÅµØ´«¸ÐÆ÷
+    #if !GROUND_USE_EST//Ê¹ï¿½ï¿½ï¿½ÅµØ´ï¿½ï¿½ï¿½ï¿½ï¿½
     vmc[i].is_touch=robotwb.Leg[i].is_touch;
     #else
     vmc[i].is_touch=robotwb.Leg[i].is_touch_est;
@@ -142,7 +142,7 @@ void subscribe_webot_to_vmc(float dt)//½«´«¸ÐÆ÷Êý¾Ý¸³Öµ¸øVMC
 		robotwb.Leg[i].f_pid[Xr]=pos_force_p.f_pid_st[Xr]; 
 		robotwb.Leg[i].f_pid[Zr]=pos_force_p.f_pid_st[Zr]; 
 		
-		//¹Ø½ÚPD²ÎÊý
+		//ï¿½Ø½ï¿½PDï¿½ï¿½ï¿½ï¿½
 		if(vmc_all.gait_mode==TROT||vmc_all.gait_mode==F_TROT)
 		{
 				if(stand_force_enable_flag[i]){
@@ -150,22 +150,22 @@ void subscribe_webot_to_vmc(float dt)//½«´«¸ÐÆ÷Êý¾Ý¸³Öµ¸øVMC
 				}	
 				else
 				{
-				robotwb.Leg[i].q_pid=pos_force_p.q_pid_sw;//°Ú¶¯²ÎÊý
+				robotwb.Leg[i].q_pid=pos_force_p.q_pid_sw;//ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½
 				}		
 		}else{
-				if(robotwb.Leg[i].is_ground){//Ö§³Å²ÎÊý
+				if(robotwb.Leg[i].is_ground){//Ö§ï¿½Å²ï¿½ï¿½ï¿½
 				robotwb.Leg[i].q_pid=pos_force_p.q_pid_st_stance; 	
 				}
 				else
 				{
-				robotwb.Leg[i].q_pid=pos_force_p.q_pid_sw;//°Ú¶¯²ÎÊý
+				robotwb.Leg[i].q_pid=pos_force_p.q_pid_sw;//ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½
 				}
 		}
 		leg_motor[i].max_t[0]=leg_motor[i].max_t[1]=leg_motor[i].max_t[2]=pos_force_p.max_t;
 		leg_motor[i].max_i[0]=leg_motor[i].max_i[1]=leg_motor[i].max_i[2]=pos_force_p.max_i;
   }
 	
- //µØÐÎ½ÇÆÚÍûÃüÁî
+ //ï¿½ï¿½ï¿½Î½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  vmc_all.ground_att_cmd[PITr]=vmc_all.ground_att_est[PITr];
 
   robotwb.exp_att.pitch=vmc_all.tar_att[PITr]+LIMIT(vmc_all.ground_att_cmd[PITr]*(vmc_all.gait_mode>0)*EN_ATT_GROUND_CONTROL,-20,20);
@@ -175,7 +175,7 @@ void subscribe_webot_to_vmc(float dt)//½«´«¸ÐÆ÷Êý¾Ý¸³Öµ¸øVMC
 
 
 
-void subscribe_webot_to_vmc1(float dt)//½«´«¸ÐÆ÷Êý¾Ý¸³Öµ¸øVMC
+void subscribe_webot_to_vmc1(float dt)//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý¸ï¿½Öµï¿½ï¿½VMC
 {
 	int i = 0, j = 0;
 	for (i = 0; i < 4; i++)
@@ -185,7 +185,7 @@ void subscribe_webot_to_vmc1(float dt)//½«´«¸ÐÆ÷Êý¾Ý¸³Öµ¸øVMC
 		vmc[i].sita1 = vmc[i].tar_sita1;
 		vmc[i].sita2 = vmc[i].tar_sita2;
 #else
-		if (vmc[i].param.q_now_use_tar) {//Ê¹ÓÃÆÚÍû×÷Îªµ±Ç°·´À¡  ¶æ¹·Ä£Ê½
+		if (vmc[i].param.q_now_use_tar) {//Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½  ï¿½æ¹·Ä£Ê½
 			vmc[i].sita1 = vmc[i].tar_sita1;
 			vmc[i].sita2 = vmc[i].tar_sita2;
 		}
@@ -199,12 +199,12 @@ void subscribe_webot_to_vmc1(float dt)//½«´«¸ÐÆ÷Êý¾Ý¸³Öµ¸øVMC
 	}
 }
 
-void subscribe_webot_to_vmc2(float dt)//½«´«¸ÐÆ÷Êý¾Ý¸³Öµ¸øVMC
+void subscribe_webot_to_vmc2(float dt)//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý¸ï¿½Öµï¿½ï¿½VMC
 {
 	int i = 0, j = 0;
 	for (i = 0; i < 4; i++)
 	{
-		leg_motor[i].t_to_i[0] = pos_force_p.t_to_i;//ÉèÖÃÅ¤¾ØÏµÊý<<-----------------------------
+		leg_motor[i].t_to_i[0] = pos_force_p.t_to_i;//ï¿½ï¿½ï¿½ï¿½Å¤ï¿½ï¿½Ïµï¿½ï¿½<<-----------------------------
 		leg_motor[i].t_to_i[1] = leg_motor[i].t_to_i[0];
 
 		vmc[i].delta_ht = vmc_robot_p.sw_deltah;
@@ -219,7 +219,7 @@ void subscribe_webot_to_vmc2(float dt)//½«´«¸ÐÆ÷Êý¾Ý¸³Öµ¸øVMC
 		robotwb.Leg[i].f_pid[Xr] = pos_force_p.f_pid_st[Xr];
 		robotwb.Leg[i].f_pid[Zr] = pos_force_p.f_pid_st[Zr];
 
-		//¹Ø½ÚPD²ÎÊý
+		//ï¿½Ø½ï¿½PDï¿½ï¿½ï¿½ï¿½
 		if (vmc_all.gait_mode == TROT || vmc_all.gait_mode == F_TROT)
 		{
 			if (robotwb.Leg[i].is_ground) {//stand_force_enable_flag[i]){
@@ -227,16 +227,16 @@ void subscribe_webot_to_vmc2(float dt)//½«´«¸ÐÆ÷Êý¾Ý¸³Öµ¸øVMC
 			}
 			else
 			{
-				robotwb.Leg[i].q_pid = pos_force_p.q_pid_sw;//°Ú¶¯²ÎÊý
+				robotwb.Leg[i].q_pid = pos_force_p.q_pid_sw;//ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½
 			}
 		}
 		else {
-			if (robotwb.Leg[i].is_ground) {//Ö§³Å²ÎÊý
+			if (robotwb.Leg[i].is_ground) {//Ö§ï¿½Å²ï¿½ï¿½ï¿½
 				robotwb.Leg[i].q_pid = pos_force_p.q_pid_st_stance;
 			}
 			else
 			{
-				robotwb.Leg[i].q_pid = pos_force_p.q_pid_sw;//°Ú¶¯²ÎÊý
+				robotwb.Leg[i].q_pid = pos_force_p.q_pid_sw;//ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½
 			}
 		}
 		leg_motor[i].max_t[0] = leg_motor[i].max_t[1] = leg_motor[i].max_t[2] = pos_force_p.max_t;
@@ -245,26 +245,26 @@ void subscribe_webot_to_vmc2(float dt)//½«´«¸ÐÆ÷Êý¾Ý¸³Öµ¸øVMC
 }
 
 
-void subscribe_webot_to_vmc3(float dt)//½«´«¸ÐÆ÷Êý¾Ý¸³Öµ¸øVMC
+void subscribe_webot_to_vmc3(float dt)//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý¸ï¿½Öµï¿½ï¿½VMC
 {
 	int i = 0, j = 0;
 	for (i = 0; i < 4; i++)
 	{
-#if !GROUND_USE_EST//Ê¹ÓÃ×ÅµØ´«¸ÐÆ÷
+#if !GROUND_USE_EST//Ê¹ï¿½ï¿½ï¿½ÅµØ´ï¿½ï¿½ï¿½ï¿½ï¿½
 		vmc[i].is_touch = robotwb.Leg[i].is_touch;
 #else
 		vmc[i].is_touch = robotwb.Leg[i].is_touch_est;
 #endif
 	}
 
-	//µØÐÎ½ÇÆÚÍûÃüÁî
+	//ï¿½ï¿½ï¿½Î½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	vmc_all.ground_att_cmd[PITr] = vmc_all.ground_att_est[PITr];
 
 	robotwb.exp_att.pitch = vmc_all.tar_att[PITr] + LIMIT(vmc_all.ground_att_cmd[PITr] * (vmc_all.gait_mode > 0)*EN_ATT_GROUND_CONTROL, -20, 20);
 	robotwb.exp_att.roll = vmc_all.tar_att[ROLr] + LIMIT(vmc_all.ground_att_cmd[ROLr] * (vmc_all.gait_mode > 0)*EN_ATT_GROUND_CONTROL, -5, 5);
 }
 
-void subscribe_webot_to_vmc4(float dt)//½«´«¸ÐÆ÷Êý¾Ý¸³Öµ¸øVMC
+void subscribe_webot_to_vmc4(float dt)//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý¸ï¿½Öµï¿½ï¿½VMC
 {
 	int i = 0, j = 0;
 
@@ -272,7 +272,7 @@ void subscribe_webot_to_vmc4(float dt)//½«´«¸ÐÆ÷Êý¾Ý¸³Öµ¸øVMC
 	{
 		vmc[i].delta_ht = vmc_robot_p.sw_deltah;
 	}
-	//µØÐÎ½ÇÆÚÍûÃüÁî
+	//ï¿½ï¿½ï¿½Î½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	vmc_all.ground_att_cmd[PITr] = vmc_all.ground_att_est[PITr];
 	//("p=%f\n", vmc_all.ground_att_cmd[PITr]);
 	robotwb.exp_att.pitch = vmc_all.tar_att[PITr] + LIMIT(vmc_all.ground_att_cmd[PITr] * (vmc_all.gait_mode > 0)*EN_ATT_GROUND_CONTROL, -30, 30);
@@ -335,14 +335,14 @@ void readAllMotorPos(robotTypeDef* rob,float dt)
 	float taom[4][3] = { 0 };
 	float temp_sita[4][3] = { 0 };
     cnt+=dt;
-    for (i = 0; i < 4; i++){//ÔÚconvert_vmc_webot_dataÖÐ¸³Öµ¸øVMC
+    for (i = 0; i < 4; i++){//ï¿½ï¿½convert_vmc_webot_dataï¿½Ð¸ï¿½Öµï¿½ï¿½VMC
 			if(leg_motor[i].connect&&
 				leg_motor[i].connect_motor[0]&&
 			  leg_motor[i].ready[0]){
-				rob->Leg[i].sita[0]=(leg_motor[i].q_now[0]);//sita0  Õý¸ºÊý
+				rob->Leg[i].sita[0]=(leg_motor[i].q_now[0]);//sita0  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				temp_sita[i][0]=leg_motor[i].q_now[0];
 				rob->Leg[i].taom[0]=leg_motor[i].t_now[0];
-			}else{//·ÇÁ¬½ÓÏÔÊ¾
+			}else{//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾
 				rob->Leg[i].sita[0]=0;
 				rob->Leg[i].taom[0]=0;
 				temp_sita[i][0]=0;			
@@ -354,7 +354,7 @@ void readAllMotorPos(robotTypeDef* rob,float dt)
 				rob->Leg[i].sita[1]=To_360_degreesw(leg_motor[i].q_now[1]);//sita1 0~360
 				temp_sita[i][1]=leg_motor[i].q_now[1];	
 				rob->Leg[i].taom[1]=leg_motor[i].t_now[1];
-					}else{//·ÇÁ¬½ÓÏÔÊ¾
+					}else{//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾
 				rob->Leg[i].sita[1]=180;
 				rob->Leg[i].taom[1]=0;
 				temp_sita[i][1]=180;					
@@ -437,7 +437,7 @@ void set_motor_t(int id)
 {
     robotwb.Leg[id].taod[0]=LIMIT(robotwb.Leg[id].taod[0],-robotwb.Leg[id].limit_tao[0],robotwb.Leg[id].limit_tao[0]);
     robotwb.Leg[id].taod[1]=LIMIT(robotwb.Leg[id].taod[1],-robotwb.Leg[id].limit_tao[1],robotwb.Leg[id].limit_tao[1]);
-    robotwb.Leg[id].taom_output[0]=robotwb.Leg[id].taod[0];//¼ÇÂ¼Á¦¾ØÊä³ö
+    robotwb.Leg[id].taom_output[0]=robotwb.Leg[id].taod[0];//ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     robotwb.Leg[id].taom_output[1]=robotwb.Leg[id].taod[1];
 	#if EN_TORQUE_CONTROL
 		leg_motor[id].set_t[0]=robotwb.Leg[id].taom_output[0];
@@ -455,7 +455,7 @@ void set_motor_t(int id)
 void pos_control_pd(float dt)
 {
 	int id = 3;
-	for (id = 0; id < 4; id++) {//²âÊÔ½Ç¶È×ø±êÏµ
+	for (id = 0; id < 4; id++) {//ï¿½ï¿½ï¿½Ô½Ç¶ï¿½ï¿½ï¿½ï¿½ï¿½Ïµ
 	  // robotwb.Leg[id].tar_sita[0]=-0;
 	  // robotwb.Leg[id].tar_sita[1]=180;
 		robotwb.Leg[id].tar_sita[0] = limitw(robotwb.Leg[id].tar_sita[0], -robotwb.Leg[id].limit_sita[0], 180 + robotwb.Leg[id].limit_sita[0]);
@@ -634,7 +634,7 @@ void updateKey(void) {
 
 
 FILE *fp1, *fp2, *fp3;
-#define LEN_RECORD 80//¼ÇÂ¼Î»ÖÃ
+#define LEN_RECORD 80//ï¿½ï¿½Â¼Î»ï¿½ï¿½
 float data_record1[LEN_RECORD], data_record2[LEN_RECORD], data_record3[LEN_RECORD];
 void recorder(float dt) {
 	static int state = 0;
@@ -653,17 +653,17 @@ void recorder(float dt) {
 		break;
 	case 1:
 		for (i = 0; i < LEN_RECORD; i++)
-			fprintf(fp1, "%.6f ",//×ËÌ¬Êý¾Ý
+			fprintf(fp1, "%.6f ",//ï¿½ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½
 				data_record1[i]);
 		fprintf(fp1, "\n");
 
 		for (i = 0; i < LEN_RECORD; i++)
-			fprintf(fp2, "%.6f ",//µ¥ÍÈÁ¦
+			fprintf(fp2, "%.6f ",//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				data_record2[i]);
 		fprintf(fp2, "\n");
 
 		for (i = 0; i < LEN_RECORD; i++)
-			fprintf(fp3, "%.6f ",//µ¥ÍÈÔË¶¯
+			fprintf(fp3, "%.6f ",//ï¿½ï¿½ï¿½ï¿½ï¿½Ë¶ï¿½
 				data_record3[i]);
 		fprintf(fp3, "\n");
 		break;

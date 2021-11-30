@@ -13,7 +13,7 @@ iostream
 ../include/config/iostream
 stdlib.h
 -
-libconfig.h
+libconfig.h++
 -
 
 ../include/controller/basecontroller.h
@@ -94,13 +94,35 @@ webots/joystick.h
 
 ../include/proxy/upperproxy.h
 
-/home/shipengl/LRSMT/simulation_assets/controllers/agiletaurcontroller/src/config/config_parser.cpp
-config/config_parser.h
-/home/shipengl/LRSMT/simulation_assets/controllers/agiletaurcontroller/src/config/config/config_parser.h
-
 /home/shipengl/LRSMT/simulation_assets/controllers/agiletaurcontroller/src/main.cpp
 main.h
 /home/shipengl/LRSMT/simulation_assets/controllers/agiletaurcontroller/src/main.h
+
+/home/shipengl/LRSMT/simulation_assets/controllers/agiletaurcontroller/src/proxy/lowerproxy.cpp
+proxy/lowerproxy.h
+/home/shipengl/LRSMT/simulation_assets/controllers/agiletaurcontroller/src/proxy/proxy/lowerproxy.h
+
+/home/shipengl/LRSMT/simulation_assets/controllers/agiletaurcontroller/src/proxy/upperproxy.cpp
+proxy/upperproxy.h
+/home/shipengl/LRSMT/simulation_assets/controllers/agiletaurcontroller/src/proxy/proxy/upperproxy.h
+webots/Robot.hpp
+-
+webots/robot.h
+-
+webots/motor.h
+-
+webots/position_sensor.h
+-
+webots/inertial_unit.h
+-
+webots/touch_sensor.h
+-
+webots/keyboard.h
+-
+webots/gps.h
+-
+webots/joystick.h
+-
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

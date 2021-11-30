@@ -31,7 +31,7 @@ namespace control{
             wb_keyboard_enable(TIME_STEP);
             wb_joystick_enable(TIME_STEP);
 	    }
-        std::cout<<"init the robot done" <<std::endl;
+        std::cout<<"Init the robot done" <<std::endl;
     }
 
     void lowerproxy::PublishControlCommand(){

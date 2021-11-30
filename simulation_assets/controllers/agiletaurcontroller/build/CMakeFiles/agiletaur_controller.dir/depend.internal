@@ -256,3 +256,14 @@ CMakeFiles/agiletaur_controller.dir/src/proxy/lowerproxy.cpp.o
 CMakeFiles/agiletaur_controller.dir/src/proxy/upperproxy.cpp.o
  ../include/proxy/upperproxy.h
  /home/shipengl/LRSMT/simulation_assets/controllers/agiletaurcontroller/src/proxy/upperproxy.cpp
+ /usr/local/webots/include/controller/c/webots/gps.h
+ /usr/local/webots/include/controller/c/webots/inertial_unit.h
+ /usr/local/webots/include/controller/c/webots/joystick.h
+ /usr/local/webots/include/controller/c/webots/keyboard.h
+ /usr/local/webots/include/controller/c/webots/motor.h
+ /usr/local/webots/include/controller/c/webots/nodes.h
+ /usr/local/webots/include/controller/c/webots/position_sensor.h
+ /usr/local/webots/include/controller/c/webots/robot.h
+ /usr/local/webots/include/controller/c/webots/touch_sensor.h
+ /usr/local/webots/include/controller/c/webots/types.h
+ /usr/local/webots/include/controller/cpp/webots/Robot.hpp
