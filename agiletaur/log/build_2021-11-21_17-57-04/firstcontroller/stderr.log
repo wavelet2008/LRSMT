@@ -1,4 +1,0 @@
-[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/firstcontroller/src/firstcontroller.cpp:[m[K In member function ‘[01m[Kvirtual void firstcontroller::firstcontroller::step()[m[K’:
-[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/firstcontroller/src/firstcontroller.cpp:16:11:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K-Wformat-extra-args[m[K]
-   16 |    printf([01;35m[K"step"[m[K, i);
-      |           [01;35m[K^~~~~~[m[K

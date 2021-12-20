@@ -1,0 +1,82 @@
+[0.012s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/webots_ros2_control': AMENT_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/shipengl/LRSMT/agiletaur/src/webots_ros2_control -DCMAKE_INSTALL_PREFIX=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_control
+[0.052s] -- The C compiler identification is GNU 9.3.0
+[0.092s] -- The CXX compiler identification is GNU 9.3.0
+[0.096s] -- Check for working C compiler: /usr/bin/cc
+[0.143s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.144s] -- Detecting C compiler ABI info
+[0.191s] -- Detecting C compiler ABI info - done
+[0.201s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.203s] -- Check for working CXX compiler: /usr/bin/c++
+[0.260s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.261s] -- Detecting CXX compiler ABI info
+[0.316s] -- Detecting CXX compiler ABI info - done
+[0.327s] -- Detecting CXX compile features
+[0.327s] -- Detecting CXX compile features - done
+[0.330s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.351s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.351s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.511s] -- Found hardware_interface: 0.8.1 (/opt/ros/foxy/share/hardware_interface/cmake)
+[0.536s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.542s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.592s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.613s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.672s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.067s] -- Found controller_manager: 0.8.1 (/opt/ros/foxy/share/controller_manager/cmake)
+[1.116s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.118s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.119s] -- Looking for pthread.h
+[1.170s] -- Looking for pthread.h - found
+[1.170s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.224s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.224s] -- Looking for pthread_create in pthreads
+[1.266s] -- Looking for pthread_create in pthreads - not found
+[1.266s] -- Looking for pthread_create in pthread
+[1.314s] -- Looking for pthread_create in pthread - found
+[1.315s] -- Found Threads: TRUE  
+[1.578s] -- Found webots_ros2_driver: 1.1.3 (/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/webots_ros2_driver/cmake)
+[2.570s] -- Configuring done
+[2.615s] -- Generating done
+[2.616s] -- Build files have been written to: /home/shipengl/LRSMT/agiletaur/build/webots_ros2_control
+[2.624s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/webots_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/shipengl/LRSMT/agiletaur/src/webots_ros2_control -DCMAKE_INSTALL_PREFIX=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_control
+[2.625s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/webots_ros2_control': AMENT_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/webots_ros2_control -- -j16 -l16
+[2.652s] [35m[1mScanning dependencies of target webots_ros2_control_system[0m
+[2.652s] [35m[1mScanning dependencies of target webots_ros2_control[0m
+[2.685s] [ 25%] [32mBuilding CXX object CMakeFiles/webots_ros2_control_system.dir/src/Ros2ControlSystem.cpp.o[0m
+[2.687s] [ 50%] [32mBuilding CXX object CMakeFiles/webots_ros2_control.dir/src/Ros2Control.cpp.o[0m
+[4.908s] [ 75%] [32m[1mLinking CXX shared library libwebots_ros2_control_system.so[0m
+[5.009s] [ 75%] Built target webots_ros2_control_system
+[6.098s] [100%] [32m[1mLinking CXX shared library libwebots_ros2_control.so[0m
+[6.297s] [100%] Built target webots_ros2_control
+[6.306s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/webots_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/webots_ros2_control -- -j16 -l16
+[6.322s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/webots_ros2_control': AMENT_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/webots_ros2_control
+[6.327s] -- Install configuration: ""
+[6.328s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/webots_ros2_control.xml
+[6.328s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/webots_ros2_control_system.xml
+[6.328s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/lib/libwebots_ros2_control.so
+[6.329s] -- Set runtime path of "/home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/lib/libwebots_ros2_control.so" to ""
+[6.330s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/lib/libwebots_ros2_control_system.so
+[6.330s] -- Set runtime path of "/home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/lib/libwebots_ros2_control_system.so" to ""
+[6.330s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/environment/library_path.sh
+[6.330s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/environment/library_path.dsv
+[6.331s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/ament_index/resource_index/package_run_dependencies/webots_ros2_control
+[6.331s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/ament_index/resource_index/parent_prefix_path/webots_ros2_control
+[6.331s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/environment/ament_prefix_path.sh
+[6.331s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/environment/ament_prefix_path.dsv
+[6.331s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/environment/path.sh
+[6.331s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/environment/path.dsv
+[6.331s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/local_setup.bash
+[6.332s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/local_setup.sh
+[6.332s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/local_setup.zsh
+[6.332s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/local_setup.dsv
+[6.332s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/package.dsv
+[6.332s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/ament_index/resource_index/packages/webots_ros2_control
+[6.332s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/ament_index/resource_index/webots_ros2_driver__pluginlib__plugin/webots_ros2_control
+[6.332s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/ament_index/resource_index/webots_ros2_control__pluginlib__plugin/webots_ros2_control
+[6.332s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.332s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.332s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[6.333s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/cmake/webots_ros2_controlConfig.cmake
+[6.333s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/cmake/webots_ros2_controlConfig-version.cmake
+[6.333s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/package.xml
+[6.335s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/webots_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/lib/python3.8/site-packages:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/webots_ros2_control

@@ -1,0 +1,4 @@
+Invoking command in '/home/shipengl/LRSMT/agiletaur/build/odrive_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/odrive_description -- -j16 -l16
+Invoked command in '/home/shipengl/LRSMT/agiletaur/build/odrive_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/odrive_description -- -j16 -l16
+Invoking command in '/home/shipengl/LRSMT/agiletaur/build/odrive_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/odrive_description
+Invoked command in '/home/shipengl/LRSMT/agiletaur/build/odrive_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/odrive_description

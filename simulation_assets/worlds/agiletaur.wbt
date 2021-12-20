@@ -4,15 +4,15 @@ WorldInfo {
   coordinateSystem "NUE"
 }
 Viewpoint {
-  orientation -0.03875214591284285 0.9786754805131843 0.20172400707262733 2.850117407019356
-  position 3.1998694532322793 0.5987176794389281 -6.6696959374204825
-  follow "robot(2)"
+  orientation 0.010089205450388782 -0.9027089500935122 -0.4301334204109801 3.201246566840747
+  position 0.11416933671415164 17.269479790665414 -17.245807908340634
+  follow "agiletaur"
 }
 TexturedBackground {
 }
 Robot {
-  translation 2.865010112946373 -0.16453819383354815 -4.688548941205387
-  rotation -0.03597775379436228 0.9983359109807836 -0.04506672916998949 1.575232998628209
+  translation 2.86744 0.094561 -4.71043
+  rotation 0 1 0 1.57523
   children [
     Lidar {
       translation 0 0.07 -0.16
@@ -200,8 +200,6 @@ Robot {
                       boundingObject USE foot
                       physics Physics {
                       }
-                      linearVelocity 1.1918633677789427e-06 -2.31660210855632e-06 -8.92058949076731e-06
-                      angularVelocity 1.4832641747295907e-05 2.010193590433343e-06 6.469853923957446e-07
                     }
                   ]
                 }
@@ -212,8 +210,6 @@ Robot {
                 density -1
                 mass 0.25
               }
-              linearVelocity 1.1273690224894881e-06 -2.2103343295221024e-06 -7.869396825854745e-06
-              angularVelocity 1.4832620582286227e-05 2.010191240255693e-06 6.469539747226868e-07
             }
           }
         ]
@@ -222,8 +218,6 @@ Robot {
           density -1
           mass 0.25
         }
-        linearVelocity 9.408521190046315e-07 -1.6949026651769116e-06 -5.629605813440852e-06
-        angularVelocity 1.4831593124471688e-05 2.0178267698466573e-06 7.361588077548173e-07
       }
     }
     DEF fl_7 HingeJoint {
@@ -280,8 +274,6 @@ Robot {
                   boundingObject USE foot
                   physics Physics {
                   }
-                  linearVelocity 4.903205752398908e-07 1.1718368225704042e-06 -9.20101457264032e-06
-                  angularVelocity 1.4829959865358596e-05 1.957576533323008e-06 7.382046460857088e-09
                 }
                 USE XI
               ]
@@ -291,8 +283,6 @@ Robot {
                 density -1
                 mass 0.25
               }
-              linearVelocity 4.942513590785902e-07 1.2853585187144798e-06 -8.150943588508549e-06
-              angularVelocity 1.4829943620895851e-05 1.9575970461365995e-06 7.632736049623526e-09
             }
           }
         ]
@@ -302,8 +292,6 @@ Robot {
           density -1
           mass 0.25
         }
-        linearVelocity 5.278432869637584e-07 1.0655040432805407e-06 -5.852566393649284e-06
-        angularVelocity 1.4829998276389622e-05 2.0165751740798572e-06 7.188000092038029e-07
       }
     }
     DEF rl_3 HingeJoint {
@@ -360,8 +348,6 @@ Robot {
                   boundingObject USE foot
                   physics Physics {
                   }
-                  linearVelocity 7.426759488365406e-07 8.777523692134707e-07 -8.51034782741764e-06
-                  angularVelocity 1.4840494968731648e-05 2.040183450120955e-06 1.0269815845470691e-06
                 }
                 USE XI
               ]
@@ -371,8 +357,6 @@ Robot {
                 density -1
                 mass 0.25
               }
-              linearVelocity 6.510084319329859e-07 1.0327648096719606e-06 -7.450781754383417e-06
-              angularVelocity 1.4840298569784488e-05 2.0401848090937333e-06 1.0269771304190684e-06
             }
           }
         ]
@@ -382,8 +366,6 @@ Robot {
           density -1
           mass 0.25
         }
-        linearVelocity 5.42347115661812e-07 8.432482424947097e-07 -5.138630280037137e-06
-        angularVelocity 1.4834964838682023e-05 2.017858514305469e-06 7.323164470195258e-07
       }
     }
     DEF rr_2 HingeJoint {
@@ -439,8 +421,6 @@ Robot {
                   boundingObject USE foot
                   physics Physics {
                   }
-                  linearVelocity 1.4314491483963525e-06 -2.6085060402189563e-06 -8.229109754086286e-06
-                  angularVelocity 1.4839260738181205e-05 2.0881084627690597e-06 1.613670279170797e-06
                 }
                 USE XI
               ]
@@ -450,8 +430,6 @@ Robot {
                 density -1
                 mass 0.25
               }
-              linearVelocity 1.2762523981452112e-06 -2.4630404539394104e-06 -7.168567297761168e-06
-              angularVelocity 1.4839060406432145e-05 2.0880879781861365e-06 1.6133960199006511e-06
             }
           }
         ]
@@ -461,8 +439,6 @@ Robot {
           density -1
           mass 0.25
         }
-        linearVelocity 9.54719071426524e-07 -1.9189514915751714e-06 -4.9154465290679465e-06
-        angularVelocity 1.4834001227126877e-05 2.0190012073513394e-06 7.488019599860363e-07
       }
     }
     DEF fr_5 HingeJoint {
@@ -575,8 +551,6 @@ Robot {
                 density -1
                 mass 0.25
               }
-              linearVelocity 1.104654583752307e-06 -2.4188235215216737e-06 -7.1454633382933565e-06
-              angularVelocity 1.4833377231411668e-05 2.031288696730884e-06 9.039277079185234e-07
             }
           }
         ]
@@ -586,8 +560,6 @@ Robot {
           density -1
           mass 0.25
         }
-        linearVelocity 1.0461642069969912e-06 -2.649708677529006e-06 -5.549509035489009e-06
-        angularVelocity 1.4831980099300495e-05 2.0171471983239647e-06 7.321368886402895e-07
       }
     }
     DEF fl_8 HingeJoint {
@@ -644,8 +616,6 @@ Robot {
                 density -1
                 mass 0.25
               }
-              linearVelocity 4.863457809634042e-07 1.4953942497530903e-06 -7.461612926785711e-06
-              angularVelocity 1.482904737082105e-05 1.9456172424834908e-06 -1.418853833672054e-07
             }
           }
         ]
@@ -655,8 +625,6 @@ Robot {
           density -1
           mass 0.25
         }
-        linearVelocity 4.204195678347844e-07 2.079893272943778e-06 -5.932307679253901e-06
-        angularVelocity 1.4831448813586357e-05 2.0159995693041897e-06 7.226224431120494e-07
       }
     }
     DEF rl_4 HingeJoint {
@@ -713,8 +681,6 @@ Robot {
                 density -1
                 mass 0.25
               }
-              linearVelocity 5.995519324386578e-07 1.2064206196260585e-06 -6.748496591427733e-06
-              angularVelocity 1.4838432023869833e-05 2.0171660385784983e-06 7.327276269441269e-07
             }
           }
         ]
@@ -724,8 +690,6 @@ Robot {
           density -1
           mass 0.25
         }
-        linearVelocity 4.380541676418659e-07 1.7844485406559585e-06 -5.207680579023543e-06
-        angularVelocity 1.4834781100065757e-05 2.0167396006324924e-06 7.351530127336224e-07
       }
     }
     DEF rr_1 HingeJoint {
@@ -782,8 +746,6 @@ Robot {
                 density -1
                 mass 0.25
               }
-              linearVelocity 1.1886916722758655e-06 -2.5288095170328263e-06 -6.446362250064619e-06
-              angularVelocity 1.4838932270176797e-05 2.098358434160395e-06 1.7346820345985068e-06
             }
           }
         ]
@@ -793,29 +755,22 @@ Robot {
           density -1
           mass 0.25
         }
-        linearVelocity 1.0628573053850233e-06 -2.9434663704552832e-06 -4.82498140392168e-06
-        angularVelocity 1.4833318775424755e-05 2.0173272713272703e-06 7.444121804480721e-07
       }
     }
   ]
-  name "robot(2)"
+  name "agiletaur"
   boundingObject USE body
   physics Physics {
     density -1
     mass 5
   }
   controller "<extern>"
-  linearVelocity 7.406923352446527e-07 -4.2865621458787475e-07 -5.37398244860815e-06
-  angularVelocity 1.483083284361417e-05 2.0171247550901097e-06 7.335587892727833e-07
 }
 Ramp30deg {
-  translation 0.623055 -1.15717 -4.69
+  translation 0.690343 -0.90602 -4.69
   rotation 0 0 1 -0.261795307179586
 }
 TexturedBackgroundLight {
-}
-UnevenTerrain {
-  translation 0 -3.6 8.94
 }
 Rock17cm {
   translation -0.68 -0.17 0.67
@@ -932,31 +887,6 @@ Rock17cm {
   translation -1.18 -0.18 1.74
   name "rock 17 cm(5)"
 }
-DEF 台子 Solid {
-  translation 3.08 0.14196503125000007 1.34
-  rotation 0.9906469728117409 0.0007180575161771323 0.1364480108038863 9.40669061467399e-15
-  children [
-    Shape {
-      appearance Appearance {
-        material Material {
-        }
-      }
-      geometry Cylinder {
-        height 0.18
-        radius 0.08
-      }
-    }
-  ]
-  boundingObject Cylinder {
-    height 0.18
-    radius 0.08
-  }
-  physics Physics {
-    mass 99
-  }
-  linearVelocity -2.439774781616132e-16 -9.029636269932728e-16 1.9828732647842537e-15
-  angularVelocity 2.280302659743921e-14 -1.4861824551251948e-17 2.8009855025779168e-15
-}
 Rock10cm {
   translation -0.95 -0.01 0.73
 }
@@ -977,23 +907,18 @@ Rock10cm {
   name "rock 10 cm(22)"
 }
 Rock10cm {
-  translation -0.14 0.08 -4.32
-  rotation 0 1 0 -2.3561953071795863
-  name "rock 10 cm(35)"
-}
-Rock10cm {
-  translation -0.31 0.08 -4.08
-  rotation 0 1 0 0.523599
-  name "rock 10 cm(36)"
-}
-Rock10cm {
-  translation -0.21 0.1 -4.08
-  name "rock 10 cm(30)"
-}
-Rock10cm {
   translation -1.29 -0.02 0.73
   rotation 0 1 0 -0.785395307179586
   name "rock 10 cm(2)"
+}
+RectangleArena {
+  translation 0 -0.15 0
+  floorSize 11 16
+  floorTileSize 1.2 0.5
+  floorAppearance Parquetry {
+    type "dark strip"
+  }
+  wallHeight 0.5
 }
 Rock10cm {
   translation -1.16981 0.01 0.850207
@@ -1081,11 +1006,11 @@ Rock10cm {
   name "rock 10 cm(18)"
 }
 ThreeSteps {
-  translation 2.19 -0.6 1.18
+  translation -3.43 -0.5 1.18
   increment 0 0.035 0
 }
 ThreeSteps {
-  translation 2.19 -0.48 4.09
+  translation 2.19 -0.47 4.09
   name "three steps(1)"
   increment 0 0.035 0
 }

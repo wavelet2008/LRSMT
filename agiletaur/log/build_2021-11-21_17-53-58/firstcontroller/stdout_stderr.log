@@ -1,9 +1,0 @@
-[35m[1mScanning dependencies of target firstcontroller[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/firstcontroller.dir/src/firstcontroller.cpp.o[0m
-[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/firstcontroller/src/firstcontroller.cpp:[m[K In member function ‘[01m[Kvirtual void firstcontroller::firstcontroller::step()[m[K’:
-[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/firstcontroller/src/firstcontroller.cpp:15:4:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
-   15 |    [01;31m[Ki[m[K += 1;
-      |    [01;31m[K^[m[K
-make[2]: *** [CMakeFiles/firstcontroller.dir/build.make:63: CMakeFiles/firstcontroller.dir/src/firstcontroller.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/firstcontroller.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

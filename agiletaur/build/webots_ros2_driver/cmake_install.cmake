@@ -1,4 +1,4 @@
-# Install script for directory: /home/shipengl/LRSMT/agiletaur/src/webots_interface/webots_ros2_driver
+# Install script for directory: /home/shipengl/LRSMT/agiletaur/src/webots_ros2_driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -46,7 +46,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/webots_ros2_driver_webots" TYPE DIRECTORY FILES "/home/shipengl/LRSMT/agiletaur/src/webots_interface/webots_ros2_driver/webots/lib/linux-gnu/python38/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/webots_ros2_driver_webots" TYPE DIRECTORY FILES "/home/shipengl/LRSMT/agiletaur/src/webots_ros2_driver/webots/lib/linux-gnu/python38/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -58,7 +58,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/webots_ros2_driver" TYPE DIRECTORY FILES "/home/shipengl/LRSMT/agiletaur/src/webots_interface/webots_ros2_driver/webots_ros2_driver/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/webots_ros2_driver" TYPE DIRECTORY FILES "/home/shipengl/LRSMT/agiletaur/src/webots_ros2_driver/webots_ros2_driver/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -70,7 +70,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/shipengl/LRSMT/agiletaur/src/webots_interface/webots_ros2_driver/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/shipengl/LRSMT/agiletaur/src/webots_ros2_driver/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -85,7 +85,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/webots_ros2_driver/driver")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/webots_ros2_driver/driver"
-         OLD_RPATH "/home/shipengl/LRSMT/agiletaur/src/webots_interface/webots_ros2_driver/webots/lib/linux-gnu:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib:/opt/ros/foxy/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/shipengl/LRSMT/agiletaur/src/webots_ros2_driver/webots/lib/linux-gnu:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib:/opt/ros/foxy/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/webots_ros2_driver/driver")
@@ -94,15 +94,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/webots_ros2_driver" TYPE DIRECTORY FILES "/home/shipengl/LRSMT/agiletaur/src/webots_interface/webots_ros2_driver/include/webots_ros2_driver")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/webots_ros2_driver" TYPE DIRECTORY FILES "/home/shipengl/LRSMT/agiletaur/src/webots_ros2_driver/include/webots_ros2_driver")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/webots" TYPE DIRECTORY FILES "/home/shipengl/LRSMT/agiletaur/src/webots_interface/webots_ros2_driver/webots/include/c")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/webots" TYPE DIRECTORY FILES "/home/shipengl/LRSMT/agiletaur/src/webots_ros2_driver/webots/include/c")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/webots" TYPE DIRECTORY FILES "/home/shipengl/LRSMT/agiletaur/src/webots_interface/webots_ros2_driver/webots/include/cpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/webots" TYPE DIRECTORY FILES "/home/shipengl/LRSMT/agiletaur/src/webots_ros2_driver/webots/include/cpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -117,7 +117,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libwebots_ros2_driver_imu.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libwebots_ros2_driver_imu.so"
-         OLD_RPATH "/home/shipengl/LRSMT/agiletaur/src/webots_interface/webots_ros2_driver/webots/lib/linux-gnu:/opt/ros/foxy/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/shipengl/LRSMT/agiletaur/src/webots_ros2_driver/webots/lib/linux-gnu:/opt/ros/foxy/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libwebots_ros2_driver_imu.so")
@@ -129,11 +129,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE DIRECTORY FILES "/home/shipengl/LRSMT/agiletaur/src/webots_interface/webots_ros2_driver/webots/lib/linux-gnu/" REGEX "/python[^/]*$" EXCLUDE REGEX "/[^/]*Controller[^/]*$" REGEX "/[^/]*CppController[^/]*$" REGEX "/[^/]*car[^/]*$" REGEX "/[^/]*CppCar[^/]*$" REGEX "/[^/]*driver[^/]*$" REGEX "/[^/]*CppDriver[^/]*$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE DIRECTORY FILES "/home/shipengl/LRSMT/agiletaur/src/webots_ros2_driver/webots/lib/linux-gnu/" REGEX "/python[^/]*$" EXCLUDE REGEX "/[^/]*Controller[^/]*$" REGEX "/[^/]*CppController[^/]*$" REGEX "/[^/]*car[^/]*$" REGEX "/[^/]*CppCar[^/]*$" REGEX "/[^/]*driver[^/]*$" REGEX "/[^/]*CppDriver[^/]*$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_ros2_driver" TYPE FILE FILES "/home/shipengl/LRSMT/agiletaur/src/webots_interface/webots_ros2_driver/webots_ros2_imu.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_ros2_driver" TYPE FILE FILES "/home/shipengl/LRSMT/agiletaur/src/webots_ros2_driver/webots_ros2_imu.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -216,7 +216,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_ros2_driver" TYPE FILE FILES "/home/shipengl/LRSMT/agiletaur/src/webots_interface/webots_ros2_driver/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_ros2_driver" TYPE FILE FILES "/home/shipengl/LRSMT/agiletaur/src/webots_ros2_driver/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

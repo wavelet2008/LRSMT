@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/Firstcontroller.dir/src/Firstcontroller.cpp.o  -o Firstcontroller 

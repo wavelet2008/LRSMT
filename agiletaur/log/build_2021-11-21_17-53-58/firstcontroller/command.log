@@ -1,2 +1,0 @@
-Invoking command in '/home/shipengl/LRSMT/agiletaur/build/firstcontroller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/firstcontroller -- -j16 -l16
-Invoked command in '/home/shipengl/LRSMT/agiletaur/build/firstcontroller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/firstcontroller -- -j16 -l16
