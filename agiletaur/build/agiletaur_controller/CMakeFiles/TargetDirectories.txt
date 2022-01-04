@@ -5,5 +5,6 @@
 /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller/CMakeFiles/rebuild_cache.dir
 /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller/CMakeFiles/edit_cache.dir
 /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller/CMakeFiles/test.dir
+/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller/CMakeFiles/agiletaur_controller.dir
 /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller/CMakeFiles/agiletaur_controller_uninstall.dir
 /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller/CMakeFiles/uninstall.dir

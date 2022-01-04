@@ -1,0 +1,34 @@
+[0.070s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_epuck:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller -- -j16 -l16
+[0.104s] INFOHello Guys!!! Start compile!
+[0.110s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.153s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.409s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.452s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.455s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.598s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.660s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.662s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.928s] -- Configuring done
+[0.940s] -- Generating done
+[0.942s] -- Build files have been written to: /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller
+[0.986s] [100%] Built target agiletaur_controller
+[0.996s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_epuck:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller -- -j16 -l16
+[1.025s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_epuck:/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller
+[1.034s] -- Install configuration: ""
+[1.034s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/bin/agiletaur_controller
+[1.034s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/ament_index/resource_index/package_run_dependencies/agiletaur_controller
+[1.035s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/ament_index/resource_index/parent_prefix_path/agiletaur_controller
+[1.035s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/environment/ament_prefix_path.sh
+[1.035s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/environment/ament_prefix_path.dsv
+[1.035s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/environment/path.sh
+[1.035s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/environment/path.dsv
+[1.035s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/local_setup.bash
+[1.035s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/local_setup.sh
+[1.035s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/local_setup.zsh
+[1.035s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/local_setup.dsv
+[1.035s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/package.dsv
+[1.035s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/ament_index/resource_index/packages/agiletaur_controller
+[1.036s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/cmake/agiletaur_controllerConfig.cmake
+[1.036s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/cmake/agiletaur_controllerConfig-version.cmake
+[1.037s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/package.xml
+[1.039s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shipengl/LRSMT/agiletaur/install/webots_ros2_epuck:/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller

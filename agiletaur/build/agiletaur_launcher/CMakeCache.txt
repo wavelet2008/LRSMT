@@ -250,6 +250,9 @@ agiletaur_launcher_SOURCE_DIR:STATIC=/home/shipengl/LRSMT/agiletaur/src/agiletau
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/foxy/share/ament_cmake/cmake
 
+//The directory containing a CMake configuration file for ament_cmake_auto.
+ament_cmake_auto_DIR:PATH=/opt/ros/foxy/share/ament_cmake_auto/cmake
+
 //The directory containing a CMake configuration file for ament_cmake_copyright.
 ament_cmake_copyright_DIR:PATH=/opt/ros/foxy/share/ament_cmake_copyright/cmake
 
