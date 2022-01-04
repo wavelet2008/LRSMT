@@ -1,3 +1,0 @@
-/home/shipengl/LRSMT/controllers/test_qp/build/CMakeFiles/rebuild_cache.dir
-/home/shipengl/LRSMT/controllers/test_qp/build/CMakeFiles/test_qp.dir
-/home/shipengl/LRSMT/controllers/test_qp/build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,4 @@
+source;share/webots_simulation_assets/local_setup.bash
+source;share/webots_simulation_assets/local_setup.dsv
+source;share/webots_simulation_assets/local_setup.sh
+source;share/webots_simulation_assets/local_setup.zsh

@@ -1,3 +1,0 @@
-/home/shipengl/LRSMT/controllers/test_robot/build/CMakeFiles/rebuild_cache.dir
-/home/shipengl/LRSMT/controllers/test_robot/build/CMakeFiles/test_eigen.dir
-/home/shipengl/LRSMT/controllers/test_robot/build/CMakeFiles/edit_cache.dir

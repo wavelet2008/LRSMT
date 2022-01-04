@@ -1,7 +1,0 @@
-/home/shipengl/LRSMT/simulation_assets/controllers/agiletaurcontroller/build/CMakeFiles/install/strip.dir
-/home/shipengl/LRSMT/simulation_assets/controllers/agiletaurcontroller/build/CMakeFiles/install/local.dir
-/home/shipengl/LRSMT/simulation_assets/controllers/agiletaurcontroller/build/CMakeFiles/install.dir
-/home/shipengl/LRSMT/simulation_assets/controllers/agiletaurcontroller/build/CMakeFiles/list_install_components.dir
-/home/shipengl/LRSMT/simulation_assets/controllers/agiletaurcontroller/build/CMakeFiles/rebuild_cache.dir
-/home/shipengl/LRSMT/simulation_assets/controllers/agiletaurcontroller/build/CMakeFiles/edit_cache.dir
-/home/shipengl/LRSMT/simulation_assets/controllers/agiletaurcontroller/build/CMakeFiles/agiletaur_controller.dir

@@ -1,4 +1,4 @@
-# Install script for directory: /home/shipengl/LRSMT/agiletaur/src/webots_ros2_msgs
+# Install script for directory: /home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_ros2_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -367,15 +367,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_ros2_msgs/msg" TYPE FILE FILES "/home/shipengl/LRSMT/agiletaur/src/webots_ros2_msgs/msg/WbCameraRecognitionObject.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_ros2_msgs/msg" TYPE FILE FILES "/home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_ros2_msgs/msg/WbCameraRecognitionObject.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_ros2_msgs/msg" TYPE FILE FILES "/home/shipengl/LRSMT/agiletaur/src/webots_ros2_msgs/msg/WbCameraRecognitionObjects.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_ros2_msgs/msg" TYPE FILE FILES "/home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_ros2_msgs/msg/WbCameraRecognitionObjects.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_ros2_msgs/srv" TYPE FILE FILES "/home/shipengl/LRSMT/agiletaur/src/webots_ros2_msgs/srv/SetInt.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_ros2_msgs/srv" TYPE FILE FILES "/home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_ros2_msgs/srv/SetInt.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -581,7 +581,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_ros2_msgs" TYPE FILE FILES "/home/shipengl/LRSMT/agiletaur/src/webots_ros2_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/webots_ros2_msgs" TYPE FILE FILES "/home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_ros2_msgs/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
