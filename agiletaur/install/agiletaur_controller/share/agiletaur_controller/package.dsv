@@ -1,9 +1,6 @@
 source;share/agiletaur_controller/hook/cmake_prefix_path.ps1
 source;share/agiletaur_controller/hook/cmake_prefix_path.dsv
 source;share/agiletaur_controller/hook/cmake_prefix_path.sh
-source;share/agiletaur_controller/hook/path.ps1
-source;share/agiletaur_controller/hook/path.dsv
-source;share/agiletaur_controller/hook/path.sh
 source;share/agiletaur_controller/local_setup.bash
 source;share/agiletaur_controller/local_setup.dsv
 source;share/agiletaur_controller/local_setup.ps1

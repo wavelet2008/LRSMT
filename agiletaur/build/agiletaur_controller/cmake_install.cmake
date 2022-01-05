@@ -44,12 +44,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/agiletaur_controller/agiletaur_controller"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/agiletaur_controller" TYPE EXECUTABLE FILES "/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/agiletaur_controller" TYPE EXECUTABLE FILES "/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller/agiletaur_controller")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/agiletaur_controller/agiletaur_controller" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/agiletaur_controller/agiletaur_controller")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/agiletaur_controller/agiletaur_controller"
-         OLD_RPATH "/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib:/usr/local/webots/lib/controller:/usr/local/lib:/opt/ros/foxy/lib:"
+         OLD_RPATH "/opt/ros/foxy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/agiletaur_controller/agiletaur_controller")

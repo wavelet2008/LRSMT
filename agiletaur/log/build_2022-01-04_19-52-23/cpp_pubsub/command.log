@@ -1,0 +1,6 @@
+Invoking command in '/home/shipengl/LRSMT/agiletaur/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/shipengl/LRSMT/agiletaur/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/shipengl/LRSMT/agiletaur/install/cpp_pubsub
+Invoked command in '/home/shipengl/LRSMT/agiletaur/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/shipengl/LRSMT/agiletaur/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/shipengl/LRSMT/agiletaur/install/cpp_pubsub
+Invoking command in '/home/shipengl/LRSMT/agiletaur/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/cpp_pubsub -- -j16 -l16
+Invoked command in '/home/shipengl/LRSMT/agiletaur/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/cpp_pubsub -- -j16 -l16
+Invoking command in '/home/shipengl/LRSMT/agiletaur/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/cpp_pubsub
+Invoked command in '/home/shipengl/LRSMT/agiletaur/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/cpp_pubsub

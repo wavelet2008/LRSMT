@@ -1,0 +1,26 @@
+[0.015s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller -- -j16 -l16
+[0.053s] [35m[1mScanning dependencies of target agiletaur_controller[0m
+[0.094s] [ 16%] [32mBuilding CXX object CMakeFiles/agiletaur_controller.dir/src/proxy/lowerproxy.cpp.o[0m
+[2.329s] [ 33%] [32m[1mLinking CXX executable agiletaur_controller[0m
+[2.433s] [100%] Built target agiletaur_controller
+[2.441s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller -- -j16 -l16
+[2.468s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller
+[2.475s] -- Install configuration: ""
+[2.475s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/lib/agiletaur_controller/agiletaur_controller
+[2.476s] -- Set runtime path of "/home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/lib/agiletaur_controller/agiletaur_controller" to ""
+[2.477s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/ament_index/resource_index/package_run_dependencies/agiletaur_controller
+[2.477s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/ament_index/resource_index/parent_prefix_path/agiletaur_controller
+[2.477s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/environment/ament_prefix_path.sh
+[2.477s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/environment/ament_prefix_path.dsv
+[2.477s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/environment/path.sh
+[2.477s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/environment/path.dsv
+[2.477s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/local_setup.bash
+[2.477s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/local_setup.sh
+[2.477s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/local_setup.zsh
+[2.477s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/local_setup.dsv
+[2.477s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/package.dsv
+[2.477s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/ament_index/resource_index/packages/agiletaur_controller
+[2.477s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/cmake/agiletaur_controllerConfig.cmake
+[2.477s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/cmake/agiletaur_controllerConfig-version.cmake
+[2.477s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/package.xml
+[2.479s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller

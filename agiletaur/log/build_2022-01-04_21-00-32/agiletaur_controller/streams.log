@@ -1,0 +1,41 @@
+[0.012s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller -- -j16 -l16
+[0.042s] [35m[1mScanning dependencies of target agiletaur_controller[0m
+[0.068s] [ 16%] [32mBuilding CXX object CMakeFiles/agiletaur_controller.dir/src/main.cpp.o[0m
+[1.325s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.326s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/main.cpp:23:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KLower_proxy[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.326s]    23 |  lowerproxy &[01;35m[KLower_proxy[m[K = lowerproxy::GetLowerProxy();
+[1.326s]       |              [01;35m[K^~~~~~~~~~~[m[K
+[1.693s] In file included from [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/main.cpp:9[m[K:
+[1.693s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/main.h:[m[K At global scope:
+[1.693s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/main.h:43:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktimer[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[1.694s]    43 | static float [01;35m[Ktimer[m[K[10] = { 0 };
+[1.694s]       |              [01;35m[K^~~~~[m[K
+[1.694s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/main.h:41:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kinit_done[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[1.694s]    41 | static int [01;35m[Kinit_done[m[K = 0;
+[1.694s]       |            [01;35m[K^~~~~~~~~[m[K
+[1.694s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/main.h:40:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kinit_cnt[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[1.694s]    40 | static float [01;35m[Kinit_cnt[m[K = 0;
+[1.694s]       |              [01;35m[K^~~~~~~~[m[K
+[1.726s] [ 33%] [32m[1mLinking CXX executable agiletaur_controller[0m
+[1.821s] [100%] Built target agiletaur_controller
+[1.830s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller -- -j16 -l16
+[1.854s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller
+[1.859s] -- Install configuration: ""
+[1.859s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/lib/agiletaur_controller/agiletaur_controller
+[1.860s] -- Set runtime path of "/home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/lib/agiletaur_controller/agiletaur_controller" to ""
+[1.860s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/ament_index/resource_index/package_run_dependencies/agiletaur_controller
+[1.860s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/ament_index/resource_index/parent_prefix_path/agiletaur_controller
+[1.860s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/environment/ament_prefix_path.sh
+[1.861s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/environment/ament_prefix_path.dsv
+[1.861s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/environment/path.sh
+[1.861s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/environment/path.dsv
+[1.861s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/local_setup.bash
+[1.861s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/local_setup.sh
+[1.861s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/local_setup.zsh
+[1.861s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/local_setup.dsv
+[1.861s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/package.dsv
+[1.861s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/ament_index/resource_index/packages/agiletaur_controller
+[1.861s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/cmake/agiletaur_controllerConfig.cmake
+[1.861s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/cmake/agiletaur_controllerConfig-version.cmake
+[1.861s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/package.xml
+[1.863s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller

@@ -1,0 +1,29 @@
+[35m[1mScanning dependencies of target agiletaur_controller[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/agiletaur_controller.dir/src/proxy/lowerproxy.cpp.o[0m
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:[m[K In constructor ‘[01m[Kagiletaur::control::lowerproxy::lowerproxy(std::string)[m[K’:
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:21:49:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   21 |                                 <std_msgs::msg::[01;31m[KFloat64MultiArray[m[K>("/joint0_velocity_controller/commands", 10);
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:21:49:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:21:110:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kagiletaur::control::lowerproxy::create_publisher<<expression error> >(const char [37], int)[m[K’
+   21 |                                 <std_msgs::msg::Float64MultiArray>("/joint0_velocity_controller/commands", 10[01;31m[K)[m[K;
+      |                                                                                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/proxy/lowerproxy.h:16[m[K,
+                 from [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:8[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:21:110:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |                                 <std_msgs::msg::Float64MultiArray>("/joint0_velocity_controller/commands", 10[01;31m[K)[m[K;
+      |                                                                                                              [01;31m[K^[m[K
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:[m[K In member function ‘[01m[Kvoid agiletaur::control::lowerproxy::PublishControlCommand()[m[K’:
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:36:39:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   36 |         auto message = std_msgs::msg::[01;31m[KFloat64MultiArray[m[K();
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/agiletaur_controller.dir/build.make:102: CMakeFiles/agiletaur_controller.dir/src/proxy/lowerproxy.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/agiletaur_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

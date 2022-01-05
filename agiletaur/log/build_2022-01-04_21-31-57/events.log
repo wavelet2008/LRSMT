@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.000148] (-) JobUnselected: {'identifier': 'agiletaur_launcher'}
+[0.000226] (-) JobUnselected: {'identifier': 'odrive_bringup'}
+[0.000346] (-) JobUnselected: {'identifier': 'odrive_description'}
+[0.000577] (-) JobUnselected: {'identifier': 'odrive_hardware_interface'}
+[0.000716] (-) JobUnselected: {'identifier': 'odrive_ros2_control'}
+[0.000972] (-) JobUnselected: {'identifier': 'webots_bringup'}
+[0.001016] (-) JobUnselected: {'identifier': 'webots_description'}
+[0.001041] (-) JobUnselected: {'identifier': 'webots_ros2_control'}
+[0.001066] (-) JobUnselected: {'identifier': 'webots_ros2_driver'}
+[0.001647] (-) JobUnselected: {'identifier': 'webots_ros2_msgs'}
+[0.001691] (-) JobUnselected: {'identifier': 'webots_simulation_assets'}
+[0.001745] (agiletaur_controller) JobQueued: {'identifier': 'agiletaur_controller', 'dependencies': OrderedDict()}
+[0.001777] (agiletaur_controller) JobStarted: {'identifier': 'agiletaur_controller'}
+[0.011029] (agiletaur_controller) JobProgress: {'identifier': 'agiletaur_controller', 'progress': 'cmake'}
+[0.011585] (agiletaur_controller) JobProgress: {'identifier': 'agiletaur_controller', 'progress': 'build'}
+[0.012155] (agiletaur_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller', '--', '-j16', '-l16'], 'cwd': '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shipengl'), ('SSH_AGENT_PID', '1869'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/shipengl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/shipengl/LRSMT/agiletaur/src'), ('TERM_PROGRAM_VERSION', '1.62.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1647'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4519'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/shipengl/LRSMT/agiletaur/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'shipengl'), ('JOURNAL_STREAM', '8:48098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shipengl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/shipengl/.local/bin:/opt/ros/foxy/bin:/home/shipengl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Bladepro:@/tmp/.ICE-unix/1912,unix/Bladepro:/tmp/.ICE-unix/1912'), ('INVOCATION_ID', 'afcf6ec418ca4dfdaccdc9e527815051'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-de5648a43d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/shipengl/LRSMT/agiletaur/install/cpp_pubsub:/home/shipengl/LRSMT/agiletaur/install/agiletaur_controller:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('BREAKPAD_DUMP_LOCATION', '/home/shipengl/.config/Code/exthost Crash Reports'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/shipengl/LRSMT/agiletaur/install/cpp_pubsub:/home/shipengl/LRSMT/agiletaur/install/agiletaur_controller:/opt/ros/foxy')]), 'shell': False}
+[0.045536] (agiletaur_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target agiletaur_controller\x1b[0m\n'}
+[0.073884] (agiletaur_controller) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/agiletaur_controller.dir/src/proxy/lowerproxy.cpp.o\x1b[0m\n'}
+[0.098962] (-) TimerEvent: {}
+[0.199227] (-) TimerEvent: {}
+[0.299515] (-) TimerEvent: {}
+[0.399774] (-) TimerEvent: {}
+[0.500100] (-) TimerEvent: {}
+[0.600370] (-) TimerEvent: {}
+[0.700629] (-) TimerEvent: {}
+[0.800899] (-) TimerEvent: {}
+[0.901167] (-) TimerEvent: {}
+[1.001467] (-) TimerEvent: {}
+[1.011322] (agiletaur_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid agiletaur::control::lowerproxy::PublishControlCommand()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.011481] (agiletaur_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:41:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Float64MultiArray_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[1.011546] (agiletaur_controller) StderrLine: {'line': b'   41 |     message.data = \x1b[01;31m\x1b[K10\x1b[m\x1b[K;\n'}
+[1.011655] (agiletaur_controller) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.011724] (agiletaur_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/vector:72\x1b[m\x1b[K,\n'}
+[1.011881] (agiletaur_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:27\x1b[m\x1b[K,\n'}
+[1.011947] (agiletaur_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.011997] (agiletaur_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.012084] (agiletaur_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.012171] (agiletaur_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/proxy/lowerproxy.h:16\x1b[m\x1b[K,\n'}
+[1.012318] (agiletaur_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:8\x1b[m\x1b[K:\n'}
+[1.012397] (agiletaur_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/vector.tcc:198:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = double; _Alloc = std::allocator<double>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.012486] (agiletaur_controller) StderrLine: {'line': b'  198 |     \x1b[01;36m\x1b[Kvector<_Tp, _Alloc>\x1b[m\x1b[K::\n'}
+[1.012534] (agiletaur_controller) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.012581] (agiletaur_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/vector.tcc:199:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<double, std::allocator<double> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.012631] (agiletaur_controller) StderrLine: {'line': b'  199 |     operator=(\x1b[01;36m\x1b[Kconst vector<_Tp, _Alloc>& __x\x1b[m\x1b[K)\n'}
+[1.012678] (agiletaur_controller) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.012724] (agiletaur_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/vector:67\x1b[m\x1b[K,\n'}
+[1.012771] (agiletaur_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:27\x1b[m\x1b[K,\n'}
+[1.012819] (agiletaur_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.012866] (agiletaur_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.012914] (agiletaur_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.012962] (agiletaur_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/proxy/lowerproxy.h:16\x1b[m\x1b[K,\n'}
+[1.013055] (agiletaur_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:8\x1b[m\x1b[K:\n'}
+[1.013148] (agiletaur_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:706:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = double; _Alloc = std::allocator<double>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.013206] (agiletaur_controller) StderrLine: {'line': b'  706 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())\n'}
+[1.013267] (agiletaur_controller) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.013322] (agiletaur_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:706:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.013427] (agiletaur_controller) StderrLine: {'line': b'  706 |       operator=(\x1b[01;36m\x1b[Kvector&& __x\x1b[m\x1b[K) noexcept(_Alloc_traits::_S_nothrow_move())\n'}
+[1.013489] (agiletaur_controller) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.013571] (agiletaur_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:727:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = double; _Alloc = std::allocator<double>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.013620] (agiletaur_controller) StderrLine: {'line': b'  727 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(initializer_list<value_type> __l)\n'}
+[1.013681] (agiletaur_controller) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.013726] (agiletaur_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:727:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<double>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.013778] (agiletaur_controller) StderrLine: {'line': b'  727 |       operator=(\x1b[01;36m\x1b[Kinitializer_list<value_type> __l\x1b[m\x1b[K)\n'}
+[1.013827] (agiletaur_controller) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.013871] (agiletaur_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.013916] (agiletaur_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[1.013960] (agiletaur_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.014006] (agiletaur_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.014051] (agiletaur_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.014096] (agiletaur_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.014177] (agiletaur_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.014265] (agiletaur_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.014329] (agiletaur_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.014437] (agiletaur_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.014515] (agiletaur_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/proxy/lowerproxy.h:16\x1b[m\x1b[K,\n'}
+[1.014560] (agiletaur_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:8\x1b[m\x1b[K:\n'}
+[1.014605] (agiletaur_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:42:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing _data_type = class std::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass std::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kc_str\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.014658] (agiletaur_controller) StderrLine: {'line': b'   42 |     RCLCPP_INFO(this->get_logger(), "Publishing: \'%s\'", message.data.\x1b[01;31m\x1b[Kc_str\x1b[m\x1b[K());\n'}
+[1.014704] (agiletaur_controller) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.101571] (-) TimerEvent: {}
+[1.201804] (-) TimerEvent: {}
+[1.307930] (-) TimerEvent: {}
+[1.408205] (-) TimerEvent: {}
+[1.508453] (-) TimerEvent: {}
+[1.608737] (-) TimerEvent: {}
+[1.612159] (agiletaur_controller) StderrLine: {'line': b'make[2]: *** [CMakeFiles/agiletaur_controller.dir/build.make:102: CMakeFiles/agiletaur_controller.dir/src/proxy/lowerproxy.cpp.o] Error 1\n'}
+[1.612393] (agiletaur_controller) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/agiletaur_controller.dir/all] Error 2\n'}
+[1.612659] (agiletaur_controller) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[1.614646] (agiletaur_controller) CommandEnded: {'returncode': 2}
+[1.643275] (agiletaur_controller) JobEnded: {'identifier': 'agiletaur_controller', 'rc': 2}
+[1.653976] (-) EventReactorShutdown: {}

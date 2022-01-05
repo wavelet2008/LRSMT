@@ -11,7 +11,8 @@ over view here
 1.  Download the repo 
 
 ## 🏫 Documentations
-
+- [ ] intergrate 12 speed controller
+- [ ] figure out how to use topic in a cpp file. 
 
 
 ## 📎 Citation

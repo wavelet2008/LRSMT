@@ -122,93 +122,76 @@ CMakeFiles/agiletaur_controller.dir/src/proxy/upperproxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/agiletaur_controller.dir/src/proxy/upperproxy.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/upperproxy.cpp -o CMakeFiles/agiletaur_controller.dir/src/proxy/upperproxy.cpp.s
 
-CMakeFiles/agiletaur_controller.dir/src/config/config_parser.cpp.o: CMakeFiles/agiletaur_controller.dir/flags.make
-CMakeFiles/agiletaur_controller.dir/src/config/config_parser.cpp.o: /home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/config/config_parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/agiletaur_controller.dir/src/config/config_parser.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/agiletaur_controller.dir/src/config/config_parser.cpp.o -c /home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/config/config_parser.cpp
-
-CMakeFiles/agiletaur_controller.dir/src/config/config_parser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/agiletaur_controller.dir/src/config/config_parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/config/config_parser.cpp > CMakeFiles/agiletaur_controller.dir/src/config/config_parser.cpp.i
-
-CMakeFiles/agiletaur_controller.dir/src/config/config_parser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/agiletaur_controller.dir/src/config/config_parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/config/config_parser.cpp -o CMakeFiles/agiletaur_controller.dir/src/config/config_parser.cpp.s
-
 # Object files for target agiletaur_controller
 agiletaur_controller_OBJECTS = \
 "CMakeFiles/agiletaur_controller.dir/src/main.cpp.o" \
 "CMakeFiles/agiletaur_controller.dir/src/controller/controller_monitor.cpp.o" \
 "CMakeFiles/agiletaur_controller.dir/src/controller/pid_controller.cpp.o" \
 "CMakeFiles/agiletaur_controller.dir/src/proxy/lowerproxy.cpp.o" \
-"CMakeFiles/agiletaur_controller.dir/src/proxy/upperproxy.cpp.o" \
-"CMakeFiles/agiletaur_controller.dir/src/config/config_parser.cpp.o"
+"CMakeFiles/agiletaur_controller.dir/src/proxy/upperproxy.cpp.o"
 
 # External object files for target agiletaur_controller
 agiletaur_controller_EXTERNAL_OBJECTS =
 
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: CMakeFiles/agiletaur_controller.dir/src/main.cpp.o
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: CMakeFiles/agiletaur_controller.dir/src/controller/controller_monitor.cpp.o
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: CMakeFiles/agiletaur_controller.dir/src/controller/pid_controller.cpp.o
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: CMakeFiles/agiletaur_controller.dir/src/proxy/lowerproxy.cpp.o
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: CMakeFiles/agiletaur_controller.dir/src/proxy/upperproxy.cpp.o
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: CMakeFiles/agiletaur_controller.dir/src/config/config_parser.cpp.o
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: CMakeFiles/agiletaur_controller.dir/build.make
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /usr/local/lib/libglog.so.0.6.0
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/librclcpp.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/liblibstatistics_collector.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_c.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_cpp.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/librcl.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/librcl_interfaces__rosidl_generator_c.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_c.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_cpp.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/librmw_implementation.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/librmw.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/librcl_logging_spdlog.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /usr/lib/x86_64-linux-gnu/libspdlog.so.1.5.0
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/librcl_yaml_param_parser.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/libyaml.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/librosgraph_msgs__rosidl_generator_c.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_c.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_cpp.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_generator_c.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_c.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/librosidl_typesupport_cpp.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/librosidl_typesupport_c.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/librcpputils.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/librosidl_runtime_c.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/librcutils.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: /opt/ros/foxy/lib/libtracetools.so
-/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller: CMakeFiles/agiletaur_controller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable /home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller"
+agiletaur_controller: CMakeFiles/agiletaur_controller.dir/src/main.cpp.o
+agiletaur_controller: CMakeFiles/agiletaur_controller.dir/src/controller/controller_monitor.cpp.o
+agiletaur_controller: CMakeFiles/agiletaur_controller.dir/src/controller/pid_controller.cpp.o
+agiletaur_controller: CMakeFiles/agiletaur_controller.dir/src/proxy/lowerproxy.cpp.o
+agiletaur_controller: CMakeFiles/agiletaur_controller.dir/src/proxy/upperproxy.cpp.o
+agiletaur_controller: CMakeFiles/agiletaur_controller.dir/build.make
+agiletaur_controller: /opt/ros/foxy/lib/librclcpp.so
+agiletaur_controller: /opt/ros/foxy/lib/liblibstatistics_collector.so
+agiletaur_controller: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
+agiletaur_controller: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
+agiletaur_controller: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_c.so
+agiletaur_controller: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp.so
+agiletaur_controller: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_cpp.so
+agiletaur_controller: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+agiletaur_controller: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
+agiletaur_controller: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
+agiletaur_controller: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+agiletaur_controller: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so
+agiletaur_controller: /opt/ros/foxy/lib/librcl.so
+agiletaur_controller: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
+agiletaur_controller: /opt/ros/foxy/lib/librcl_interfaces__rosidl_generator_c.so
+agiletaur_controller: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_c.so
+agiletaur_controller: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
+agiletaur_controller: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_cpp.so
+agiletaur_controller: /opt/ros/foxy/lib/librmw_implementation.so
+agiletaur_controller: /opt/ros/foxy/lib/librmw.so
+agiletaur_controller: /opt/ros/foxy/lib/librcl_logging_spdlog.so
+agiletaur_controller: /usr/lib/x86_64-linux-gnu/libspdlog.so.1.5.0
+agiletaur_controller: /opt/ros/foxy/lib/librcl_yaml_param_parser.so
+agiletaur_controller: /opt/ros/foxy/lib/libyaml.so
+agiletaur_controller: /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
+agiletaur_controller: /opt/ros/foxy/lib/librosgraph_msgs__rosidl_generator_c.so
+agiletaur_controller: /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_c.so
+agiletaur_controller: /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so
+agiletaur_controller: /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_cpp.so
+agiletaur_controller: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
+agiletaur_controller: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_generator_c.so
+agiletaur_controller: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_c.so
+agiletaur_controller: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
+agiletaur_controller: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
+agiletaur_controller: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+agiletaur_controller: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so
+agiletaur_controller: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+agiletaur_controller: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+agiletaur_controller: /opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so
+agiletaur_controller: /opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so
+agiletaur_controller: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+agiletaur_controller: /opt/ros/foxy/lib/librosidl_typesupport_cpp.so
+agiletaur_controller: /opt/ros/foxy/lib/librosidl_typesupport_c.so
+agiletaur_controller: /opt/ros/foxy/lib/librcpputils.so
+agiletaur_controller: /opt/ros/foxy/lib/librosidl_runtime_c.so
+agiletaur_controller: /opt/ros/foxy/lib/librcutils.so
+agiletaur_controller: /opt/ros/foxy/lib/libtracetools.so
+agiletaur_controller: CMakeFiles/agiletaur_controller.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable agiletaur_controller"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/agiletaur_controller.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/agiletaur_controller.dir/build: /home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/lib/agiletaur_controller
+CMakeFiles/agiletaur_controller.dir/build: agiletaur_controller
 
 .PHONY : CMakeFiles/agiletaur_controller.dir/build
 

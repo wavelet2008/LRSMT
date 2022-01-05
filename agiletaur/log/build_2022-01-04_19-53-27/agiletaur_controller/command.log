@@ -1,0 +1,2 @@
+Invoking command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/shipengl/LRSMT/agiletaur/src/agiletaur_controller -DCMAKE_INSTALL_PREFIX=/home/shipengl/LRSMT/agiletaur/install/agiletaur_controller
+Invoked command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/shipengl/LRSMT/agiletaur/src/agiletaur_controller -DCMAKE_INSTALL_PREFIX=/home/shipengl/LRSMT/agiletaur/install/agiletaur_controller

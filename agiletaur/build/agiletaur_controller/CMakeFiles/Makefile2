@@ -76,12 +76,12 @@ clean: CMakeFiles/uninstall.dir/clean
 CMakeFiles/agiletaur_controller.dir/all:
 	$(MAKE) -f CMakeFiles/agiletaur_controller.dir/build.make CMakeFiles/agiletaur_controller.dir/depend
 	$(MAKE) -f CMakeFiles/agiletaur_controller.dir/build.make CMakeFiles/agiletaur_controller.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target agiletaur_controller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target agiletaur_controller"
 .PHONY : CMakeFiles/agiletaur_controller.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/agiletaur_controller.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/agiletaur_controller.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller/CMakeFiles 0
 .PHONY : CMakeFiles/agiletaur_controller.dir/rule

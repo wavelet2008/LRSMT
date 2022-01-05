@@ -1,0 +1,28 @@
+[0.012s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller -- -j16 -l16
+[0.044s] [35m[1mScanning dependencies of target agiletaur_controller[0m
+[0.080s] [ 16%] [32mBuilding CXX object CMakeFiles/agiletaur_controller.dir/src/main.cpp.o[0m
+[1.310s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.311s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/main.cpp:23:2:[m[K [01;31m[Kerror: [m[K‘[01m[Klowerproxy[m[K’ was not declared in this scope
+[1.311s]    23 |  [01;31m[Klowerproxy[m[K &Lower_proxy = lowerproxy::GetLowerProxy();
+[1.311s]       |  [01;31m[K^~~~~~~~~~[m[K
+[1.312s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/main.cpp:23:14:[m[K [01;31m[Kerror: [m[K‘[01m[KLower_proxy[m[K’ was not declared in this scope
+[1.313s]    23 |  lowerproxy &[01;31m[KLower_proxy[m[K = lowerproxy::GetLowerProxy();
+[1.313s]       |              [01;31m[K^~~~~~~~~~~[m[K
+[1.313s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/main.cpp:23:28:[m[K [01;31m[Kerror: [m[K‘[01m[Klowerproxy[m[K’ is not a class, namespace, or enumeration
+[1.313s]    23 |  lowerproxy &Lower_proxy = [01;31m[Klowerproxy[m[K::GetLowerProxy();
+[1.313s]       |                            [01;31m[K^~~~~~~~~~[m[K
+[1.669s] In file included from [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/main.cpp:9[m[K:
+[1.669s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/main.h:[m[K At global scope:
+[1.670s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/main.h:43:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktimer[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[1.670s]    43 | static float [01;35m[Ktimer[m[K[10] = { 0 };
+[1.670s]       |              [01;35m[K^~~~~[m[K
+[1.670s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/main.h:41:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kinit_done[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[1.670s]    41 | static int [01;35m[Kinit_done[m[K = 0;
+[1.670s]       |            [01;35m[K^~~~~~~~~[m[K
+[1.670s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/main.h:40:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kinit_cnt[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[1.670s]    40 | static float [01;35m[Kinit_cnt[m[K = 0;
+[1.670s]       |              [01;35m[K^~~~~~~~[m[K
+[1.680s] make[2]: *** [CMakeFiles/agiletaur_controller.dir/build.make:63: CMakeFiles/agiletaur_controller.dir/src/main.cpp.o] Error 1
+[1.680s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/agiletaur_controller.dir/all] Error 2
+[1.680s] make: *** [Makefile:141: all] Error 2
+[1.682s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller -- -j16 -l16

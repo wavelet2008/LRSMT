@@ -1,0 +1,10 @@
+[0.012s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller -- -j16 -l16
+[0.056s] [35m[1mScanning dependencies of target agiletaur_controller[0m
+[0.084s] [ 16%] [32mBuilding CXX object CMakeFiles/agiletaur_controller.dir/src/proxy/lowerproxy.cpp.o[0m
+[0.966s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:16:49:[m[K [01;31m[Kerror: [m[Kreturn type specification for constructor invalid
+[0.966s]    16 |     void lowerproxy::lowerproxy(std::string name[01;31m[K)[m[K : Node(name){
+[0.966s]       |                                                 [01;31m[K^[m[K
+[1.542s] make[2]: *** [CMakeFiles/agiletaur_controller.dir/build.make:102: CMakeFiles/agiletaur_controller.dir/src/proxy/lowerproxy.cpp.o] Error 1
+[1.542s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/agiletaur_controller.dir/all] Error 2
+[1.542s] make: *** [Makefile:141: all] Error 2
+[1.544s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller -- -j16 -l16

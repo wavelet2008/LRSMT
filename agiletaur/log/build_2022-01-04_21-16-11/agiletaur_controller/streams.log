@@ -1,0 +1,21 @@
+[0.012s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller -- -j16 -l16
+[0.041s] [35m[1mScanning dependencies of target agiletaur_controller[0m
+[0.081s] [ 33%] [32mBuilding CXX object CMakeFiles/agiletaur_controller.dir/src/main.cpp.o[0m
+[0.081s] [ 33%] [32mBuilding CXX object CMakeFiles/agiletaur_controller.dir/src/proxy/lowerproxy.cpp.o[0m
+[0.164s] In file included from [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:8[m[K:
+[0.164s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/proxy/lowerproxy.h:18:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/Float64MultiArray.hpp: No such file or directory
+[0.164s]    18 | #include [01;31m[K<std_msgs/Float64MultiArray.hpp>[m[K
+[0.164s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.164s] compilation terminated.
+[0.164s] In file included from [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/main.h:15[m[K,
+[0.164s]                  from [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/main.cpp:9[m[K:
+[0.164s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/proxy/lowerproxy.h:18:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/Float64MultiArray.hpp: No such file or directory
+[0.164s]    18 | #include [01;31m[K<std_msgs/Float64MultiArray.hpp>[m[K
+[0.164s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.164s] compilation terminated.
+[0.169s] make[2]: *** [CMakeFiles/agiletaur_controller.dir/build.make:102: CMakeFiles/agiletaur_controller.dir/src/proxy/lowerproxy.cpp.o] Error 1
+[0.169s] make[2]: *** Waiting for unfinished jobs....
+[0.169s] make[2]: *** [CMakeFiles/agiletaur_controller.dir/build.make:63: CMakeFiles/agiletaur_controller.dir/src/main.cpp.o] Error 1
+[0.169s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/agiletaur_controller.dir/all] Error 2
+[0.170s] make: *** [Makefile:141: all] Error 2
+[0.171s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller -- -j16 -l16

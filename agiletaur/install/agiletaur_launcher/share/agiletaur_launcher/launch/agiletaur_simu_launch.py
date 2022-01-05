@@ -1,3 +1,10 @@
+'''
+@Author: Ryoma Liu -- ROBOLAND 
+@Date: 2021-11-21 22:01:05 
+@Last Modified by: Ryoma Liu
+@Last Modified time: 2021-11-28 01:02:33
+'''
+
 import os
 import pathlib
 import launch
@@ -28,15 +35,13 @@ def generate_launch_description():
     nodes = [
         Node(
             package="agiletaur_controller",
-            executable="spawner.py",
+            executable="agiletaur_controller",
             output='screen',
-            arguments= [joint7_controller] + controller_manager_timeout,
-            prefix=controller_manager_prefix,
-            parameters=[{'use_sim_time': use_sim_time}],
+            name="agiletaur_controller"
             )
 
     ]
     launch_include = [IncludeLaunchDescription(
         PythonLaunchDescriptionSource(simu_launch_file))]
 
-    return LaunchDescription(declared_arguments + launch_include)
+    return LaunchDescription(declared_arguments + launch_include + nodes)
