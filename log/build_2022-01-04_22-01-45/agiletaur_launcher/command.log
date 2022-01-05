@@ -1,0 +1,6 @@
+Invoking command in '/home/shipengl/LRSMT/build/agiletaur_launcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/shipengl/LRSMT/agiletaur/src/agiletaur_launcher -DCMAKE_INSTALL_PREFIX=/home/shipengl/LRSMT/install/agiletaur_launcher
+Invoked command in '/home/shipengl/LRSMT/build/agiletaur_launcher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/shipengl/LRSMT/agiletaur/src/agiletaur_launcher -DCMAKE_INSTALL_PREFIX=/home/shipengl/LRSMT/install/agiletaur_launcher
+Invoking command in '/home/shipengl/LRSMT/build/agiletaur_launcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/build/agiletaur_launcher -- -j16 -l16
+Invoked command in '/home/shipengl/LRSMT/build/agiletaur_launcher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/build/agiletaur_launcher -- -j16 -l16
+Invoking command in '/home/shipengl/LRSMT/build/agiletaur_launcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/build/agiletaur_launcher
+Invoked command in '/home/shipengl/LRSMT/build/agiletaur_launcher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/build/agiletaur_launcher

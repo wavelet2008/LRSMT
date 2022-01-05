@@ -1,0 +1,94 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shipengl/LRSMT/build/agiletaur_controller
+[35m[1mScanning dependencies of target agiletaur_controller[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/agiletaur_controller.dir/src/proxy/upperproxy.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/agiletaur_controller.dir/src/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/agiletaur_controller.dir/src/controller/controller_monitor.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/agiletaur_controller.dir/src/proxy/lowerproxy.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/agiletaur_controller.dir/src/controller/pid_controller.cpp.o[0m
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:[m[K In constructor ‘[01m[Kagiletaur::control::lowerproxy::lowerproxy(std::string)[m[K’:
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:22:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint0_velocity_controller[m[K’ was not declared in this scope
+   22 |     [01;31m[Kjoint0_velocity_controller[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:24:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint1_velocity_controller[m[K’ was not declared in this scope
+   24 |     [01;31m[Kjoint1_velocity_controller[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint2_velocity_controller[m[K’ was not declared in this scope
+   26 |     [01;31m[Kjoint2_velocity_controller[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:28:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint3_velocity_controller[m[K’ was not declared in this scope
+   28 |     [01;31m[Kjoint3_velocity_controller[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:30:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint4_velocity_controller[m[K’ was not declared in this scope
+   30 |     [01;31m[Kjoint4_velocity_controller[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint5_velocity_controller[m[K’ was not declared in this scope
+   32 |     [01;31m[Kjoint5_velocity_controller[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint6_velocity_controller[m[K’ was not declared in this scope
+   34 |     [01;31m[Kjoint6_velocity_controller[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:36:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint7_velocity_controller[m[K’ was not declared in this scope
+   36 |     [01;31m[Kjoint7_velocity_controller[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint8_velocity_controller[m[K’ was not declared in this scope
+   38 |     [01;31m[Kjoint8_velocity_controller[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint9_velocity_controller[m[K’ was not declared in this scope
+   40 |     [01;31m[Kjoint9_velocity_controller[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint10_velocity_controller[m[K’ was not declared in this scope
+   42 |     [01;31m[Kjoint10_velocity_controller[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint11_velocity_controller[m[K’ was not declared in this scope
+   44 |     [01;31m[Kjoint11_velocity_controller[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/agiletaur_controller.dir/build.make:102: CMakeFiles/agiletaur_controller.dir/src/proxy/lowerproxy.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/main.cpp:9[m[K:
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/main.h:43:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktimer[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+   43 | static float [01;35m[Ktimer[m[K[10] = { 0 };
+      |              [01;35m[K^~~~~[m[K
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/main.h:41:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kinit_done[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+   41 | static int [01;35m[Kinit_done[m[K = 0;
+      |            [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/main.h:40:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kinit_cnt[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+   40 | static float [01;35m[Kinit_cnt[m[K = 0;
+      |              [01;35m[K^~~~~~~~[m[K
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/agiletaur_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,49 @@
+[ 46%] Built target qpOASES
+[ 51%] Built target qrecipe
+[ 56%] Built target example2
+[ 60%] Built target example1b
+[ 65%] Built target example1
+[ 70%] Built target example1a
+[ 75%] Built target example5
+[ 80%] Built target example3b
+[ 85%] Built target example3
+[ 90%] Built target example4
+[ 95%] Built target exampleLP
+[100%] Built target qrecipeSchur
+-- Install configuration: "Release"
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/lib/libqpOASES.a
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES.hpp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/MessageHandling.hpp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/UnitTesting.hpp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/QProblem.ipp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Bounds.ipp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Indexlist.hpp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/SQProblem.ipp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/ConstraintProduct.hpp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/QProblemB.hpp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/MessageHandling.ipp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Bounds.hpp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/extras
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/extras/OQPinterface.hpp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/extras/SolutionAnalysis.ipp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/extras/SolutionAnalysis.hpp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Flipper.hpp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Options.hpp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/SQProblemSchur.hpp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Types.hpp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Constraints.ipp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Indexlist.ipp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/SQProblemSchur.ipp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Matrices.hpp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/QProblem.hpp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/LapackBlasReplacement.hpp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Constants.hpp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/SparseSolver.hpp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/QProblemB.ipp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/SubjectTo.ipp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/SQProblem.hpp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/SubjectTo.hpp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Utils.hpp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Constraints.hpp
+-- Installing: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Utils.ipp

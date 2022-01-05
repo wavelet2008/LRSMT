@@ -1,0 +1,4 @@
+Invoking command in '/home/shipengl/LRSMT/build/qpOASES': /usr/bin/cmake /home/shipengl/LRSMT/env_build/qpOASES-3.2.1 -DCMAKE_INSTALL_PREFIX=/home/shipengl/LRSMT/install/qpOASES
+Invoked command in '/home/shipengl/LRSMT/build/qpOASES' returned '0': /usr/bin/cmake /home/shipengl/LRSMT/env_build/qpOASES-3.2.1 -DCMAKE_INSTALL_PREFIX=/home/shipengl/LRSMT/install/qpOASES
+Invoking command in '/home/shipengl/LRSMT/build/qpOASES': /usr/bin/cmake --build /home/shipengl/LRSMT/build/qpOASES -- -j16 -l16
+Invoked command in '/home/shipengl/LRSMT/build/qpOASES' returned '0': /usr/bin/cmake --build /home/shipengl/LRSMT/build/qpOASES -- -j16 -l16

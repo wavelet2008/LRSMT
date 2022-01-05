@@ -1,0 +1,58 @@
+[0.054s] Invoking command in '/home/shipengl/LRSMT/build/webots_simulation_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_simulation_assets -DCMAKE_INSTALL_PREFIX=/home/shipengl/LRSMT/install/webots_simulation_assets
+[0.129s] -- The C compiler identification is GNU 9.3.0
+[0.212s] -- The CXX compiler identification is GNU 9.3.0
+[0.220s] -- Check for working C compiler: /usr/bin/cc
+[0.312s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.313s] -- Detecting C compiler ABI info
+[0.401s] -- Detecting C compiler ABI info - done
+[0.423s] -- Detecting C compile features
+[0.423s] -- Detecting C compile features - done
+[0.431s] -- Check for working CXX compiler: /usr/bin/c++
+[0.545s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.547s] -- Detecting CXX compiler ABI info
+[0.856s] -- Detecting CXX compiler ABI info - done
+[0.903s] -- Detecting CXX compile features
+[0.904s] -- Detecting CXX compile features - done
+[0.929s] -- Found ament_cmake_auto: 0.9.9 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[1.022s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.022s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.889s] -- Configuring done
+[1.889s] -- Generating done
+[1.890s] -- Build files have been written to: /home/shipengl/LRSMT/build/webots_simulation_assets
+[1.912s] Invoked command in '/home/shipengl/LRSMT/build/webots_simulation_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_simulation_assets -DCMAKE_INSTALL_PREFIX=/home/shipengl/LRSMT/install/webots_simulation_assets
+[1.914s] Invoking command in '/home/shipengl/LRSMT/build/webots_simulation_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/build/webots_simulation_assets -- -j16 -l16
+[1.993s] Invoked command in '/home/shipengl/LRSMT/build/webots_simulation_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/build/webots_simulation_assets -- -j16 -l16
+[2.038s] Invoking command in '/home/shipengl/LRSMT/build/webots_simulation_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/build/webots_simulation_assets
+[2.054s] -- Install configuration: ""
+[2.054s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/worlds
+[2.054s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/worlds/agiletaur.wbt
+[2.054s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/worlds/copy.wbt
+[2.055s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.tinytaur.wbproj
+[2.056s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.empty.wbproj
+[2.056s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.test_demo.wbproj
+[2.058s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.agiletaur.wbproj
+[2.058s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.obstacle.wbproj
+[2.058s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.copy.wbproj
+[2.058s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/worlds/tinytaur.wbt
+[2.058s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.newtaur.wbproj
+[2.058s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.12dof.wbproj
+[2.059s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/worlds/obstacle.wbt
+[2.065s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/worlds/dof12.wbt
+[2.065s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/worlds/test_demo.wbt
+[2.075s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/worlds/12dof.wbt
+[2.075s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/ament_index/resource_index/package_run_dependencies/webots_simulation_assets
+[2.076s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/ament_index/resource_index/parent_prefix_path/webots_simulation_assets
+[2.077s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/environment/ament_prefix_path.sh
+[2.077s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/environment/ament_prefix_path.dsv
+[2.077s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/environment/path.sh
+[2.078s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/environment/path.dsv
+[2.081s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/local_setup.bash
+[2.081s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/local_setup.sh
+[2.082s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/local_setup.zsh
+[2.082s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/local_setup.dsv
+[2.083s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/package.dsv
+[2.084s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/ament_index/resource_index/packages/webots_simulation_assets
+[2.084s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/cmake/webots_simulation_assetsConfig.cmake
+[2.084s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/cmake/webots_simulation_assetsConfig-version.cmake
+[2.085s] -- Installing: /home/shipengl/LRSMT/install/webots_simulation_assets/share/webots_simulation_assets/package.xml
+[2.121s] Invoked command in '/home/shipengl/LRSMT/build/webots_simulation_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/build/webots_simulation_assets

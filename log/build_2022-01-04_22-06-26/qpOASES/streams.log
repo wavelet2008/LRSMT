@@ -1,0 +1,53 @@
+[0.066s] Invoking command in '/home/shipengl/LRSMT/build/qpOASES': /usr/bin/cmake --build /home/shipengl/LRSMT/build/qpOASES -- -j16 -l16
+[0.136s] [ 46%] Built target qpOASES
+[0.182s] [ 51%] Built target qrecipe
+[0.197s] [ 56%] Built target example1a
+[0.197s] [ 60%] Built target example1
+[0.198s] [ 65%] Built target example1b
+[0.198s] [ 70%] Built target example5
+[0.198s] [ 75%] Built target example3
+[0.208s] [ 80%] Built target example2
+[0.212s] [ 85%] Built target example4
+[0.214s] [ 90%] Built target exampleLP
+[0.215s] [ 95%] Built target qrecipeSchur
+[0.219s] [100%] Built target example3b
+[0.289s] Invoked command in '/home/shipengl/LRSMT/build/qpOASES' returned '0': /usr/bin/cmake --build /home/shipengl/LRSMT/build/qpOASES -- -j16 -l16
+[0.411s] Invoking command in '/home/shipengl/LRSMT/build/qpOASES': /usr/bin/cmake --install /home/shipengl/LRSMT/build/qpOASES
+[0.426s] -- Install configuration: "Release"
+[0.427s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/lib/libqpOASES.a
+[0.427s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES.hpp
+[0.428s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES
+[0.428s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/MessageHandling.hpp
+[0.428s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/UnitTesting.hpp
+[0.428s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/QProblem.ipp
+[0.428s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Bounds.ipp
+[0.428s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Indexlist.hpp
+[0.429s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/SQProblem.ipp
+[0.429s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/ConstraintProduct.hpp
+[0.430s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/QProblemB.hpp
+[0.430s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/MessageHandling.ipp
+[0.431s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Bounds.hpp
+[0.431s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/extras
+[0.432s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/extras/OQPinterface.hpp
+[0.432s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/extras/SolutionAnalysis.ipp
+[0.432s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/extras/SolutionAnalysis.hpp
+[0.432s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Flipper.hpp
+[0.433s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Options.hpp
+[0.433s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/SQProblemSchur.hpp
+[0.434s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Types.hpp
+[0.435s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Constraints.ipp
+[0.435s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Indexlist.ipp
+[0.436s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/SQProblemSchur.ipp
+[0.436s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Matrices.hpp
+[0.437s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/QProblem.hpp
+[0.437s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/LapackBlasReplacement.hpp
+[0.438s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Constants.hpp
+[0.438s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/SparseSolver.hpp
+[0.439s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/QProblemB.ipp
+[0.439s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/SubjectTo.ipp
+[0.439s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/SQProblem.hpp
+[0.439s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/SubjectTo.hpp
+[0.440s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Utils.hpp
+[0.441s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Constraints.hpp
+[0.443s] -- Up-to-date: /home/shipengl/LRSMT/install/qpOASES/include/qpOASES/Utils.ipp
+[0.448s] Invoked command in '/home/shipengl/LRSMT/build/qpOASES' returned '0': /usr/bin/cmake --install /home/shipengl/LRSMT/build/qpOASES

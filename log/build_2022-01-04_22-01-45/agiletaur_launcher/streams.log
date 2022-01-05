@@ -1,0 +1,45 @@
+[0.056s] Invoking command in '/home/shipengl/LRSMT/build/agiletaur_launcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/shipengl/LRSMT/agiletaur/src/agiletaur_launcher -DCMAKE_INSTALL_PREFIX=/home/shipengl/LRSMT/install/agiletaur_launcher
+[0.121s] -- The C compiler identification is GNU 9.3.0
+[0.206s] -- The CXX compiler identification is GNU 9.3.0
+[0.214s] -- Check for working C compiler: /usr/bin/cc
+[0.306s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.307s] -- Detecting C compiler ABI info
+[0.406s] -- Detecting C compiler ABI info - done
+[0.424s] -- Detecting C compile features
+[0.424s] -- Detecting C compile features - done
+[0.429s] -- Check for working CXX compiler: /usr/bin/c++
+[0.551s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.551s] -- Detecting CXX compiler ABI info
+[0.720s] -- Detecting CXX compiler ABI info - done
+[0.760s] -- Detecting CXX compile features
+[0.761s] -- Detecting CXX compile features - done
+[0.766s] -- Found ament_cmake_auto: 0.9.9 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.860s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.860s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.936s] -- Configuring done
+[1.938s] -- Generating done
+[1.939s] -- Build files have been written to: /home/shipengl/LRSMT/build/agiletaur_launcher
+[1.948s] Invoked command in '/home/shipengl/LRSMT/build/agiletaur_launcher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/shipengl/LRSMT/agiletaur/src/agiletaur_launcher -DCMAKE_INSTALL_PREFIX=/home/shipengl/LRSMT/install/agiletaur_launcher
+[1.949s] Invoking command in '/home/shipengl/LRSMT/build/agiletaur_launcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/build/agiletaur_launcher -- -j16 -l16
+[2.023s] Invoked command in '/home/shipengl/LRSMT/build/agiletaur_launcher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/build/agiletaur_launcher -- -j16 -l16
+[2.062s] Invoking command in '/home/shipengl/LRSMT/build/agiletaur_launcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/build/agiletaur_launcher
+[2.080s] -- Install configuration: ""
+[2.081s] -- Installing: /home/shipengl/LRSMT/install/agiletaur_launcher/share/agiletaur_launcher/launch
+[2.081s] -- Installing: /home/shipengl/LRSMT/install/agiletaur_launcher/share/agiletaur_launcher/launch/agiletaur_simu_launch.py
+[2.081s] -- Installing: /home/shipengl/LRSMT/install/agiletaur_launcher/share/agiletaur_launcher/launch/agiletaur_real_launch.py
+[2.081s] -- Installing: /home/shipengl/LRSMT/install/agiletaur_launcher/share/ament_index/resource_index/package_run_dependencies/agiletaur_launcher
+[2.082s] -- Installing: /home/shipengl/LRSMT/install/agiletaur_launcher/share/ament_index/resource_index/parent_prefix_path/agiletaur_launcher
+[2.082s] -- Installing: /home/shipengl/LRSMT/install/agiletaur_launcher/share/agiletaur_launcher/environment/ament_prefix_path.sh
+[2.082s] -- Installing: /home/shipengl/LRSMT/install/agiletaur_launcher/share/agiletaur_launcher/environment/ament_prefix_path.dsv
+[2.082s] -- Installing: /home/shipengl/LRSMT/install/agiletaur_launcher/share/agiletaur_launcher/environment/path.sh
+[2.082s] -- Installing: /home/shipengl/LRSMT/install/agiletaur_launcher/share/agiletaur_launcher/environment/path.dsv
+[2.082s] -- Installing: /home/shipengl/LRSMT/install/agiletaur_launcher/share/agiletaur_launcher/local_setup.bash
+[2.082s] -- Installing: /home/shipengl/LRSMT/install/agiletaur_launcher/share/agiletaur_launcher/local_setup.sh
+[2.083s] -- Installing: /home/shipengl/LRSMT/install/agiletaur_launcher/share/agiletaur_launcher/local_setup.zsh
+[2.083s] -- Installing: /home/shipengl/LRSMT/install/agiletaur_launcher/share/agiletaur_launcher/local_setup.dsv
+[2.083s] -- Installing: /home/shipengl/LRSMT/install/agiletaur_launcher/share/agiletaur_launcher/package.dsv
+[2.083s] -- Installing: /home/shipengl/LRSMT/install/agiletaur_launcher/share/ament_index/resource_index/packages/agiletaur_launcher
+[2.083s] -- Installing: /home/shipengl/LRSMT/install/agiletaur_launcher/share/agiletaur_launcher/cmake/agiletaur_launcherConfig.cmake
+[2.083s] -- Installing: /home/shipengl/LRSMT/install/agiletaur_launcher/share/agiletaur_launcher/cmake/agiletaur_launcherConfig-version.cmake
+[2.083s] -- Installing: /home/shipengl/LRSMT/install/agiletaur_launcher/share/agiletaur_launcher/package.xml
+[2.118s] Invoked command in '/home/shipengl/LRSMT/build/agiletaur_launcher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/build/agiletaur_launcher

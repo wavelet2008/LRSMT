@@ -1,0 +1,210 @@
+[0.060s] Invoking command in '/home/shipengl/LRSMT/build/Eigen3': /usr/bin/cmake /home/shipengl/LRSMT/env_build/eigen-3.3.2 -DCMAKE_INSTALL_PREFIX=/home/shipengl/LRSMT/install/Eigen3
+[0.147s] -- The C compiler identification is GNU 9.3.0
+[0.239s] -- The CXX compiler identification is GNU 9.3.0
+[0.250s] -- Check for working C compiler: /usr/bin/cc
+[0.357s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.359s] -- Detecting C compiler ABI info
+[0.457s] -- Detecting C compiler ABI info - done
+[0.479s] -- Detecting C compile features
+[0.479s] -- Detecting C compile features - done
+[0.486s] -- Check for working CXX compiler: /usr/bin/c++
+[0.615s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.617s] -- Detecting CXX compiler ABI info
+[0.949s] -- Detecting CXX compiler ABI info - done
+[1.006s] -- Detecting CXX compile features
+[1.017s] -- Detecting CXX compile features - done
+[1.084s] -- Performing Test standard_math_library_linked_to_automatically
+[1.610s] -- Performing Test standard_math_library_linked_to_automatically - Success
+[1.610s] -- Standard libraries to link to explicitly: none
+[1.617s] -- Performing Test COMPILER_SUPPORT_WERROR
+[1.874s] -- Performing Test COMPILER_SUPPORT_WERROR - Success
+[1.878s] -- Performing Test COMPILER_SUPPORT_pedantic
+[2.052s] -- Performing Test COMPILER_SUPPORT_pedantic - Success
+[2.058s] -- Performing Test COMPILER_SUPPORT_Wall
+[2.168s] -- Performing Test COMPILER_SUPPORT_Wall - Success
+[2.174s] -- Performing Test COMPILER_SUPPORT_Wextra
+[2.271s] -- Performing Test COMPILER_SUPPORT_Wextra - Success
+[2.279s] -- Performing Test COMPILER_SUPPORT_Wundef
+[2.397s] -- Performing Test COMPILER_SUPPORT_Wundef - Success
+[2.404s] -- Performing Test COMPILER_SUPPORT_Wcastalign
+[2.491s] -- Performing Test COMPILER_SUPPORT_Wcastalign - Success
+[2.498s] -- Performing Test COMPILER_SUPPORT_Wcharsubscripts
+[2.599s] -- Performing Test COMPILER_SUPPORT_Wcharsubscripts - Success
+[2.607s] -- Performing Test COMPILER_SUPPORT_Wnonvirtualdtor
+[2.698s] -- Performing Test COMPILER_SUPPORT_Wnonvirtualdtor - Success
+[2.705s] -- Performing Test COMPILER_SUPPORT_Wunusedlocaltypedefs
+[2.800s] -- Performing Test COMPILER_SUPPORT_Wunusedlocaltypedefs - Success
+[2.807s] -- Performing Test COMPILER_SUPPORT_Wpointerarith
+[2.899s] -- Performing Test COMPILER_SUPPORT_Wpointerarith - Success
+[2.906s] -- Performing Test COMPILER_SUPPORT_Wwritestrings
+[3.008s] -- Performing Test COMPILER_SUPPORT_Wwritestrings - Success
+[3.024s] -- Performing Test COMPILER_SUPPORT_Wformatsecurity
+[3.120s] -- Performing Test COMPILER_SUPPORT_Wformatsecurity - Success
+[3.127s] -- Performing Test COMPILER_SUPPORT_Wshorten64to32
+[3.173s] -- Performing Test COMPILER_SUPPORT_Wshorten64to32 - Failed
+[3.175s] -- Performing Test COMPILER_SUPPORT_Wlogicalop
+[3.279s] -- Performing Test COMPILER_SUPPORT_Wlogicalop - Success
+[3.284s] -- Performing Test COMPILER_SUPPORT_Wenumconversion
+[3.312s] -- Performing Test COMPILER_SUPPORT_Wenumconversion - Failed
+[3.317s] -- Performing Test COMPILER_SUPPORT_Wcpp11extensions
+[3.357s] -- Performing Test COMPILER_SUPPORT_Wcpp11extensions - Failed
+[3.363s] -- Performing Test COMPILER_SUPPORT_Wdoublepromotion
+[3.487s] -- Performing Test COMPILER_SUPPORT_Wdoublepromotion - Success
+[3.493s] -- Performing Test COMPILER_SUPPORT_Wnopsabi
+[3.615s] -- Performing Test COMPILER_SUPPORT_Wnopsabi - Success
+[3.621s] -- Performing Test COMPILER_SUPPORT_Wnovariadicmacros
+[3.709s] -- Performing Test COMPILER_SUPPORT_Wnovariadicmacros - Success
+[3.716s] -- Performing Test COMPILER_SUPPORT_Wnolonglong
+[3.794s] -- Performing Test COMPILER_SUPPORT_Wnolonglong - Success
+[3.801s] -- Performing Test COMPILER_SUPPORT_fnochecknew
+[3.882s] -- Performing Test COMPILER_SUPPORT_fnochecknew - Success
+[3.888s] -- Performing Test COMPILER_SUPPORT_fnocommon
+[3.968s] -- Performing Test COMPILER_SUPPORT_fnocommon - Success
+[3.972s] -- Performing Test COMPILER_SUPPORT_fstrictaliasing
+[4.048s] -- Performing Test COMPILER_SUPPORT_fstrictaliasing - Success
+[4.054s] -- Performing Test COMPILER_SUPPORT_wd981
+[4.079s] -- Performing Test COMPILER_SUPPORT_wd981 - Failed
+[4.085s] -- Performing Test COMPILER_SUPPORT_wd2304
+[4.110s] -- Performing Test COMPILER_SUPPORT_wd2304 - Failed
+[4.115s] -- Performing Test COMPILER_SUPPORT_STRICTANSI
+[4.137s] -- Performing Test COMPILER_SUPPORT_STRICTANSI - Failed
+[4.141s] -- Performing Test COMPILER_SUPPORT_Qunusedarguments
+[4.166s] -- Performing Test COMPILER_SUPPORT_Qunusedarguments - Failed
+[4.171s] -- Performing Test COMPILER_SUPPORT_ansi
+[4.249s] -- Performing Test COMPILER_SUPPORT_ansi - Success
+[4.256s] -- Performing Test COMPILER_SUPPORT_OPENMP
+[4.341s] -- Performing Test COMPILER_SUPPORT_OPENMP - Success
+[4.380s] -- Performing Test EIGEN_COMPILER_SUPPORT_CPP11
+[4.484s] -- Performing Test EIGEN_COMPILER_SUPPORT_CPP11 - Success
+[4.501s] -- Found unsuitable Qt version "5.12.8" from /usr/bin/qmake
+[4.706s] -- Performing Test EIGEN_COMPILER_SUPPORT_CXX11
+[4.827s] -- Performing Test EIGEN_COMPILER_SUPPORT_CXX11 - Success
+[5.733s] -- The Fortran compiler identification is GNU 9.3.0
+[5.759s] -- Check for working Fortran compiler: /usr/bin/gfortran
+[5.932s] -- Check for working Fortran compiler: /usr/bin/gfortran  -- works
+[5.934s] -- Detecting Fortran compiler ABI info
+[6.029s] -- Detecting Fortran compiler ABI info - done
+[6.053s] -- Checking whether /usr/bin/gfortran supports Fortran 90
+[6.142s] -- Checking whether /usr/bin/gfortran supports Fortran 90 -- yes
+[6.170s] -- Found CHOLMOD: /usr/include/suitesparse  
+[6.176s] -- Found UMFPACK: /usr/include/suitesparse  
+[6.191s] -- Performing Test SUPERLU_HAS_GLOBAL_MEM_USAGE_T
+[6.280s] -- Performing Test SUPERLU_HAS_GLOBAL_MEM_USAGE_T - Success
+[6.280s] -- Performing Test SUPERLU_HAS_CLEAN_ENUMS
+[6.395s] -- Performing Test SUPERLU_HAS_CLEAN_ENUMS - Success
+[6.395s] -- Performing Test SUPERLU_HAS_GLOBALLU_T
+[6.577s] -- Performing Test SUPERLU_HAS_GLOBALLU_T - Success
+[6.580s] -- Found SUPERLU: /usr/include/superlu (found version "5.0") 
+[6.587s] -- Could NOT find PASTIX (missing: PASTIX_INCLUDES PASTIX_LIBRARIES) 
+[6.594s] -- Could NOT find SCOTCH (missing: SCOTCH_INCLUDES SCOTCH_LIBRARIES) 
+[6.602s] -- Could NOT find METIS (missing: METIS_INCLUDES METIS_LIBRARIES) 
+[6.618s] -- Found SPQR: /usr/include/suitesparse  
+[6.638s] -- Found unsuitable Qt version "5.12.8" from /usr/bin/qmake
+[7.088s] -- Performing Test COMPILER_SUPPORT_FASTMATH
+[7.169s] -- Performing Test COMPILER_SUPPORT_FASTMATH - Success
+[7.190s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[8.105s] -- Looking for pthread.h
+[8.188s] -- Looking for pthread.h - found
+[8.189s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.267s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.267s] -- Looking for pthread_create in pthreads
+[8.328s] -- Looking for pthread_create in pthreads - not found
+[8.328s] -- Looking for pthread_create in pthread
+[8.394s] -- Looking for pthread_create in pthread - found
+[8.395s] -- Found Threads: TRUE  
+[8.397s] -- Could NOT find GOOGLEHASH (missing: GOOGLEHASH_INCLUDES GOOGLEHASH_COMPILE) 
+[8.400s] -- Could NOT find ADOLC (missing: ADOLC_INCLUDES ADOLC_LIBRARIES) 
+[8.432s] -- Could NOT find MPFR (missing: MPFR_INCLUDES MPFR_LIBRARIES MPFR_VERSION_OK) (Required is at least version "2.3.0")
+[8.435s] -- Could NOT find GMP (missing: GMP_INCLUDES GMP_LIBRARIES) 
+[8.441s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[8.449s] -- Could NOT find FFTW (missing: FFTW_INCLUDES FFTW_LIBRARIES) 
+[8.455s] CMake Warning (dev) at /usr/share/cmake-3.16/Modules/FindOpenGL.cmake:275 (message):
+[8.455s]   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+[8.456s]   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+[8.456s]   cmake_policy command to set the policy and suppress this warning.
+[8.456s] 
+[8.456s]   FindOpenGL found both a legacy GL library:
+[8.456s] 
+[8.456s]     OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+[8.456s] 
+[8.456s]   and GLVND libraries for OpenGL and GLX:
+[8.457s] 
+[8.457s]     OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+[8.457s]     OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+[8.457s] 
+[8.457s]   OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+[8.457s]   compatibility with CMake 3.10 and below the legacy GL library will be used.
+[8.457s] Call Stack (most recent call first):
+[8.457s]   unsupported/test/CMakeLists.txt:92 (find_package)
+[8.457s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[8.458s] 
+[8.458s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[8.461s] -- Could NOT find GLUT (missing: GLUT_glut_LIBRARY GLUT_INCLUDE_DIR) 
+[8.463s] -- Found Glew: /usr/lib/x86_64-linux-gnu/libGLEW.so
+[8.493s] CUDA_TOOLKIT_ROOT_DIR not found or specified
+[8.504s] -- Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) (Required is at least version "7.0")
+[8.517s] -- Found unsuitable Qt version "5.12.8" from /usr/bin/qmake
+[8.517s] -- Qt4 not found, so disabling the mandelbrot and opengl demos
+[8.541s] -- Could NOT find PASTIX (missing: PASTIX_INCLUDES PASTIX_LIBRARIES) 
+[8.545s] -- Could NOT find SCOTCH (missing: SCOTCH_INCLUDES SCOTCH_LIBRARIES) 
+[8.550s] -- Could NOT find METIS (missing: METIS_INCLUDES METIS_LIBRARIES) 
+[8.553s] -- ************************************************************
+[8.553s] -- ***    Eigen's unit tests configuration summary          ***
+[8.553s] -- ************************************************************
+[8.553s] -- 
+[8.553s] -- Build type:        Release
+[8.553s] -- Build site:        Bladepro
+[8.554s] -- Build string:      linux-5.11.0-43-generic-_-9.3.0-sse2-64bit
+[8.554s] -- Enabled backends:  Cholmod,  UmfPack,  SuperLU,  SPQR,  Boost.Multiprecision, 
+[8.554s] -- Disabled backends: PaStiX,  METIS,  Qt4 support,  GoogleHash,  Adolc,  MPFR C++,  fftw,  OpenGL, 
+[8.554s] -- Default order:     Column-major
+[8.554s] -- Maximal matrix/vector size: 320
+[8.554s] -- SSE2:              Using architecture defaults
+[8.554s] -- SSE3:              Using architecture defaults
+[8.554s] -- SSSE3:             Using architecture defaults
+[8.554s] -- SSE4.1:            Using architecture defaults
+[8.554s] -- SSE4.2:            Using architecture defaults
+[8.554s] -- AVX:               Using architecture defaults
+[8.554s] -- FMA:               Using architecture defaults
+[8.554s] -- AVX512:            Using architecture defaults
+[8.554s] -- Altivec:           Using architecture defaults
+[8.555s] -- VSX:               Using architecture defaults
+[8.555s] -- ARM NEON:          Using architecture defaults
+[8.555s] -- ARMv8 NEON:        Using architecture defaults
+[8.555s] -- S390X ZVECTOR:     Using architecture defaults
+[8.555s] -- C++11:             OFF
+[8.555s] -- SYCL:              OFF
+[8.555s] -- CUDA:              OFF
+[8.555s] -- 
+[8.555s] CXX:               /usr/bin/c++
+[8.555s]  CXX_VERSION:       c++ (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
+[8.556s]  CXX_FLAGS:          -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi
+[8.556s]  Sparse lib flags:   ;/usr/lib/x86_64-linux-gnu/libcholmod.so;/usr/lib/x86_64-linux-gnu/libamd.so;/usr/lib/x86_64-linux-gnu/libcolamd.so;/usr/lib/x86_64-linux-gnu/libcamd.so;/usr/lib/x86_64-linux-gnu/libccolamd.so;eigen_blas;eigen_lapack;/usr/lib/x86_64-linux-gnu/libumfpack.so;/usr/lib/x86_64-linux-gnu/libcolamd.so;/usr/lib/x86_64-linux-gnu/libamd.so;/usr/lib/x86_64-linux-gnu/libcholmod.so;eigen_blas;/usr/lib/x86_64-linux-gnu/libsuperlu.so;eigen_blas;/usr/lib/x86_64-linux-gnu/libspqr.so;/usr/lib/x86_64-linux-gnu/libcholmod.so;/usr/lib/x86_64-linux-gnu/libcholmod.so;/usr/lib/x86_64-linux-gnu/libamd.so;/usr/lib/x86_64-linux-gnu/libcolamd.so;/usr/lib/x86_64-linux-gnu/libcamd.so;/usr/lib/x86_64-linux-gnu/libccolamd.so;eigen_lapack;eigen_blas
+[8.556s] 
+[8.556s] -- ************************************************************
+[8.556s] -- 
+[8.556s] -- Configured Eigen 3.3.2
+[8.556s] -- 
+[8.556s] -- Some things you can do now:
+[8.556s] -- --------------+--------------------------------------------------------------
+[8.556s] -- Command       |   Description
+[8.556s] -- --------------+--------------------------------------------------------------
+[8.556s] -- make install  | Install Eigen. Headers will be installed to:
+[8.556s] --               |     <CMAKE_INSTALL_PREFIX>/<INCLUDE_INSTALL_DIR>
+[8.556s] --               |   Using the following values:
+[8.556s] --               |     CMAKE_INSTALL_PREFIX: /home/shipengl/LRSMT/install/Eigen3
+[8.556s] --               |     INCLUDE_INSTALL_DIR:  include/eigen3
+[8.556s] --               |   Change the install location of Eigen headers using:
+[8.556s] --               |     cmake . -DCMAKE_INSTALL_PREFIX=yourprefix
+[8.557s] --               |   Or:
+[8.557s] --               |     cmake . -DINCLUDE_INSTALL_DIR=yourdir
+[8.557s] -- make doc      | Generate the API documentation, requires Doxygen & LaTeX
+[8.557s] -- make check    | Build and run the unit-tests. Read this page:
+[8.557s] --               |   http://eigen.tuxfamily.org/index.php?title=Tests
+[8.557s] -- make blas     | Build BLAS library (not the same thing as Eigen)
+[8.557s] -- make uninstall| Removes files installed by make install
+[8.557s] -- --------------+--------------------------------------------------------------
+[8.557s] -- 
+[8.573s] -- Configuring done
+[9.797s] -- Generating done
+[9.897s] -- Build files have been written to: /home/shipengl/LRSMT/build/Eigen3

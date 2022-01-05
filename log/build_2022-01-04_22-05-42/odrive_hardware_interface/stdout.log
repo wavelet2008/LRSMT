@@ -1,0 +1,35 @@
+[ 50%] Built target odrive_usb
+[100%] Built target odrive_hardware_interface
+-- Install configuration: ""
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/share/odrive_hardware_interface/odrive_hardware_interface.xml
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/include
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/include/odrive_hardware_interface
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/include/odrive_hardware_interface/odrive_endpoints.hpp
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/include/odrive_hardware_interface/visibility_control.hpp
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/include/odrive_hardware_interface/odrive_usb.hpp
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/include/odrive_hardware_interface/odrive_hardware_interface.hpp
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/library_path.sh
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/library_path.dsv
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/lib/libodrive_usb.so
+-- Set runtime path of "/home/shipengl/LRSMT/install/odrive_hardware_interface/lib/libodrive_usb.so" to ""
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/lib/libodrive_hardware_interface.so
+-- Set runtime path of "/home/shipengl/LRSMT/install/odrive_hardware_interface/lib/libodrive_hardware_interface.so" to ""
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/share/ament_index/resource_index/package_run_dependencies/odrive_hardware_interface
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/share/ament_index/resource_index/parent_prefix_path/odrive_hardware_interface
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/ament_prefix_path.sh
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/ament_prefix_path.dsv
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/path.sh
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/path.dsv
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/share/odrive_hardware_interface/local_setup.bash
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/share/odrive_hardware_interface/local_setup.sh
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/share/odrive_hardware_interface/local_setup.zsh
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/share/odrive_hardware_interface/local_setup.dsv
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/share/odrive_hardware_interface/package.dsv
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/share/ament_index/resource_index/packages/odrive_hardware_interface
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/odrive_hardware_interface
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/odrive_hardware_interfaceConfig.cmake
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/odrive_hardware_interfaceConfig-version.cmake
+-- Installing: /home/shipengl/LRSMT/install/odrive_hardware_interface/share/odrive_hardware_interface/package.xml
