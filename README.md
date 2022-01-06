@@ -12,9 +12,7 @@ over view here
 
 ## 🏫 Documentations
 - [ ] start to construct control algorithm
-- [ ] finish the system configuration
 - [ ] transfer john's code
-- [ ] test two motors 
 
 
 ## 📎 Citation
