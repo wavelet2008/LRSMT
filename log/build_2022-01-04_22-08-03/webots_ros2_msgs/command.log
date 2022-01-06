@@ -1,4 +1,0 @@
-Invoking command in '/home/shipengl/LRSMT/build/webots_ros2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/build/webots_ros2_msgs -- -j16 -l16
-Invoked command in '/home/shipengl/LRSMT/build/webots_ros2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/build/webots_ros2_msgs -- -j16 -l16
-Invoking command in '/home/shipengl/LRSMT/build/webots_ros2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/build/webots_ros2_msgs
-Invoked command in '/home/shipengl/LRSMT/build/webots_ros2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/build/webots_ros2_msgs

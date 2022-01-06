@@ -1,8 +1,0 @@
-msg/WbCameraRecognitionObject.idl
-msg/WbCameraRecognitionObject.msg
-msg/WbCameraRecognitionObjects.idl
-msg/WbCameraRecognitionObjects.msg
-srv/SetInt.idl
-srv/SetInt.srv
-srv/SetInt_Request.msg
-srv/SetInt_Response.msg

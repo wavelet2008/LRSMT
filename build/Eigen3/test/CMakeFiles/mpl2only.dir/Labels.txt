@@ -1,4 +1,0 @@
-# Target labels
- BuildOfficial
-# Source files and their labels
-/home/shipengl/LRSMT/env_build/eigen-3.3.2/test/mpl2only.cpp

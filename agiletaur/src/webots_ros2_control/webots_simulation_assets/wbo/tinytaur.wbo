@@ -1,0 +1,917 @@
+#VRML_OBJ R2021b utf8
+Robot {
+  translation -0.7291052086095723 0.19106817552978222 0.8100141289838634
+  rotation -0.006701030957065551 0.9117514164610866 -0.4106877777160099 9.173259287785013e-05
+  children [
+    InertialUnit {
+    }
+    DEF body Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0.498039
+          emissiveColor 0 0 0.498039
+          specularColor 0 0 0.498039
+        }
+      }
+      geometry Box {
+        size 0.4 0.06 0.17
+      }
+    }
+    DEF rf_1_1 HingeJoint {
+      jointParameters HingeJointParameters {
+        position -1.3052269247637582e-06
+        axis 0 0 1
+        anchor 0.1885 0 0.13
+      }
+      device [
+        RotationalMotor {
+          name "motor_rf_1"
+          maxTorque 4
+        }
+        PositionSensor {
+          name "sensor_rf_1"
+        }
+      ]
+      endPoint DEF rf_1_1 Solid {
+        translation 0.1885 0 0.13
+        rotation 0 0 -1 1.305192019966756e-06
+        children [
+          DEF rf_1_2 HingeJoint {
+            jointParameters HingeJointParameters {
+              position 8.426971846330553e-06
+              axis 0 0 1
+              anchor -0.1 0 0
+            }
+            endPoint DEF rf_1_2 Solid {
+              translation -0.1 0 0
+              rotation 0 0 1 2.0944081208713934
+              children [
+                DEF foot_rf TouchSensor {
+                  translation -0.19999880770850115 -6.373034091566865e-07 1.8109329591453616e-09
+                  rotation 0.020464588965708328 0.035448380519241714 -0.9991619552990535 7.952756632021954e-10
+                  children [
+                    DEF foot_rf Shape {
+                      appearance Appearance {
+                        material Material {
+                          diffuseColor 0 0.666667 0
+                        }
+                      }
+                      geometry Sphere {
+                        radius 0.018
+                        subdivision 3
+                      }
+                    }
+                  ]
+                  name "foot_rf"
+                  boundingObject USE foot_rf
+                  physics Physics {
+                    density -1
+                    mass 0.1
+                  }
+                  lookupTable [
+                    0 0 0
+                    1000 1000 0
+                  ]
+                  linearVelocity 8.889963803231371e-06 -1.490458837793973e-07 -3.425621369145676e-07
+                  angularVelocity 1.0865326782313303e-06 1.0971125189849792e-06 -3.438960074570582e-06
+                }
+                Transform {
+                  translation -0.1 0 0
+                  children [
+                    DEF rf_1_2 Shape {
+                      appearance Appearance {
+                        material Material {
+                          diffuseColor 0.666667 0 0
+                        }
+                      }
+                      geometry Box {
+                        size 0.2 0.02 0.01
+                      }
+                    }
+                  ]
+                }
+              ]
+              name "rf_1_2"
+              boundingObject Transform {
+                translation -0.1 0 0
+                children [
+                  USE rf_1_2
+                ]
+              }
+              physics Physics {
+                density -1
+                mass 0.1
+              }
+              linearVelocity 9.186647667442926e-06 2.1398565495100997e-08 -1.9323959331858654e-07
+              angularVelocity 1.0865259795111291e-06 1.0971125177404568e-06 -3.438980706133274e-06
+            }
+          }
+          Transform {
+            translation -0.05 0 0
+            children [
+              DEF rf_1_1 Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 1 1 0
+                  }
+                }
+                geometry Box {
+                  size 0.1 0.02 0.01
+                }
+              }
+            ]
+          }
+        ]
+        name "rf_1_1"
+        boundingObject Transform {
+          translation -0.05 0 0
+          children [
+            USE rf_1_1
+          ]
+        }
+        physics Physics {
+          density -1
+          mass 0.1
+        }
+        linearVelocity 9.48438441380288e-06 2.93620031299439e-08 -9.892698979736803e-08
+        angularVelocity 1.0865012739692807e-06 1.0970980648596351e-06 -3.286500982225629e-06
+      }
+    }
+    DEF rf_2_1 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 9.938544357281831e-07
+        axis 0 0 1
+        anchor 0.1885 0 0.13
+      }
+      device [
+        RotationalMotor {
+          name "motor_rf_2"
+          maxTorque 4
+        }
+        PositionSensor {
+          name "sensor_rf_2"
+        }
+      ]
+      endPoint DEF rf_2_1 Solid {
+        translation 0.1885 0 0.13
+        rotation 0 0 -1 3.1415916597353726
+        children [
+          DEF rf_2_2 HingeJoint {
+            jointParameters HingeJointParameters {
+              position -4.528456617982894e-06
+              axis 0 0 1
+              anchor -0.1 0 0
+            }
+            endPoint DEF rf_2_2 Solid {
+              translation -0.1 0 0
+              rotation 0 0 -0.9999999999999999 2.094404222356182
+              children [
+                DEF rf_2_1 HingeJoint {
+                  jointParameters HingeJointParameters {
+                    position 1.0449776758310082e-05
+                    axis 0 0 1
+                    anchor -0.2 0 0
+                  }
+                  endPoint SolidReference {
+                    solidName "rf_1_2"
+                  }
+                }
+                Transform {
+                  translation -0.1 0 0
+                  children [
+                    DEF rf_2_2 Shape {
+                      appearance Appearance {
+                        material Material {
+                          diffuseColor 0.666667 0 0
+                          emissiveColor 0.333333 0 0
+                        }
+                      }
+                      geometry Box {
+                        size 0.2 0.02 0.01
+                      }
+                    }
+                  ]
+                }
+              ]
+              name "rf_2_2"
+              boundingObject Transform {
+                translation -0.1 0 0
+                children [
+                  USE rf_2_2
+                ]
+              }
+              physics Physics {
+                density -1
+                mass 0.2
+              }
+              linearVelocity 9.187077840029368e-06 -3.252085808225225e-07 -3.028036520350084e-07
+              angularVelocity 1.086516956653443e-06 1.097104941524472e-06 -3.4565020067037143e-06
+            }
+          }
+          Transform {
+            translation -0.05 0 0
+            children [
+              DEF rf_2_1 Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 1 1 0
+                  }
+                }
+                geometry Box {
+                  size 0.1 0.02 0.01
+                }
+              }
+            ]
+          }
+        ]
+        name "rf_2_1"
+        boundingObject Transform {
+          translation -0.05 0 0
+          children [
+            USE rf_2_1
+          ]
+        }
+        physics Physics {
+          density -1
+          mass 0.2
+        }
+        linearVelocity 9.485349552202926e-06 -3.163249347992725e-07 -2.085645969542114e-07
+        angularVelocity 1.0864653184355885e-06 1.0971123237424813e-06 -3.6713414009574206e-06
+      }
+    }
+    DEF lf_1_1 HingeJoint {
+      jointParameters HingeJointParameters {
+        position -1.3049354121719148e-06
+        axis 0 0 1
+        anchor 0.1885 0 -0.13
+      }
+      device [
+        RotationalMotor {
+          name "motor_lf_1"
+          maxTorque 4
+        }
+        PositionSensor {
+          name "sensor_lf_1"
+        }
+      ]
+      endPoint DEF lf_1_1 Solid {
+        translation 0.1885 0 -0.13
+        rotation 0 0 -0.9999999999999999 1.3048517274254576e-06
+        children [
+          DEF rf_1_2 HingeJoint {
+            jointParameters HingeJointParameters {
+              position 8.476860261345569e-06
+              axis 0 0 1
+              anchor -0.1 0 0
+            }
+            endPoint DEF lf_1_2 Solid {
+              translation -0.1 0 0
+              rotation 0 0 1 2.0944081707598072
+              children [
+                DEF foot_lf TouchSensor {
+                  translation -0.19999880707102108 -6.39279357894651e-07 1.8109346244798985e-09
+                  rotation 0.021129275497470734 0.03659977093963617 -0.9991066061657876 7.702576930470039e-10
+                  children [
+                    DEF foot_rf Shape {
+                      appearance Appearance {
+                        material Material {
+                          diffuseColor 0 0.666667 0
+                        }
+                      }
+                      geometry Sphere {
+                        radius 0.018
+                        subdivision 3
+                      }
+                    }
+                  ]
+                  name "foot_lf"
+                  boundingObject USE foot_rf
+                  physics Physics {
+                    density -1
+                    mass 0.1
+                  }
+                  lookupTable [
+                    0 0 0
+                    1000 1000 0
+                  ]
+                  linearVelocity 8.610656785157379e-06 1.2645793075583002e-07 -3.425389663704731e-07
+                  angularVelocity 1.0865338075249364e-06 1.097112526651084e-06 -3.4254659092143455e-06
+                }
+                Transform {
+                  translation -0.1 0 0
+                  children [
+                    DEF rf_1_2 Shape {
+                      appearance Appearance {
+                        material Material {
+                          diffuseColor 0.666667 0 0
+                        }
+                      }
+                      geometry Box {
+                        size 0.2 0.02 0.01
+                      }
+                    }
+                  ]
+                }
+              ]
+              name "lf_1_2"
+              boundingObject Transform {
+                translation -0.1 0 0
+                children [
+                  USE rf_1_2
+                ]
+              }
+              physics Physics {
+                density -1
+                mass 0.1
+              }
+              linearVelocity 8.905108222796442e-06 2.989793544094788e-07 -1.9321623050976358e-07
+              angularVelocity 1.0865271057276835e-06 1.097112529201275e-06 -3.4255057172809815e-06
+            }
+          }
+          Transform {
+            translation -0.05 0 0
+            children [
+              DEF lf_1_1 Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 1 1 0
+                  }
+                }
+                geometry Box {
+                  size 0.1 0.02 0.01
+                }
+              }
+            ]
+          }
+        ]
+        name "lf_1_1"
+        boundingObject Transform {
+          translation -0.05 0 0
+          children [
+            USE lf_1_1
+          ]
+        }
+        physics Physics {
+          density -1
+          mass 0.1
+        }
+        linearVelocity 9.200407198386502e-06 3.090915824614643e-07 -9.890342769826406e-08
+        angularVelocity 1.0865019983687009e-06 1.0970980697965942e-06 -3.277845395410135e-06
+      }
+    }
+    DEF lf_2_1 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 9.981378064706273e-07
+        axis 0 0 1
+        anchor 0.1885 0 -0.13
+      }
+      device [
+        RotationalMotor {
+          name "motor_lf_2"
+          maxTorque 4
+        }
+        PositionSensor {
+          name "sensor_lf_2"
+        }
+      ]
+      endPoint DEF lf_2_1 Solid {
+        translation 0.1885 0 -0.13
+        rotation 0 0 -1 3.1415916554520025
+        children [
+          DEF lf_2_2 HingeJoint {
+            jointParameters HingeJointParameters {
+              position -4.50300256197442e-06
+              axis 0 0 1
+              anchor -0.1 0 0
+            }
+            endPoint DEF lf_2_2 Solid {
+              translation -0.1 0 0
+              rotation 0 0 -1 2.0944041969021248
+              children [
+                DEF rf_2_1 HingeJoint {
+                  jointParameters HingeJointParameters {
+                    position 1.0468703542331357e-05
+                    axis 0 0 1
+                    anchor -0.2 0 0
+                  }
+                  endPoint SolidReference {
+                    solidName "lf_1_2"
+                  }
+                }
+                Transform {
+                  translation -0.1 0 0
+                  children [
+                    DEF lf_2_2 Shape {
+                      appearance Appearance {
+                        material Material {
+                          diffuseColor 0.666667 0 0
+                          emissiveColor 0.333333 0 0
+                        }
+                      }
+                      geometry Box {
+                        size 0.2 0.02 0.01
+                      }
+                    }
+                  ]
+                }
+              ]
+              name "lf_2_2"
+              boundingObject Transform {
+                translation -0.1 0 0
+                children [
+                  USE lf_2_2
+                ]
+              }
+              physics Physics {
+                density -1
+                mass 0.2
+              }
+              linearVelocity 8.904168476955299e-06 -4.50146797992268e-08 -3.027801518231451e-07
+              angularVelocity 1.0865196064591667e-06 1.0971049638084855e-06 -3.4248468996683037e-06
+            }
+          }
+          Transform {
+            translation -0.05 0 0
+            children [
+              DEF lf_2_1 Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 1 1 0
+                  }
+                }
+                geometry Box {
+                  size 0.1 0.02 0.01
+                }
+              }
+            ]
+          }
+        ]
+        name "lf_2_1"
+        boundingObject Transform {
+          translation -0.05 0 0
+          children [
+            USE lf_2_1
+          ]
+        }
+        physics Physics {
+          density -1
+          mass 0.2
+        }
+        linearVelocity 9.199901185250602e-06 -3.415601799838797e-08 -2.0854087909202325e-07
+        angularVelocity 1.0864652393870734e-06 1.0971123232808397e-06 -3.672230662698581e-06
+      }
+    }
+    DEF rb_1_1 HingeJoint {
+      jointParameters HingeJointParameters {
+        position -1.1243110762393371e-06
+        axis 0 0 1
+        anchor -0.1885 0 0.13
+      }
+      device [
+        RotationalMotor {
+          name "motor_rb_1"
+          maxTorque 4
+        }
+        PositionSensor {
+          name "sensor_rb_1"
+        }
+      ]
+      endPoint DEF rb_1_1 Solid {
+        translation -0.1885 0 0.13
+        rotation 0 0 -1 1.1242232390558875e-06
+        children [
+          DEF rb_1_2 HingeJoint {
+            jointParameters HingeJointParameters {
+              position 7.213096142143317e-06
+              axis 0 0 1
+              anchor -0.1 0 0
+            }
+            endPoint DEF rb_1_2 Solid {
+              translation -0.1 0 0
+              rotation 0 0 1 2.0944069069956885
+              children [
+                DEF foot_rb TouchSensor {
+                  translation -0.19999892759454574 -5.685572688207685e-07 -2.372358975932798e-10
+                  rotation -0.002716110658728362 -0.004704184274656653 -0.9999852465877681 7.873444151342642e-10
+                  children [
+                    DEF foot_rf Shape {
+                      appearance Appearance {
+                        material Material {
+                          diffuseColor 0 0.666667 0
+                        }
+                      }
+                      geometry Sphere {
+                        radius 0.018
+                        subdivision 3
+                      }
+                    }
+                  ]
+                  name "foot_rb"
+                  boundingObject USE foot_rf
+                  physics Physics {
+                    density -1
+                    mass 0.1
+                  }
+                  lookupTable [
+                    0 0 0
+                    1000 1000 0
+                  ]
+                  linearVelocity 8.81924858683325e-06 1.2251457395051623e-06 6.781702428592697e-08
+                  angularVelocity 1.0868167507630436e-06 1.0971413523984643e-06 -3.85877668900942e-06
+                }
+                Transform {
+                  translation -0.1 0 0
+                  children [
+                    DEF rb_1_2 Shape {
+                      appearance Appearance {
+                        material Material {
+                          diffuseColor 0.666667 0 0
+                        }
+                      }
+                      geometry Box {
+                        size 0.2 0.02 0.01
+                      }
+                    }
+                  ]
+                }
+              ]
+              name "rb_1_2"
+              boundingObject Transform {
+                translation -0.1 0 0
+                children [
+                  USE rb_1_2
+                ]
+              }
+              physics Physics {
+                density -1
+                mass 0.1
+              }
+              linearVelocity 9.155459960350499e-06 1.430310908909771e-06 2.1861453857206347e-07
+              angularVelocity 1.086783957691364e-06 1.097141351581572e-06 -3.858740238438959e-06
+            }
+          }
+          Transform {
+            translation -0.05 0 0
+            children [
+              DEF rb_1_1 Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 1 1 0
+                  }
+                }
+                geometry Box {
+                  size 0.1 0.02 0.01
+                }
+              }
+            ]
+          }
+        ]
+        name "rb_1_1"
+        boundingObject Transform {
+          translation -0.05 0 0
+          children [
+            USE rb_1_1
+          ]
+        }
+        physics Physics {
+          density -1
+          mass 0.1
+        }
+        linearVelocity 9.487011637885345e-06 1.441928434162687e-06 3.138247218300748e-07
+        angularVelocity 1.0866124390262322e-06 1.0970687828500694e-06 -3.7095559654464828e-06
+      }
+    }
+    DEF rb_2_1 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 8.630261230861772e-07
+        axis 0 0 1
+        anchor -0.1885 0 0.13
+      }
+      device [
+        RotationalMotor {
+          name "motor_rb_2"
+          maxTorque 4
+        }
+        PositionSensor {
+          name "sensor_rb_2"
+        }
+      ]
+      endPoint DEF rb_2_1 Solid {
+        translation -0.1885 0 0.13
+        rotation 0 0 -1 3.141591790563685
+        children [
+          DEF rb_2_2 HingeJoint {
+            jointParameters HingeJointParameters {
+              position -4.1021877524511305e-06
+              axis 0 0 1
+              anchor -0.1 0 0
+            }
+            endPoint DEF rb_2_2 Solid {
+              translation -0.1 0 0
+              rotation 0 0 -1 2.0944037960873154
+              children [
+                DEF rf_2_1 HingeJoint {
+                  jointParameters HingeJointParameters {
+                    position 9.302924890628679e-06
+                    axis 0 0 1
+                    anchor -0.2 0 0
+                  }
+                  endPoint SolidReference {
+                    solidName "rb_1_2"
+                  }
+                }
+                Transform {
+                  translation -0.1 0 0
+                  children [
+                    DEF rb_2_2 Shape {
+                      appearance Appearance {
+                        material Material {
+                          diffuseColor 0.666667 0 0
+                          emissiveColor 0.333333 0 0
+                        }
+                      }
+                      geometry Box {
+                        size 0.2 0.02 0.01
+                      }
+                    }
+                  ]
+                }
+              ]
+              name "rb_2_2"
+              boundingObject Transform {
+                translation -0.1 0 0
+                children [
+                  USE rb_2_2
+                ]
+              }
+              physics Physics {
+                density -1
+                mass 0.2
+              }
+              linearVelocity 9.150491445435449e-06 1.0580484020716875e-06 1.096277362123586e-07
+              angularVelocity 1.0867551932543808e-06 1.0971048434855605e-06 -3.7479678273669103e-06
+            }
+          }
+          Transform {
+            translation -0.05 0 0
+            children [
+              DEF rb_2_1 Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 1 1 0
+                  }
+                }
+                geometry Box {
+                  size 0.1 0.02 0.01
+                }
+              }
+            ]
+          }
+        ]
+        name "rb_2_1"
+        boundingObject Transform {
+          translation -0.05 0 0
+          children [
+            USE rb_2_1
+          ]
+        }
+        physics Physics {
+          density -1
+          mass 0.2
+        }
+        linearVelocity 9.479720379479417e-06 1.065634605799115e-06 2.0447209637809109e-07
+        angularVelocity 1.086590962536471e-06 1.0971415730237042e-06 -3.7390750881180376e-06
+      }
+    }
+    DEF lb_1_1 HingeJoint {
+      jointParameters HingeJointParameters {
+        position -1.1238312911387993e-06
+        axis 0 0 1
+        anchor -0.1885 0 -0.13
+      }
+      device [
+        RotationalMotor {
+          name "motor_lb_1"
+          maxTorque 4
+        }
+        PositionSensor {
+          name "sensor_lb_1"
+        }
+      ]
+      endPoint DEF lb_1_1 Solid {
+        translation -0.1885 0 -0.13
+        rotation 0 0 -1 1.1238281509259372e-06
+        children [
+          DEF lb_1_2 HingeJoint {
+            jointParameters HingeJointParameters {
+              position 7.2617215043436315e-06
+              axis 0 0 1
+              anchor -0.1 0 0
+            }
+            endPoint DEF lb_1_2 Solid {
+              translation -0.1 0 0
+              rotation 0 0 0.9999999999999999 2.094406955621051
+              children [
+                DEF foot_lb TouchSensor {
+                  translation -0.19999892695807947 -5.705351221463317e-07 -2.3723423225874285e-10
+                  rotation -0.002805479227388224 -0.004858916234706039 -0.9999842599857905 7.622666353925859e-10
+                  children [
+                    DEF foot_lb Shape {
+                      appearance Appearance {
+                        material Material {
+                          diffuseColor 0 0.666667 0
+                        }
+                      }
+                      geometry Sphere {
+                        radius 0.018
+                        subdivision 3
+                      }
+                    }
+                  ]
+                  name "foot_lb"
+                  boundingObject USE foot_lb
+                  physics Physics {
+                    density -1
+                    mass 0.1
+                  }
+                  lookupTable [
+                    0 0 0
+                    1000 1000 0
+                  ]
+                  linearVelocity 8.539566030435487e-06 1.5007089635132864e-06 6.784022447126753e-08
+                  angularVelocity 1.0868177269089096e-06 1.0971413597561896e-06 -3.8471354556842454e-06
+                }
+                Transform {
+                  translation -0.1 0 0
+                  children [
+                    DEF lb_1_2 Shape {
+                      appearance Appearance {
+                        material Material {
+                          diffuseColor 0.666667 0 0
+                        }
+                      }
+                      geometry Box {
+                        size 0.2 0.02 0.01
+                      }
+                    }
+                  ]
+                }
+              ]
+              name "lb_1_2"
+              boundingObject Transform {
+                translation -0.1 0 0
+                children [
+                  USE lb_1_2
+                ]
+              }
+              physics Physics {
+                density -1
+                mass 0.1
+              }
+              linearVelocity 8.87373494935062e-06 1.708044297055178e-06 2.186379094069966e-07
+              angularVelocity 1.0867849304184293e-06 1.0971413616904937e-06 -3.847117662539525e-06
+            }
+          }
+          Transform {
+            translation -0.05 0 0
+            children [
+              DEF lb_1_1 Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 1 1 0
+                  }
+                }
+                geometry Box {
+                  size 0.1 0.02 0.01
+                }
+              }
+            ]
+          }
+        ]
+        name "lb_1_1"
+        boundingObject Transform {
+          translation -0.05 0 0
+          children [
+            USE lb_1_1
+          ]
+        }
+        physics Physics {
+          density -1
+          mass 0.1
+        }
+        linearVelocity 9.203022372616942e-06 1.721782836410224e-06 3.1384828059469704e-07
+        angularVelocity 1.086613017585113e-06 1.097068786362901e-06 -3.7027492000395318e-06
+      }
+    }
+    DEF lb_2_1 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 8.67338984217314e-07
+        axis 0 0 1
+        anchor -0.1885 0 -0.13
+      }
+      device [
+        RotationalMotor {
+          name "motor_lb_2"
+          maxTorque 4
+        }
+        PositionSensor {
+          name "sensor_lb_2"
+        }
+      ]
+      endPoint DEF lb_2_1 Solid {
+        translation -0.1885 0 -0.13
+        rotation 0 0 -1 3.141591786250825
+        children [
+          DEF lb_2_2 HingeJoint {
+            jointParameters HingeJointParameters {
+              position -4.076440831744353e-06
+              axis 0 0 1
+              anchor -0.1 0 0
+            }
+            endPoint DEF rf_2_2 Solid {
+              translation -0.1 0 0
+              rotation 0 0 -1 2.0944037703403926
+              children [
+                DEF lb_2_1 HingeJoint {
+                  jointParameters HingeJointParameters {
+                    position 9.321872967438503e-06
+                    axis 0 0 1
+                    anchor -0.2 0 0
+                  }
+                  endPoint SolidReference {
+                    solidName "lb_1_2"
+                  }
+                }
+                Transform {
+                  translation -0.1 0 0
+                  children [
+                    DEF lb_2_2 Shape {
+                      appearance Appearance {
+                        material Material {
+                          diffuseColor 0.666667 0 0
+                          emissiveColor 0.333333 0 0
+                        }
+                      }
+                      geometry Box {
+                        size 0.2 0.02 0.01
+                      }
+                    }
+                  ]
+                }
+              ]
+              name "lb_2_2"
+              boundingObject Transform {
+                translation -0.1 0 0
+                children [
+                  USE lb_2_2
+                ]
+              }
+              physics Physics {
+                density -1
+                mass 0.2
+              }
+              linearVelocity 8.867400815417703e-06 1.3382451607735214e-06 1.096512540627731e-07
+              angularVelocity 1.0867577009008308e-06 1.0971048613656237e-06 -3.718025579445416e-06
+            }
+          }
+          Transform {
+            translation -0.05 0 0
+            children [
+              DEF lb_2_1 Shape {
+                appearance Appearance {
+                  material Material {
+                    diffuseColor 1 1 0
+                  }
+                }
+                geometry Box {
+                  size 0.1 0.02 0.01
+                }
+              }
+            ]
+          }
+        ]
+        name "lb_2_1"
+        boundingObject Transform {
+          translation -0.05 0 0
+          children [
+            USE lb_2_1
+          ]
+        }
+        physics Physics {
+          density -1
+          mass 0.2
+        }
+        linearVelocity 9.194255573690136e-06 1.3477621152557795e-06 2.0449580593806396e-07
+        angularVelocity 1.0865908667826993e-06 1.0971415726952183e-06 -3.740222049490451e-06
+      }
+    }
+  ]
+  boundingObject USE body
+  physics Physics {
+    density -1
+    mass 8
+  }
+  controller "quadruped_robot_01"
+  linearVelocity 9.341707157054264e-06 7.042761268252207e-07 5.3259075838179866e-08
+  angularVelocity 1.086429168278072e-06 1.0971052893760482e-06 -3.70094644689494e-06
+}

@@ -1,4 +1,0 @@
-Invoking command in '/home/shipengl/LRSMT/build/Eigen3': /usr/bin/cmake --build /home/shipengl/LRSMT/build/Eigen3 -- -j16 -l16
-Invoked command in '/home/shipengl/LRSMT/build/Eigen3' returned '0': /usr/bin/cmake --build /home/shipengl/LRSMT/build/Eigen3 -- -j16 -l16
-Invoking command in '/home/shipengl/LRSMT/build/Eigen3': /usr/bin/cmake --install /home/shipengl/LRSMT/build/Eigen3
-Invoked command in '/home/shipengl/LRSMT/build/Eigen3' returned '0': /usr/bin/cmake --install /home/shipengl/LRSMT/build/Eigen3

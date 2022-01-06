@@ -1,4 +1,0 @@
-Invoking command in '/home/shipengl/LRSMT/build/qpOASES': /usr/bin/cmake --build /home/shipengl/LRSMT/build/qpOASES -- -j16 -l16
-Invoked command in '/home/shipengl/LRSMT/build/qpOASES' returned '0': /usr/bin/cmake --build /home/shipengl/LRSMT/build/qpOASES -- -j16 -l16
-Invoking command in '/home/shipengl/LRSMT/build/qpOASES': /usr/bin/cmake --install /home/shipengl/LRSMT/build/qpOASES
-Invoked command in '/home/shipengl/LRSMT/build/qpOASES' returned '0': /usr/bin/cmake --install /home/shipengl/LRSMT/build/qpOASES
