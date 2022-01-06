@@ -1,0 +1,76 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found hardware_interface: 0.8.1 (/opt/ros/foxy/share/hardware_interface/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found controller_manager: 0.8.1 (/opt/ros/foxy/share/controller_manager/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found webots_ros2_driver: 1.1.3 (/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver/share/webots_ros2_driver/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shipengl/LRSMT/agiletaur/build/webots_ros2_control
+[35m[1mScanning dependencies of target webots_ros2_control_system[0m
+[35m[1mScanning dependencies of target webots_ros2_control[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/webots_ros2_control_system.dir/src/Ros2ControlSystem.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/webots_ros2_control.dir/src/Ros2Control.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library libwebots_ros2_control_system.so[0m
+[ 75%] Built target webots_ros2_control_system
+[100%] [32m[1mLinking CXX shared library libwebots_ros2_control.so[0m
+[100%] Built target webots_ros2_control
+-- Install configuration: ""
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/webots_ros2_control.xml
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/webots_ros2_control_system.xml
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/lib/libwebots_ros2_control.so
+-- Set runtime path of "/home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/lib/libwebots_ros2_control.so" to ""
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/lib/libwebots_ros2_control_system.so
+-- Set runtime path of "/home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/lib/libwebots_ros2_control_system.so" to ""
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/environment/library_path.sh
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/environment/library_path.dsv
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/ament_index/resource_index/package_run_dependencies/webots_ros2_control
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/ament_index/resource_index/parent_prefix_path/webots_ros2_control
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/environment/ament_prefix_path.sh
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/environment/ament_prefix_path.dsv
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/environment/path.sh
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/environment/path.dsv
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/local_setup.bash
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/local_setup.sh
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/local_setup.zsh
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/local_setup.dsv
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/package.dsv
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/ament_index/resource_index/packages/webots_ros2_control
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/ament_index/resource_index/webots_ros2_driver__pluginlib__plugin/webots_ros2_control
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/ament_index/resource_index/webots_ros2_control__pluginlib__plugin/webots_ros2_control
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/cmake/webots_ros2_controlConfig.cmake
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/cmake/webots_ros2_controlConfig-version.cmake
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_ros2_control/share/webots_ros2_control/package.xml

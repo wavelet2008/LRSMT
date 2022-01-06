@@ -1,0 +1,5 @@
+/**:
+  ros__parameters:
+    LowLevelController: 0 # type of lowlevel control: position=0, velocity=1, torque=2
+    Run_Env: 0 # type of run env: simulation=0, real robot=1
+    

@@ -1,0 +1,45 @@
+[0.042s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/odrive_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/shipengl/LRSMT/agiletaur/src/odrive_ros2_control/odrive_description -DCMAKE_INSTALL_PREFIX=/home/shipengl/LRSMT/agiletaur/install/odrive_description
+[0.108s] -- The C compiler identification is GNU 9.3.0
+[0.171s] -- The CXX compiler identification is GNU 9.3.0
+[0.177s] -- Check for working C compiler: /usr/bin/cc
+[0.258s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.259s] -- Detecting C compiler ABI info
+[0.337s] -- Detecting C compiler ABI info - done
+[0.359s] -- Detecting C compile features
+[0.359s] -- Detecting C compile features - done
+[0.364s] -- Check for working CXX compiler: /usr/bin/c++
+[0.450s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.451s] -- Detecting CXX compiler ABI info
+[0.550s] -- Detecting CXX compiler ABI info - done
+[0.565s] -- Detecting CXX compile features
+[0.565s] -- Detecting CXX compile features - done
+[0.567s] -- Found ament_cmake_auto: 0.9.9 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.602s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.602s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.995s] -- Configuring done
+[0.997s] -- Generating done
+[0.998s] -- Build files have been written to: /home/shipengl/LRSMT/agiletaur/build/odrive_description
+[1.003s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/odrive_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/shipengl/LRSMT/agiletaur/src/odrive_ros2_control/odrive_description -DCMAKE_INSTALL_PREFIX=/home/shipengl/LRSMT/agiletaur/install/odrive_description
+[1.007s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/odrive_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/odrive_description -- -j16 -l16
+[1.052s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/odrive_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/odrive_description -- -j16 -l16
+[1.088s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/odrive_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/odrive_description
+[1.098s] -- Install configuration: ""
+[1.100s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/urdf
+[1.100s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/urdf/odrive.urdf.xacro
+[1.101s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/urdf/odrive.ros2_control.xacro
+[1.101s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/odrive_description/share/ament_index/resource_index/package_run_dependencies/odrive_description
+[1.101s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/odrive_description/share/ament_index/resource_index/parent_prefix_path/odrive_description
+[1.101s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/environment/ament_prefix_path.sh
+[1.101s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/environment/ament_prefix_path.dsv
+[1.101s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/environment/path.sh
+[1.101s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/environment/path.dsv
+[1.101s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/local_setup.bash
+[1.102s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/local_setup.sh
+[1.102s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/local_setup.zsh
+[1.102s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/local_setup.dsv
+[1.102s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/package.dsv
+[1.102s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/odrive_description/share/ament_index/resource_index/packages/odrive_description
+[1.102s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/cmake/odrive_descriptionConfig.cmake
+[1.103s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/cmake/odrive_descriptionConfig-version.cmake
+[1.103s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/package.xml
+[1.105s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/odrive_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/odrive_description

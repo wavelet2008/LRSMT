@@ -1,0 +1,37 @@
+[0.049s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/webots_simulation_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/webots_simulation_assets -- -j16 -l16
+[0.113s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/webots_simulation_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/webots_simulation_assets -- -j16 -l16
+[0.186s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/webots_simulation_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/webots_simulation_assets
+[0.199s] -- Install configuration: ""
+[0.199s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds
+[0.200s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/agiletaur.wbt
+[0.200s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/copy.wbt
+[0.200s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.tinytaur.wbproj
+[0.200s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.empty.wbproj
+[0.201s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.test_demo.wbproj
+[0.201s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.agiletaur.wbproj
+[0.201s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.obstacle.wbproj
+[0.201s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.copy.wbproj
+[0.202s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/tinytaur.wbt
+[0.202s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.newtaur.wbproj
+[0.202s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.12dof.wbproj
+[0.202s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/obstacle.wbt
+[0.204s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/dof12.wbt
+[0.204s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/agiletaur.zip
+[0.204s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/test_demo.wbt
+[0.204s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/12dof.wbt
+[0.204s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/ament_index/resource_index/package_run_dependencies/webots_simulation_assets
+[0.205s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/ament_index/resource_index/parent_prefix_path/webots_simulation_assets
+[0.205s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/environment/ament_prefix_path.sh
+[0.206s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/environment/ament_prefix_path.dsv
+[0.208s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/environment/path.sh
+[0.208s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/environment/path.dsv
+[0.208s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/local_setup.bash
+[0.208s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/local_setup.sh
+[0.208s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/local_setup.zsh
+[0.208s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/local_setup.dsv
+[0.209s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/package.dsv
+[0.209s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/ament_index/resource_index/packages/webots_simulation_assets
+[0.209s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/cmake/webots_simulation_assetsConfig.cmake
+[0.209s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/cmake/webots_simulation_assetsConfig-version.cmake
+[0.209s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/package.xml
+[0.240s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/webots_simulation_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/webots_simulation_assets

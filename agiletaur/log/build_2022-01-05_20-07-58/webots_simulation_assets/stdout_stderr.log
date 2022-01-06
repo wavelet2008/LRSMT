@@ -1,0 +1,53 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 0.9.9 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shipengl/LRSMT/agiletaur/build/webots_simulation_assets
+-- Install configuration: ""
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/agiletaur.wbt
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/copy.wbt
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.tinytaur.wbproj
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.empty.wbproj
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.test_demo.wbproj
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.agiletaur.wbproj
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.obstacle.wbproj
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.copy.wbproj
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/tinytaur.wbt
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.newtaur.wbproj
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/.12dof.wbproj
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/obstacle.wbt
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/dof12.wbt
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/agiletaur.zip
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/test_demo.wbt
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/worlds/12dof.wbt
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/ament_index/resource_index/package_run_dependencies/webots_simulation_assets
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/ament_index/resource_index/parent_prefix_path/webots_simulation_assets
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/environment/ament_prefix_path.sh
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/environment/ament_prefix_path.dsv
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/environment/path.sh
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/environment/path.dsv
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/local_setup.bash
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/local_setup.sh
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/local_setup.zsh
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/local_setup.dsv
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/package.dsv
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/ament_index/resource_index/packages/webots_simulation_assets
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/cmake/webots_simulation_assetsConfig.cmake
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/cmake/webots_simulation_assetsConfig-version.cmake
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/package.xml

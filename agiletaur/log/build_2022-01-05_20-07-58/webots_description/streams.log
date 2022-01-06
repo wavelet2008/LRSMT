@@ -1,0 +1,45 @@
+[0.037s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/webots_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_description -DCMAKE_INSTALL_PREFIX=/home/shipengl/LRSMT/agiletaur/install/webots_description
+[0.108s] -- The C compiler identification is GNU 9.3.0
+[0.171s] -- The CXX compiler identification is GNU 9.3.0
+[0.177s] -- Check for working C compiler: /usr/bin/cc
+[0.264s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.265s] -- Detecting C compiler ABI info
+[0.344s] -- Detecting C compiler ABI info - done
+[0.357s] -- Detecting C compile features
+[0.358s] -- Detecting C compile features - done
+[0.360s] -- Check for working CXX compiler: /usr/bin/c++
+[0.448s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.450s] -- Detecting CXX compiler ABI info
+[0.554s] -- Detecting CXX compiler ABI info - done
+[0.576s] -- Detecting CXX compile features
+[0.577s] -- Detecting CXX compile features - done
+[0.581s] -- Found ament_cmake_auto: 0.9.9 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.620s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.621s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.103s] -- Configuring done
+[1.103s] -- Generating done
+[1.103s] -- Build files have been written to: /home/shipengl/LRSMT/agiletaur/build/webots_description
+[1.122s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/webots_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_description -DCMAKE_INSTALL_PREFIX=/home/shipengl/LRSMT/agiletaur/install/webots_description
+[1.125s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/webots_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/webots_description -- -j16 -l16
+[1.188s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/webots_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/webots_description -- -j16 -l16
+[1.219s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/webots_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/webots_description
+[1.229s] -- Install configuration: ""
+[1.230s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/urdf
+[1.230s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/urdf/dof12.urdf
+[1.230s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/urdf/agiletaur.urdf
+[1.230s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_description/share/ament_index/resource_index/package_run_dependencies/webots_description
+[1.230s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_description/share/ament_index/resource_index/parent_prefix_path/webots_description
+[1.230s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/environment/ament_prefix_path.sh
+[1.231s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/environment/ament_prefix_path.dsv
+[1.231s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/environment/path.sh
+[1.231s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/environment/path.dsv
+[1.231s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/local_setup.bash
+[1.231s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/local_setup.sh
+[1.231s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/local_setup.zsh
+[1.232s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/local_setup.dsv
+[1.232s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/package.dsv
+[1.232s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_description/share/ament_index/resource_index/packages/webots_description
+[1.232s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/cmake/webots_descriptionConfig.cmake
+[1.232s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/cmake/webots_descriptionConfig-version.cmake
+[1.232s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/package.xml
+[1.236s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/webots_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/webots_description
