@@ -1,0 +1,29 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  basicTimeStep 5
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.08186468943960029 0.9929912555695746 0.08524399676996379 4.580855993597049
+  position -5.045250519621816 1.0977369582103949 0.5297373820470735
+  follow "agiletaur"
+}
+TexturedBackground {
+}
+Ramp30deg {
+  translation 1.13484 -0.452114 -3.46256
+  rotation 0 1 0 1.5708
+  color 0.3 0.1 0.1
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 -0.15 0
+  rotation 0 1 0 3.14159
+  floorSize 11 16
+  floorTileSize 1.2 0.5
+  floorAppearance Parquetry {
+    type "dark strip"
+  }
+  wallHeight 0.5
+}

@@ -14,12 +14,13 @@ from controller import Robot
 from curve_helper.bs_pline_path import bspline_planning
 import math
 import time
+import numpy as np
 
 # create the Robot instance.
 class Singleleg(Robot):
     def __init__(self):
         super(Singleleg, self).__init__()
-        self.timeStep = 64 #time for controller simulation
+        self.timeStep = 100 #time for controller simulation
         self.motor1 = self.getDevice("motor1")
         self.motor2 = self.getDevice("motor2")
         self.keyboard = self.getKeyboard()
@@ -83,6 +84,8 @@ class Singleleg(Robot):
         sita = self.inverse_kinematic([x,y])
         self.motor_control(sita)
         times = 0
+        i = -0.2
+        sign = 1
         # main loop control
         while(self.step(self.timeStep) != -1):
             times += 1
@@ -103,10 +106,29 @@ class Singleleg(Robot):
             # sita = self.inverse_kinematic([x,y])
 
             # generate the foot trajectories
-            trajectories = self.generate_b_spline_trajectory()
-            for waypoints in trajectories:
-                sita = self.inverse_kinematic(waypoints)
-                self.motor_control(sita)
-                print("iterate", times)
+            # trajectories = self.generate_b_spline_trajectory()
+            # for waypoints in trajectories:
+            #     sita = self.inverse_kinematic(waypoints)
+            #     self.motor_control(sita)
+            #     print("iterate", times)
+
+            
+            sita = self.inverse_kinematic([0, i])
+            self.motor_control(sita)
+            print("y position", i)
+
+            if(sign == 1):
+                if(i>-0.26):
+                    i = i - 0.01
+                else:
+                    sign = -1
+            else:
+                if(i<-0.2):
+                    i = i + 0.01
+                else:
+                    sign = 1
+
+
+            
 controller = Singleleg()
 controller.run()

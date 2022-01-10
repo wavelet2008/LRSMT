@@ -12,7 +12,7 @@ over view here
 
 ## 🏫 Documentations
 - [ ] start to construct control algorithm
-- [ ] transfer john's code
+- [ ] the webots have some problems to solve the urdf export, and needs to verify
 
 
 ## 📎 Citation

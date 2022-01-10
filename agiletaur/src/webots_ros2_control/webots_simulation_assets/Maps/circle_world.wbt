@@ -1,0 +1,36 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  basicTimeStep 1
+  coordinateSystem "NUE"
+  contactProperties [
+    ContactProperties {
+    }
+  ]
+}
+Viewpoint {
+  orientation 0.12831091384832669 -0.937847915568045 -0.3224555731447053 3.985943982747574
+  position 1.2234588357628158 1.2824223133635955 -0.8511638257288405
+}
+TexturedBackgroundLight {
+}
+UnevenTerrain {
+  translation 0 -3.29 0
+  rotation 0 1 0 1.8326
+  size 6 5 6
+  appearance SandyGround {
+    colorOverride 0.4 0.2 0.1
+    textureTransform TextureTransform {
+      scale 50 50
+    }
+  }
+}
+TexturedBackground {
+}
+CircleArena {
+  radius 10
+  floorAppearance Appearance {
+    material Material {
+      diffuseColor 0.4 0.2 0.1
+    }
+  }
+}

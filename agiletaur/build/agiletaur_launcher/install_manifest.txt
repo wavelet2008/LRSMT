@@ -1,6 +1,7 @@
 /home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/agiletaur_launcher/launch/agiletaur_simu_launch.py
 /home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/agiletaur_launcher/launch/agiletaur_real_launch.py
-/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/agiletaur_launcher/config/global_config.yaml
+/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/agiletaur_launcher/launch/singleleg_simu_launch.py
+/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/agiletaur_launcher/config/single_leg_simu.yaml
 /home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/ament_index/resource_index/package_run_dependencies/agiletaur_launcher
 /home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/ament_index/resource_index/parent_prefix_path/agiletaur_launcher
 /home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/agiletaur_launcher/environment/ament_prefix_path.sh

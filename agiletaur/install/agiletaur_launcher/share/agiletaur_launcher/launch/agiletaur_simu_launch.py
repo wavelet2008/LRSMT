@@ -52,6 +52,11 @@ def generate_launch_description():
     }.items()
 
 
+    
+    controller_params = {
+
+    }.items()
+
     simu_launch_dir = get_package_share_directory('webots_bringup')
     simu_launch_file = os.path.join(simu_launch_dir, 'launch', 'webots.launch.py')
     nodes = [

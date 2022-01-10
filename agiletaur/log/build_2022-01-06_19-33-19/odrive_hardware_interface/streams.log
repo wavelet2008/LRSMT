@@ -1,0 +1,45 @@
+[0.041s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/odrive_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/odrive_hardware_interface -- -j16 -l16
+[0.093s] [35m[1mScanning dependencies of target odrive_usb[0m
+[0.107s] [ 25%] [32mBuilding CXX object CMakeFiles/odrive_usb.dir/src/odrive_usb.cpp.o[0m
+[0.724s] [ 50%] [32m[1mLinking CXX shared library libodrive_usb.so[0m
+[0.836s] [ 50%] Built target odrive_usb
+[0.846s] [35m[1mScanning dependencies of target odrive_hardware_interface[0m
+[0.872s] [ 75%] [32mBuilding CXX object CMakeFiles/odrive_hardware_interface.dir/src/odrive_hardware_interface.cpp.o[0m
+[2.895s] [100%] [32m[1mLinking CXX shared library libodrive_hardware_interface.so[0m
+[3.021s] [100%] Built target odrive_hardware_interface
+[3.029s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/odrive_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/odrive_hardware_interface -- -j16 -l16
+[3.045s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/odrive_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/odrive_hardware_interface
+[3.050s] -- Install configuration: ""
+[3.050s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/odrive_hardware_interface.xml
+[3.050s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/include
+[3.050s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/include/odrive_hardware_interface
+[3.050s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/include/odrive_hardware_interface/odrive_endpoints.hpp
+[3.050s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/include/odrive_hardware_interface/visibility_control.hpp
+[3.051s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/include/odrive_hardware_interface/odrive_usb.hpp
+[3.051s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/include/odrive_hardware_interface/odrive_hardware_interface.hpp
+[3.051s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/library_path.sh
+[3.051s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/library_path.dsv
+[3.051s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/lib/libodrive_usb.so
+[3.051s] -- Set runtime path of "/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/lib/libodrive_usb.so" to ""
+[3.052s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/lib/libodrive_hardware_interface.so
+[3.052s] -- Set runtime path of "/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/lib/libodrive_hardware_interface.so" to ""
+[3.053s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/ament_index/resource_index/package_run_dependencies/odrive_hardware_interface
+[3.053s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/ament_index/resource_index/parent_prefix_path/odrive_hardware_interface
+[3.053s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/ament_prefix_path.sh
+[3.053s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/ament_prefix_path.dsv
+[3.053s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/path.sh
+[3.053s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/path.dsv
+[3.053s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/local_setup.bash
+[3.053s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/local_setup.sh
+[3.053s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/local_setup.zsh
+[3.053s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/local_setup.dsv
+[3.053s] -- Installing: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/package.dsv
+[3.053s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/ament_index/resource_index/packages/odrive_hardware_interface
+[3.054s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/odrive_hardware_interface
+[3.054s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.054s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.054s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[3.054s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/odrive_hardware_interfaceConfig.cmake
+[3.054s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/odrive_hardware_interfaceConfig-version.cmake
+[3.054s] -- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/package.xml
+[3.056s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/odrive_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/odrive_hardware_interface
