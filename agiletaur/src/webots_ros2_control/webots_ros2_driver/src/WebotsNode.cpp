@@ -112,7 +112,7 @@ namespace webots_ros2_driver
 
   void WebotsNode::init()
   {
-    setAnotherNodeParameter("robot_state_publisher", "robot_description", mRobot->getUrdf());
+    // setAnotherNodeParameter("robot_state_publisher", "robot_description", mRobot->getUrdf());
 
     mStep = mRobot->getBasicTimeStep();
     mTimer = this->create_wall_timer(std::chrono::milliseconds(1), std::bind(&WebotsNode::timerCallback, this));

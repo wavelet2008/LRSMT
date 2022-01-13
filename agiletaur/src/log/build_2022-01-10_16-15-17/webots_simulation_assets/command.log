@@ -1,0 +1,4 @@
+Invoking command in '/home/shipengl/LRSMT/agiletaur/src/build/webots_simulation_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/src/build/webots_simulation_assets -- -j16 -l16
+Invoked command in '/home/shipengl/LRSMT/agiletaur/src/build/webots_simulation_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/src/build/webots_simulation_assets -- -j16 -l16
+Invoking command in '/home/shipengl/LRSMT/agiletaur/src/build/webots_simulation_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/src/build/webots_simulation_assets
+Invoked command in '/home/shipengl/LRSMT/agiletaur/src/build/webots_simulation_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/src/build/webots_simulation_assets

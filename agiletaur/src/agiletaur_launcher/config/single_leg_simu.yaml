@@ -5,9 +5,12 @@ motor_or_webots_config:
   robot_urdf: "singleleg.urdf"
   world: "singleleg.wbt"
   ros_control_config: "webot_singleleg_controller.yaml"
-  number_of_motors: "2"
-  joint0_controller: "joint0_position_controller"
-  joint1_controller: "joint1_position_controller"
+  number_of_motors: "2"  # 12 is the maximum number of motors
+  joint0_controller: "joint0_velocity_controller"
+  joint1_controller: "joint1_velocity_controller"
+
+
+
 highcontroller: 
 
   
