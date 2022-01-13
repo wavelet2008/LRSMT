@@ -1,9 +1,0 @@
-/home/shipengl/LRSMT/agiletaur/src/build/odrive_bringup/CMakeFiles/install/strip.dir
-/home/shipengl/LRSMT/agiletaur/src/build/odrive_bringup/CMakeFiles/install.dir
-/home/shipengl/LRSMT/agiletaur/src/build/odrive_bringup/CMakeFiles/list_install_components.dir
-/home/shipengl/LRSMT/agiletaur/src/build/odrive_bringup/CMakeFiles/rebuild_cache.dir
-/home/shipengl/LRSMT/agiletaur/src/build/odrive_bringup/CMakeFiles/edit_cache.dir
-/home/shipengl/LRSMT/agiletaur/src/build/odrive_bringup/CMakeFiles/test.dir
-/home/shipengl/LRSMT/agiletaur/src/build/odrive_bringup/CMakeFiles/install/local.dir
-/home/shipengl/LRSMT/agiletaur/src/build/odrive_bringup/CMakeFiles/odrive_bringup_uninstall.dir
-/home/shipengl/LRSMT/agiletaur/src/build/odrive_bringup/CMakeFiles/uninstall.dir

@@ -1,8 +1,0 @@
-{
-  "package_name": "webots_ros2_msgs",
-  "non_idl_tuples": [
-    "/home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_ros2_msgs:msg/WbCameraRecognitionObject.msg",
-    "/home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_ros2_msgs:msg/WbCameraRecognitionObjects.msg",
-    "/home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_ros2_msgs:srv/SetInt.srv"
-  ]
-}
