@@ -1,0 +1,38 @@
+[35m[1mScanning dependencies of target agiletaur_controller[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/agiletaur_controller.dir/src/main.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/agiletaur_controller.dir/src/proxy/lowerproxy.cpp.o[0m
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/main.cpp:23:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KUpper_proxy_[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   23 |  upperproxy &[01;35m[KUpper_proxy_[m[K = upperproxy::GetUpperProxy();
+      |              [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/main.cpp:9[m[K:
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/main.h:[m[K At global scope:
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/main.h:43:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktimer[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+   43 | static float [01;35m[Ktimer[m[K[10] = { 0 };
+      |              [01;35m[K^~~~~[m[K
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/main.h:41:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kinit_done[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+   41 | static int [01;35m[Kinit_done[m[K = 0;
+      |            [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/main.h:40:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kinit_cnt[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+   40 | static float [01;35m[Kinit_cnt[m[K = 0;
+      |              [01;35m[K^~~~~~~~[m[K
+[ 50%] [32m[1mLinking CXX executable agiletaur_controller[0m
+[100%] Built target agiletaur_controller
+-- Install configuration: ""
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/lib/agiletaur_controller/agiletaur_controller
+-- Set runtime path of "/home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/lib/agiletaur_controller/agiletaur_controller" to ""
+-- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/ament_index/resource_index/package_run_dependencies/agiletaur_controller
+-- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/ament_index/resource_index/parent_prefix_path/agiletaur_controller
+-- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/environment/path.sh
+-- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/environment/path.dsv
+-- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/local_setup.bash
+-- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/local_setup.sh
+-- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/local_setup.zsh
+-- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/local_setup.dsv
+-- Installing: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/package.dsv
+-- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/ament_index/resource_index/packages/agiletaur_controller
+-- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/cmake/agiletaur_controllerConfig.cmake
+-- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/cmake/agiletaur_controllerConfig-version.cmake
+-- Up-to-date: /home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/package.xml

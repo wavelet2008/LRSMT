@@ -1,7 +1,7 @@
 /home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/webots_bringup/config/webot_dof12_controller.yaml
 /home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/webots_bringup/config/webot_singleleg_controller.yaml
+/home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/webots_bringup/launch/webots.launch_backup.py
 /home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/webots_bringup/launch/webots.launch.py
-/home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/webots_bringup/launch/webots.launch copy.py
 /home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/ament_index/resource_index/package_run_dependencies/webots_bringup
 /home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/ament_index/resource_index/parent_prefix_path/webots_bringup
 /home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/webots_bringup/environment/ament_prefix_path.sh

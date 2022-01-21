@@ -1,0 +1,767 @@
+[0.296s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.296s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f5db6d45250>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f5db6d45250>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5db6d45790>)
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.303s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shipengl/LRSMT/agiletaur'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/agiletaur_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/agiletaur_controller) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/agiletaur_controller) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/agiletaur_controller) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/agiletaur_controller) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/agiletaur_controller) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/agiletaur_controller) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/agiletaur_controller) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/agiletaur_controller) by extension 'ros'
+[0.352s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agiletaur_controller' with type 'ros.ament_cmake' and name 'agiletaur_controller'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/agiletaur_launcher) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/agiletaur_launcher) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/agiletaur_launcher) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/agiletaur_launcher) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/agiletaur_launcher) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/agiletaur_launcher) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/agiletaur_launcher) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/agiletaur_launcher) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/agiletaur_launcher) by extension 'ros'
+[0.353s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agiletaur_launcher' with type 'ros.ament_cmake' and name 'agiletaur_launcher'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'ros'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extensions ['cmake', 'python']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'cmake'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'python'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extensions ['python_setup_py']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'python_setup_py'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_bringup) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_bringup) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_bringup) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_bringup) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_bringup) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_bringup) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_bringup) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_bringup) by extension 'ros'
+[0.354s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odrive_ros2_control/odrive_bringup' with type 'ros.ament_cmake' and name 'odrive_bringup'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_description) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_description) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_description) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_description) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_description) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_description) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_description) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_description) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_description) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odrive_ros2_control/odrive_description' with type 'ros.ament_cmake' and name 'odrive_description'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extension 'ros'
+[0.357s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odrive_ros2_control/odrive_hardware_interface' with type 'ros.ament_cmake' and name 'odrive_hardware_interface'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extension 'ros'
+[0.357s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odrive_ros2_control/odrive_ros2_control' with type 'ros.ament_cmake' and name 'odrive_ros2_control'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control) by extension 'ros'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control) by extensions ['cmake', 'python']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control) by extension 'cmake'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control) by extension 'python'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control) by extensions ['python_setup_py']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control) by extension 'python_setup_py'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_bringup) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_bringup) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_bringup) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_bringup) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_bringup) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_bringup) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_bringup) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_bringup) by extension 'ros'
+[0.359s] DEBUG:colcon.colcon_core.package_identification:Package 'src/webots_ros2_control/webots_bringup' with type 'ros.ament_cmake' and name 'webots_bringup'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_description) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_description) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_description) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_description) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_description) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_description) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_description) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_description) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_description) by extension 'ros'
+[0.360s] DEBUG:colcon.colcon_core.package_identification:Package 'src/webots_ros2_control/webots_description' with type 'ros.ament_cmake' and name 'webots_description'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_control) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_control) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_control) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_control) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_control) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_control) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_control) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_control) by extension 'ros'
+[0.361s] DEBUG:colcon.colcon_core.package_identification:Package 'src/webots_ros2_control/webots_ros2_control' with type 'ros.ament_cmake' and name 'webots_ros2_control'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_driver) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_driver) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_driver) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_driver) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_driver) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_driver) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_driver) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_driver) by extension 'ros'
+[0.363s] DEBUG:colcon.colcon_core.package_identification:Package 'src/webots_ros2_control/webots_ros2_driver' with type 'ros.ament_cmake' and name 'webots_ros2_driver'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_msgs) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_msgs) by extension 'ignore_ament_install'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_msgs) by extensions ['colcon_pkg']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_msgs) by extension 'colcon_pkg'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_msgs) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_msgs) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_msgs) by extensions ['ros']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_ros2_msgs) by extension 'ros'
+[0.364s] DEBUG:colcon.colcon_core.package_identification:Package 'src/webots_ros2_control/webots_ros2_msgs' with type 'ros.ament_cmake' and name 'webots_ros2_msgs'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_simulation_assets) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_simulation_assets) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_simulation_assets) by extension 'ignore_ament_install'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_simulation_assets) by extensions ['colcon_pkg']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_simulation_assets) by extension 'colcon_pkg'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_simulation_assets) by extensions ['colcon_meta']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_simulation_assets) by extension 'colcon_meta'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_simulation_assets) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/webots_ros2_control/webots_simulation_assets) by extension 'ros'
+[0.365s] DEBUG:colcon.colcon_core.package_identification:Package 'src/webots_ros2_control/webots_simulation_assets' with type 'ros.ament_cmake' and name 'webots_simulation_assets'
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'agiletaur_controller' build argument 'cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'agiletaur_controller' build argument 'cmake_target' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'agiletaur_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'agiletaur_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'agiletaur_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'agiletaur_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'agiletaur_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'agiletaur_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'agiletaur_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.381s] DEBUG:colcon.colcon_core.verb:Building package 'agiletaur_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shipengl/LRSMT/agiletaur/install/agiletaur_controller', 'merge_install': False, 'path': '/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller', 'symlink_install': False, 'test_result_base': None}
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'agiletaur_launcher' build argument 'cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'agiletaur_launcher' build argument 'cmake_target' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'agiletaur_launcher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'agiletaur_launcher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'agiletaur_launcher' build argument 'cmake_clean_first' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'agiletaur_launcher' build argument 'cmake_force_configure' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'agiletaur_launcher' build argument 'ament_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'agiletaur_launcher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'agiletaur_launcher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.383s] DEBUG:colcon.colcon_core.verb:Building package 'agiletaur_launcher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shipengl/LRSMT/agiletaur/build/agiletaur_launcher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher', 'merge_install': False, 'path': '/home/shipengl/LRSMT/agiletaur/src/agiletaur_launcher', 'symlink_install': False, 'test_result_base': None}
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'odrive_description' build argument 'cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'odrive_description' build argument 'cmake_target' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'odrive_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'odrive_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'odrive_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'odrive_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'odrive_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'odrive_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'odrive_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.385s] DEBUG:colcon.colcon_core.verb:Building package 'odrive_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shipengl/LRSMT/agiletaur/build/odrive_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shipengl/LRSMT/agiletaur/install/odrive_description', 'merge_install': False, 'path': '/home/shipengl/LRSMT/agiletaur/src/odrive_ros2_control/odrive_description', 'symlink_install': False, 'test_result_base': None}
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'cmake_target' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.387s] DEBUG:colcon.colcon_core.verb:Building package 'odrive_hardware_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shipengl/LRSMT/agiletaur/build/odrive_hardware_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface', 'merge_install': False, 'path': '/home/shipengl/LRSMT/agiletaur/src/odrive_ros2_control/odrive_hardware_interface', 'symlink_install': False, 'test_result_base': None}
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'webots_bringup' build argument 'cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'webots_bringup' build argument 'cmake_target' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'webots_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'webots_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'webots_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'webots_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'webots_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'webots_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'webots_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.389s] DEBUG:colcon.colcon_core.verb:Building package 'webots_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shipengl/LRSMT/agiletaur/build/webots_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shipengl/LRSMT/agiletaur/install/webots_bringup', 'merge_install': False, 'path': '/home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'webots_description' build argument 'cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'webots_description' build argument 'cmake_target' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'webots_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'webots_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'webots_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'webots_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'webots_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'webots_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'webots_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.392s] DEBUG:colcon.colcon_core.verb:Building package 'webots_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shipengl/LRSMT/agiletaur/build/webots_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shipengl/LRSMT/agiletaur/install/webots_description', 'merge_install': False, 'path': '/home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_description', 'symlink_install': False, 'test_result_base': None}
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_msgs' build argument 'cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_msgs' build argument 'cmake_target' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.394s] DEBUG:colcon.colcon_core.verb:Building package 'webots_ros2_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shipengl/LRSMT/agiletaur/build/webots_ros2_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs', 'merge_install': False, 'path': '/home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_ros2_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'webots_simulation_assets' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'webots_simulation_assets' build argument 'cmake_target' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'webots_simulation_assets' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'webots_simulation_assets' build argument 'cmake_clean_cache' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'webots_simulation_assets' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'webots_simulation_assets' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'webots_simulation_assets' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'webots_simulation_assets' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'webots_simulation_assets' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.396s] DEBUG:colcon.colcon_core.verb:Building package 'webots_simulation_assets' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shipengl/LRSMT/agiletaur/build/webots_simulation_assets', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets', 'merge_install': False, 'path': '/home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_simulation_assets', 'symlink_install': False, 'test_result_base': None}
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'odrive_bringup' build argument 'cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'odrive_bringup' build argument 'cmake_target' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'odrive_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'odrive_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'odrive_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'odrive_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'odrive_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'odrive_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'odrive_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.398s] DEBUG:colcon.colcon_core.verb:Building package 'odrive_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shipengl/LRSMT/agiletaur/build/odrive_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup', 'merge_install': False, 'path': '/home/shipengl/LRSMT/agiletaur/src/odrive_ros2_control/odrive_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.400s] DEBUG:colcon.colcon_core.verb:Building package 'webots_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shipengl/LRSMT/agiletaur/build/webots_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_driver', 'merge_install': False, 'path': '/home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_ros2_driver', 'symlink_install': False, 'test_result_base': None}
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'cmake_target' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.402s] DEBUG:colcon.colcon_core.verb:Building package 'odrive_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shipengl/LRSMT/agiletaur/build/odrive_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control', 'merge_install': False, 'path': '/home/shipengl/LRSMT/agiletaur/src/odrive_ros2_control/odrive_ros2_control', 'symlink_install': False, 'test_result_base': None}
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_control' build argument 'cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_control' build argument 'cmake_target' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'webots_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.404s] DEBUG:colcon.colcon_core.verb:Building package 'webots_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shipengl/LRSMT/agiletaur/build/webots_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_control', 'merge_install': False, 'path': '/home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_ros2_control', 'symlink_install': False, 'test_result_base': None}
+[0.404s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.406s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.406s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shipengl/LRSMT/agiletaur/src/odrive_ros2_control/odrive_description' with build type 'ament_cmake'
+[0.406s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shipengl/LRSMT/agiletaur/src/odrive_ros2_control/odrive_description'
+[0.412s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.412s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.412s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.415s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.418s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_ros2_msgs' with build type 'ament_cmake'
+[0.419s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_ros2_msgs'
+[0.420s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.420s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.421s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.423s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shipengl/LRSMT/agiletaur/src/odrive_ros2_control/odrive_hardware_interface' with build type 'ament_cmake'
+[0.424s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shipengl/LRSMT/agiletaur/src/odrive_ros2_control/odrive_hardware_interface'
+[0.424s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.425s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.426s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.428s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller' with build type 'ament_cmake'
+[0.428s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller'
+[0.429s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.429s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.430s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.432s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shipengl/LRSMT/agiletaur/src/agiletaur_launcher' with build type 'ament_cmake'
+[0.433s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shipengl/LRSMT/agiletaur/src/agiletaur_launcher'
+[0.433s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.433s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.435s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.437s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_bringup' with build type 'ament_cmake'
+[0.437s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_bringup'
+[0.438s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.439s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.440s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.442s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_description' with build type 'ament_cmake'
+[0.443s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_description'
+[0.443s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.444s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.445s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.447s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_simulation_assets' with build type 'ament_cmake'
+[0.447s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_simulation_assets'
+[0.448s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.448s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.449s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shipengl/LRSMT/agiletaur/build/odrive_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/odrive_description -- -j16 -l16
+[0.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shipengl/LRSMT/agiletaur/build/webots_ros2_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/webots_ros2_msgs -- -j16 -l16
+[0.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shipengl/LRSMT/agiletaur/build/odrive_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/odrive_hardware_interface -- -j16 -l16
+[0.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller -- -j16 -l16
+[0.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_launcher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/agiletaur_launcher -- -j16 -l16
+[0.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shipengl/LRSMT/agiletaur/build/webots_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/webots_bringup -- -j16 -l16
+[0.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shipengl/LRSMT/agiletaur/build/webots_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/webots_description -- -j16 -l16
+[0.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shipengl/LRSMT/agiletaur/build/webots_simulation_assets': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/webots_simulation_assets -- -j16 -l16
+[0.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shipengl/LRSMT/agiletaur/build/odrive_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/odrive_description -- -j16 -l16
+[0.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_launcher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/agiletaur_launcher -- -j16 -l16
+[0.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shipengl/LRSMT/agiletaur/build/webots_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/webots_bringup -- -j16 -l16
+[0.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shipengl/LRSMT/agiletaur/build/webots_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/webots_description -- -j16 -l16
+[0.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shipengl/LRSMT/agiletaur/build/odrive_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/odrive_description
+[0.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shipengl/LRSMT/agiletaur/build/webots_simulation_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/webots_simulation_assets -- -j16 -l16
+[0.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_launcher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/agiletaur_launcher
+[0.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_description)
+[0.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shipengl/LRSMT/agiletaur/build/webots_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/webots_bringup
+[0.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shipengl/LRSMT/agiletaur/build/webots_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/webots_description
+[0.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shipengl/LRSMT/agiletaur/build/odrive_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/odrive_description
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_description' for CMake module files
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_description' for CMake config files
+[0.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_description', 'cmake_prefix_path')
+[0.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/hook/cmake_prefix_path.ps1'
+[0.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/hook/cmake_prefix_path.dsv'
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/hook/cmake_prefix_path.sh'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_description/bin'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_description/lib/pkgconfig/odrive_description.pc'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_description/lib/python3.8/site-packages'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/package.ps1'
+[0.596s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/package.dsv'
+[0.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/package.sh'
+[0.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/package.bash'
+[0.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/package.zsh'
+[0.599s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shipengl/LRSMT/agiletaur/install/odrive_description/share/colcon-core/packages/odrive_description)
+[0.602s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(agiletaur_launcher)
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher' for CMake module files
+[0.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_launcher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/agiletaur_launcher
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher' for CMake config files
+[0.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('agiletaur_launcher', 'cmake_prefix_path')
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/agiletaur_launcher/hook/cmake_prefix_path.ps1'
+[0.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/agiletaur_launcher/hook/cmake_prefix_path.dsv'
+[0.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/agiletaur_launcher/hook/cmake_prefix_path.sh'
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/bin'
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/lib/pkgconfig/agiletaur_launcher.pc'
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/lib/python3.8/site-packages'
+[0.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/agiletaur_launcher/package.ps1'
+[0.611s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/agiletaur_launcher/package.dsv'
+[0.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/agiletaur_launcher/package.sh'
+[0.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/agiletaur_launcher/package.bash'
+[0.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/agiletaur_launcher/package.zsh'
+[0.612s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/colcon-core/packages/agiletaur_launcher)
+[0.615s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(webots_bringup)
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_bringup' for CMake module files
+[0.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shipengl/LRSMT/agiletaur/build/webots_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/webots_bringup
+[0.617s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_bringup' for CMake config files
+[0.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('webots_bringup', 'cmake_prefix_path')
+[0.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/webots_bringup/hook/cmake_prefix_path.ps1'
+[0.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/webots_bringup/hook/cmake_prefix_path.dsv'
+[0.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/webots_bringup/hook/cmake_prefix_path.sh'
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_bringup/bin'
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_bringup/lib/pkgconfig/webots_bringup.pc'
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_bringup/lib/python3.8/site-packages'
+[0.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/webots_bringup/package.ps1'
+[0.621s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/webots_bringup/package.dsv'
+[0.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/webots_bringup/package.sh'
+[0.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/webots_bringup/package.bash'
+[0.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/webots_bringup/package.zsh'
+[0.622s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/colcon-core/packages/webots_bringup)
+[0.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shipengl/LRSMT/agiletaur/build/odrive_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/odrive_hardware_interface -- -j16 -l16
+[0.627s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(webots_description)
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_description' for CMake module files
+[0.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shipengl/LRSMT/agiletaur/build/webots_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/webots_description
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_description' for CMake config files
+[0.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('webots_description', 'cmake_prefix_path')
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/hook/cmake_prefix_path.ps1'
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/hook/cmake_prefix_path.dsv'
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/hook/cmake_prefix_path.sh'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_description/bin'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_description/lib/pkgconfig/webots_description.pc'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_description/lib/python3.8/site-packages'
+[0.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/package.ps1'
+[0.633s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/package.dsv'
+[0.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/package.sh'
+[0.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/package.bash'
+[0.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/package.zsh'
+[0.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shipengl/LRSMT/agiletaur/install/webots_description/share/colcon-core/packages/webots_description)
+[0.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shipengl/LRSMT/agiletaur/build/webots_simulation_assets': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/webots_simulation_assets
+[0.645s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(agiletaur_launcher)
+[0.646s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher' for CMake module files
+[0.648s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher' for CMake config files
+[0.648s] Level 1:colcon.colcon_core.shell:create_environment_hook('agiletaur_launcher', 'cmake_prefix_path')
+[0.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/agiletaur_launcher/hook/cmake_prefix_path.ps1'
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/agiletaur_launcher/hook/cmake_prefix_path.dsv'
+[0.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/agiletaur_launcher/hook/cmake_prefix_path.sh'
+[0.653s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/bin'
+[0.653s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/lib/pkgconfig/agiletaur_launcher.pc'
+[0.653s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/lib/python3.8/site-packages'
+[0.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/agiletaur_launcher/package.ps1'
+[0.656s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/agiletaur_launcher/package.dsv'
+[0.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/agiletaur_launcher/package.sh'
+[0.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/agiletaur_launcher/package.bash'
+[0.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/agiletaur_launcher/package.zsh'
+[0.660s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shipengl/LRSMT/agiletaur/install/agiletaur_launcher/share/colcon-core/packages/agiletaur_launcher)
+[0.661s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_description)
+[0.662s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_description' for CMake module files
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_description' for CMake config files
+[0.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_description', 'cmake_prefix_path')
+[0.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/hook/cmake_prefix_path.ps1'
+[0.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/hook/cmake_prefix_path.dsv'
+[0.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/hook/cmake_prefix_path.sh'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_description/bin'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_description/lib/pkgconfig/odrive_description.pc'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_description/lib/python3.8/site-packages'
+[0.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/package.ps1'
+[0.669s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/package.dsv'
+[0.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/package.sh'
+[0.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/package.bash'
+[0.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_description/share/odrive_description/package.zsh'
+[0.672s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shipengl/LRSMT/agiletaur/install/odrive_description/share/colcon-core/packages/odrive_description)
+[0.673s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shipengl/LRSMT/agiletaur/src/odrive_ros2_control/odrive_bringup' with build type 'ament_cmake'
+[0.673s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shipengl/LRSMT/agiletaur/src/odrive_ros2_control/odrive_bringup'
+[0.674s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.675s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.677s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.682s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(webots_bringup)
+[0.684s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_bringup' for CMake module files
+[0.684s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_bringup' for CMake config files
+[0.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('webots_bringup', 'cmake_prefix_path')
+[0.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/webots_bringup/hook/cmake_prefix_path.ps1'
+[0.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/webots_bringup/hook/cmake_prefix_path.dsv'
+[0.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/webots_bringup/hook/cmake_prefix_path.sh'
+[0.688s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_bringup/bin'
+[0.688s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_bringup/lib/pkgconfig/webots_bringup.pc'
+[0.688s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_bringup/lib/python3.8/site-packages'
+[0.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/webots_bringup/package.ps1'
+[0.690s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/webots_bringup/package.dsv'
+[0.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/webots_bringup/package.sh'
+[0.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/webots_bringup/package.bash'
+[0.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/webots_bringup/package.zsh'
+[0.692s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shipengl/LRSMT/agiletaur/install/webots_bringup/share/colcon-core/packages/webots_bringup)
+[0.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(webots_simulation_assets)
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets' for CMake module files
+[0.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shipengl/LRSMT/agiletaur/build/webots_simulation_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/webots_simulation_assets
+[0.697s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets' for CMake config files
+[0.697s] Level 1:colcon.colcon_core.shell:create_environment_hook('webots_simulation_assets', 'cmake_prefix_path')
+[0.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/hook/cmake_prefix_path.ps1'
+[0.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/hook/cmake_prefix_path.dsv'
+[0.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/hook/cmake_prefix_path.sh'
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/bin'
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/lib/pkgconfig/webots_simulation_assets.pc'
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/lib/python3.8/site-packages'
+[0.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/package.ps1'
+[0.701s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/package.dsv'
+[0.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/package.sh'
+[0.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/package.bash'
+[0.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/package.zsh'
+[0.703s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/colcon-core/packages/webots_simulation_assets)
+[0.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shipengl/LRSMT/agiletaur/build/odrive_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/odrive_hardware_interface
+[0.714s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(webots_description)
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_description' for CMake module files
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_description' for CMake config files
+[0.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('webots_description', 'cmake_prefix_path')
+[0.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/hook/cmake_prefix_path.ps1'
+[0.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/hook/cmake_prefix_path.dsv'
+[0.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/hook/cmake_prefix_path.sh'
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_description/bin'
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_description/lib/pkgconfig/webots_description.pc'
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_description/lib/python3.8/site-packages'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/package.ps1'
+[0.721s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/package.dsv'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/package.sh'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/package.bash'
+[0.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_description/share/webots_description/package.zsh'
+[0.723s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shipengl/LRSMT/agiletaur/install/webots_description/share/colcon-core/packages/webots_description)
+[0.735s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_hardware_interface)
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface' for CMake module files
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface' for CMake config files
+[0.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shipengl/LRSMT/agiletaur/build/odrive_bringup': AMENT_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/odrive_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/odrive_description:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/odrive_bringup -- -j16 -l16
+[0.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_hardware_interface', 'cmake_prefix_path')
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/cmake_prefix_path.ps1'
+[0.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shipengl/LRSMT/agiletaur/build/webots_ros2_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/webots_ros2_msgs -- -j16 -l16
+[0.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shipengl/LRSMT/agiletaur/build/odrive_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/odrive_hardware_interface
+[0.742s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/cmake_prefix_path.dsv'
+[0.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/cmake_prefix_path.sh'
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/lib'
+[0.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_hardware_interface', 'ld_library_path_lib')
+[0.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/ld_library_path_lib.ps1'
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/ld_library_path_lib.dsv'
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/ld_library_path_lib.sh'
+[0.744s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/bin'
+[0.744s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/lib/pkgconfig/odrive_hardware_interface.pc'
+[0.744s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/lib/python3.8/site-packages'
+[0.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/package.ps1'
+[0.746s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/package.dsv'
+[0.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/package.sh'
+[0.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/package.bash'
+[0.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/package.zsh'
+[0.747s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/colcon-core/packages/odrive_hardware_interface)
+[0.752s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(webots_simulation_assets)
+[0.753s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets' for CMake module files
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets' for CMake config files
+[0.755s] Level 1:colcon.colcon_core.shell:create_environment_hook('webots_simulation_assets', 'cmake_prefix_path')
+[0.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/hook/cmake_prefix_path.ps1'
+[0.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/hook/cmake_prefix_path.dsv'
+[0.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/hook/cmake_prefix_path.sh'
+[0.758s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/bin'
+[0.758s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/lib/pkgconfig/webots_simulation_assets.pc'
+[0.758s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/lib/python3.8/site-packages'
+[0.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/package.ps1'
+[0.760s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/package.dsv'
+[0.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/package.sh'
+[0.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/package.bash'
+[0.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/webots_simulation_assets/package.zsh'
+[0.762s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shipengl/LRSMT/agiletaur/install/webots_simulation_assets/share/colcon-core/packages/webots_simulation_assets)
+[0.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shipengl/LRSMT/agiletaur/build/odrive_bringup' returned '0': AMENT_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/odrive_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/odrive_description:/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/odrive_bringup -- -j16 -l16
+[0.777s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_hardware_interface)
+[0.778s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface' for CMake module files
+[0.779s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface' for CMake config files
+[0.779s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_hardware_interface', 'cmake_prefix_path')
+[0.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/cmake_prefix_path.ps1'
+[0.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/cmake_prefix_path.dsv'
+[0.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/cmake_prefix_path.sh'
+[0.782s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/lib'
+[0.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_hardware_interface', 'ld_library_path_lib')
+[0.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/ld_library_path_lib.ps1'
+[0.784s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/ld_library_path_lib.dsv'
+[0.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/hook/ld_library_path_lib.sh'
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/bin'
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/lib/pkgconfig/odrive_hardware_interface.pc'
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/lib/python3.8/site-packages'
+[0.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/package.ps1'
+[0.787s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/package.dsv'
+[0.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/package.sh'
+[0.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/package.bash'
+[0.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/odrive_hardware_interface/package.zsh'
+[0.790s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/share/colcon-core/packages/odrive_hardware_interface)
+[0.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shipengl/LRSMT/agiletaur/build/odrive_bringup': AMENT_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/odrive_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/odrive_description:/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/odrive_bringup
+[0.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shipengl/LRSMT/agiletaur/build/webots_ros2_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/webots_ros2_msgs
+[0.805s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_bringup)
+[0.807s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup' for CMake module files
+[0.809s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup' for CMake config files
+[0.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_bringup', 'cmake_prefix_path')
+[0.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/share/odrive_bringup/hook/cmake_prefix_path.ps1'
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/share/odrive_bringup/hook/cmake_prefix_path.dsv'
+[0.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shipengl/LRSMT/agiletaur/build/odrive_bringup' returned '0': AMENT_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/odrive_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/odrive_description:/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/odrive_bringup
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/share/odrive_bringup/hook/cmake_prefix_path.sh'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/bin'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/lib/pkgconfig/odrive_bringup.pc'
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/lib/python3.8/site-packages'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/share/odrive_bringup/package.ps1'
+[0.816s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/share/odrive_bringup/package.dsv'
+[0.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/share/odrive_bringup/package.sh'
+[0.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/share/odrive_bringup/package.bash'
+[0.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/share/odrive_bringup/package.zsh'
+[0.819s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/share/colcon-core/packages/odrive_bringup)
+[0.838s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_bringup)
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup' for CMake module files
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup' for CMake config files
+[0.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_bringup', 'cmake_prefix_path')
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/share/odrive_bringup/hook/cmake_prefix_path.ps1'
+[0.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/share/odrive_bringup/hook/cmake_prefix_path.dsv'
+[0.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/share/odrive_bringup/hook/cmake_prefix_path.sh'
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/bin'
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/lib/pkgconfig/odrive_bringup.pc'
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/lib/python3.8/site-packages'
+[0.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/share/odrive_bringup/package.ps1'
+[0.843s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/share/odrive_bringup/package.dsv'
+[0.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/share/odrive_bringup/package.sh'
+[0.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/share/odrive_bringup/package.bash'
+[0.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/share/odrive_bringup/package.zsh'
+[0.845s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shipengl/LRSMT/agiletaur/install/odrive_bringup/share/colcon-core/packages/odrive_bringup)
+[0.845s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shipengl/LRSMT/agiletaur/src/odrive_ros2_control/odrive_ros2_control' with build type 'ament_cmake'
+[0.845s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shipengl/LRSMT/agiletaur/src/odrive_ros2_control/odrive_ros2_control'
+[0.846s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.846s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.848s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.861s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(webots_ros2_msgs)
+[0.862s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs' for CMake module files
+[0.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shipengl/LRSMT/agiletaur/build/odrive_ros2_control': AMENT_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/odrive_bringup:/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface:/home/shipengl/LRSMT/agiletaur/install/odrive_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/odrive_bringup:/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface:/home/shipengl/LRSMT/agiletaur/install/odrive_description:/opt/ros/foxy LD_LIBRARY_PATH=/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/odrive_ros2_control -- -j16 -l16
+[0.863s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs' for CMake config files
+[0.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shipengl/LRSMT/agiletaur/build/webots_ros2_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/webots_ros2_msgs
+[0.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('webots_ros2_msgs', 'cmake_prefix_path')
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/hook/cmake_prefix_path.ps1'
+[0.865s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/hook/cmake_prefix_path.dsv'
+[0.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/hook/cmake_prefix_path.sh'
+[0.866s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib'
+[0.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('webots_ros2_msgs', 'ld_library_path_lib')
+[0.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/hook/ld_library_path_lib.ps1'
+[0.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/hook/ld_library_path_lib.dsv'
+[0.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/hook/ld_library_path_lib.sh'
+[0.867s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/bin'
+[0.867s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib/pkgconfig/webots_ros2_msgs.pc'
+[0.867s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib/python3.8/site-packages'
+[0.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('webots_ros2_msgs', 'pythonpath')
+[0.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/hook/pythonpath.ps1'
+[0.868s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/hook/pythonpath.dsv'
+[0.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/hook/pythonpath.sh'
+[0.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/package.ps1'
+[0.870s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/package.dsv'
+[0.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/package.sh'
+[0.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/package.bash'
+[0.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/package.zsh'
+[0.871s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/colcon-core/packages/webots_ros2_msgs)
+[0.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shipengl/LRSMT/agiletaur/build/odrive_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/odrive_bringup:/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface:/home/shipengl/LRSMT/agiletaur/install/odrive_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/odrive_bringup:/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface:/home/shipengl/LRSMT/agiletaur/install/odrive_description:/opt/ros/foxy LD_LIBRARY_PATH=/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/odrive_ros2_control -- -j16 -l16
+[0.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shipengl/LRSMT/agiletaur/build/odrive_ros2_control': AMENT_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/odrive_bringup:/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface:/home/shipengl/LRSMT/agiletaur/install/odrive_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/odrive_bringup:/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface:/home/shipengl/LRSMT/agiletaur/install/odrive_description:/opt/ros/foxy LD_LIBRARY_PATH=/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/odrive_ros2_control
+[0.923s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_ros2_control)
+[0.924s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control' for CMake module files
+[0.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shipengl/LRSMT/agiletaur/build/odrive_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/odrive_bringup:/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface:/home/shipengl/LRSMT/agiletaur/install/odrive_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/odrive_bringup:/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface:/home/shipengl/LRSMT/agiletaur/install/odrive_description:/opt/ros/foxy LD_LIBRARY_PATH=/home/shipengl/LRSMT/agiletaur/install/odrive_hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/shipengl/LRSMT/agiletaur/build/odrive_ros2_control
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control' for CMake config files
+[0.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_ros2_control', 'cmake_prefix_path')
+[0.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/share/odrive_ros2_control/hook/cmake_prefix_path.ps1'
+[0.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/share/odrive_ros2_control/hook/cmake_prefix_path.dsv'
+[0.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/share/odrive_ros2_control/hook/cmake_prefix_path.sh'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/bin'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/lib/pkgconfig/odrive_ros2_control.pc'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/lib/python3.8/site-packages'
+[0.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/share/odrive_ros2_control/package.ps1'
+[0.929s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/share/odrive_ros2_control/package.dsv'
+[0.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/share/odrive_ros2_control/package.sh'
+[0.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/share/odrive_ros2_control/package.bash'
+[0.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/share/odrive_ros2_control/package.zsh'
+[0.931s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/share/colcon-core/packages/odrive_ros2_control)
+[0.936s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(webots_ros2_msgs)
+[0.937s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs' for CMake module files
+[0.938s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs' for CMake config files
+[0.938s] Level 1:colcon.colcon_core.shell:create_environment_hook('webots_ros2_msgs', 'cmake_prefix_path')
+[0.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/hook/cmake_prefix_path.ps1'
+[0.940s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/hook/cmake_prefix_path.dsv'
+[0.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/hook/cmake_prefix_path.sh'
+[0.941s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib'
+[0.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('webots_ros2_msgs', 'ld_library_path_lib')
+[0.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/hook/ld_library_path_lib.ps1'
+[0.943s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/hook/ld_library_path_lib.dsv'
+[0.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/hook/ld_library_path_lib.sh'
+[0.944s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/bin'
+[0.944s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib/pkgconfig/webots_ros2_msgs.pc'
+[0.944s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib/python3.8/site-packages'
+[0.944s] Level 1:colcon.colcon_core.shell:create_environment_hook('webots_ros2_msgs', 'pythonpath')
+[0.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/hook/pythonpath.ps1'
+[0.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/hook/pythonpath.dsv'
+[0.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/hook/pythonpath.sh'
+[0.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/package.ps1'
+[0.948s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/package.dsv'
+[0.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/package.sh'
+[0.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/package.bash'
+[0.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/webots_ros2_msgs/package.zsh'
+[0.950s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/share/colcon-core/packages/webots_ros2_msgs)
+[0.950s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_ros2_driver' with build type 'ament_cmake'
+[0.951s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shipengl/LRSMT/agiletaur/src/webots_ros2_control/webots_ros2_driver'
+[0.951s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.951s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.953s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.957s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_ros2_control)
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control' for CMake module files
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control' for CMake config files
+[0.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_ros2_control', 'cmake_prefix_path')
+[0.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/share/odrive_ros2_control/hook/cmake_prefix_path.ps1'
+[0.960s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/share/odrive_ros2_control/hook/cmake_prefix_path.dsv'
+[0.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/share/odrive_ros2_control/hook/cmake_prefix_path.sh'
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/bin'
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/lib/pkgconfig/odrive_ros2_control.pc'
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/lib/python3.8/site-packages'
+[0.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/share/odrive_ros2_control/package.ps1'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/share/odrive_ros2_control/package.dsv'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/share/odrive_ros2_control/package.sh'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/share/odrive_ros2_control/package.bash'
+[0.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/share/odrive_ros2_control/package.zsh'
+[0.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shipengl/LRSMT/agiletaur/install/odrive_ros2_control/share/colcon-core/packages/odrive_ros2_control)
+[0.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shipengl/LRSMT/agiletaur/build/webots_ros2_driver': AMENT_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shipengl/LRSMT/agiletaur/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/webots_ros2_driver -- -j16 -l16
+[2.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller -- -j16 -l16
+[2.635s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(agiletaur_controller)
+[2.636s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/agiletaur_controller' for CMake module files
+[2.637s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/agiletaur_controller' for CMake config files
+[2.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('agiletaur_controller', 'cmake_prefix_path')
+[2.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/hook/cmake_prefix_path.ps1'
+[2.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/hook/cmake_prefix_path.dsv'
+[2.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/hook/cmake_prefix_path.sh'
+[2.638s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/lib'
+[2.638s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/bin'
+[2.638s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/lib/pkgconfig/agiletaur_controller.pc'
+[2.638s] Level 1:colcon.colcon_core.environment:checking '/home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/lib/python3.8/site-packages'
+[2.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/package.ps1'
+[2.639s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/package.dsv'
+[2.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/package.sh'
+[2.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/package.bash'
+[2.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/agiletaur_controller/package.zsh'
+[2.641s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shipengl/LRSMT/agiletaur/install/agiletaur_controller/share/colcon-core/packages/agiletaur_controller)
+[6.922s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.922s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.922s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[6.922s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.929s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.929s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.929s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.943s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.944s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shipengl/LRSMT/agiletaur/install/local_setup.ps1'
+[6.945s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shipengl/LRSMT/agiletaur/install/_local_setup_util_ps1.py'
+[6.946s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shipengl/LRSMT/agiletaur/install/setup.ps1'
+[6.948s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shipengl/LRSMT/agiletaur/install/local_setup.sh'
+[6.949s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shipengl/LRSMT/agiletaur/install/_local_setup_util_sh.py'
+[6.949s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shipengl/LRSMT/agiletaur/install/setup.sh'
+[6.952s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shipengl/LRSMT/agiletaur/install/local_setup.bash'
+[6.952s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shipengl/LRSMT/agiletaur/install/setup.bash'
+[6.955s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shipengl/LRSMT/agiletaur/install/local_setup.zsh'
+[6.955s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shipengl/LRSMT/agiletaur/install/setup.zsh'

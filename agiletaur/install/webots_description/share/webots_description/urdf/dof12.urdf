@@ -37,7 +37,7 @@
         <plugin type="webots_ros2_control::Ros2Control" />
     </webots>
 
-    <!-- <ros2_control name="WebotsControl" type="system">
+    <ros2_control name="WebotsControl" type="system">
         <hardware>
             <plugin>webots_ros2_control::Ros2ControlSystem</plugin>
         </hardware>
@@ -157,5 +157,5 @@
             <command_interface name="velocity"/>
             <command_interface name="effort"/>
         </joint>
-    </ros2_control> -->
+    </ros2_control>
 </robot>

@@ -26,11 +26,20 @@ int main(int argc, char **argv)
 	rclcpp::init(argc, argv);
 	std::shared_ptr<lowerproxy> Lower_proxy_ = std::make_shared<lowerproxy>();
 
-	Upper_proxy_.Init();
+	// Upper_proxy_.Init();
 	monitor.Init();
-	std::cout<<"Init the robot done" <<std::endl;
-	rclcpp::spin(Lower_proxy_);
-  	rclcpp::shutdown();
-	
+
+	rclcpp::Rate loop_rate(10);
+	while(rclcpp::ok()){
+		std::cout<<"Init the robot done" <<std::endl;
+		Lower_proxy_->PublishControlCommand();
+		rclcpp::spin_some(Lower_proxy_);
+		loop_rate.sleep();
+	}
+
+
+
+
+
 	return 0;
 }

@@ -63,60 +63,20 @@ joint1_effort_controller:
     joints:
       - motor2
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 group_position_controller:
   ros__parameters:
     joints:
-      - BL0 rotational motor
-      - BL1 rotational motor
+      - motor1
+      - motor2
 
 group_velocity_controller:
   ros__parameters:
     joints:
-      - BL0 rotational motor
-      - BL1 rotational motor
+      - motor1
+      - motor2
 
 group_effort_controller:
   ros__parameters:
     joints:
-      - BL0 rotational motor
-      - BL1 rotational motor
+      - motor1
+      - motor2

@@ -1,0 +1,42 @@
+[0.045s] Invoking command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller -- -j16 -l16
+[0.105s] [35m[1mScanning dependencies of target agiletaur_controller[0m
+[0.171s] [ 16%] [32mBuilding CXX object CMakeFiles/agiletaur_controller.dir/src/main.cpp.o[0m
+[0.171s] [ 33%] [32mBuilding CXX object CMakeFiles/agiletaur_controller.dir/src/proxy/lowerproxy.cpp.o[0m
+[1.307s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:[m[K In constructor ‘[01m[Kagiletaur::control::lowerproxy::lowerproxy(std::string)[m[K’:
+[1.307s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:22:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint0_position_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint0_velocity_publisher[m[K’?
+[1.307s]    22 |     [01;31m[Kjoint0_position_publisher[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>
+[1.307s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.307s]       |     [32m[Kjoint0_velocity_publisher[m[K
+[1.312s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:24:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint1_position_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint1_velocity_publisher[m[K’?
+[1.312s]    24 |     [01;31m[Kjoint1_position_publisher[m[K = this->create_publisher<std_msgs::msg::Float64MultiArray>
+[1.313s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.313s]       |     [32m[Kjoint1_velocity_publisher[m[K
+[1.317s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:[m[K In member function ‘[01m[Kvoid agiletaur::control::lowerproxy::PublishControlCommand()[m[K’:
+[1.318s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:64:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint0_position_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint0_velocity_publisher[m[K’?
+[1.318s]    64 |     [01;31m[Kjoint0_position_publisher[m[K->publish(message);
+[1.318s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.318s]       |     [32m[Kjoint0_velocity_publisher[m[K
+[1.321s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/proxy/lowerproxy.cpp:65:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint1_position_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint1_velocity_publisher[m[K’?
+[1.322s]    65 |     [01;31m[Kjoint1_position_publisher[m[K->publish(message);
+[1.322s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.322s]       |     [32m[Kjoint1_velocity_publisher[m[K
+[1.783s] make[2]: *** [CMakeFiles/agiletaur_controller.dir/build.make:102: CMakeFiles/agiletaur_controller.dir/src/proxy/lowerproxy.cpp.o] Error 1
+[1.783s] make[2]: *** Waiting for unfinished jobs....
+[1.847s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.847s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/main.cpp:23:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KUpper_proxy_[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.847s]    23 |  upperproxy &[01;35m[KUpper_proxy_[m[K = upperproxy::GetUpperProxy();
+[1.847s]       |              [01;35m[K^~~~~~~~~~~~[m[K
+[2.114s] In file included from [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/src/main.cpp:9[m[K:
+[2.114s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/main.h:[m[K At global scope:
+[2.114s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/main.h:43:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktimer[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[2.115s]    43 | static float [01;35m[Ktimer[m[K[10] = { 0 };
+[2.115s]       |              [01;35m[K^~~~~[m[K
+[2.115s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/main.h:41:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kinit_done[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[2.115s]    41 | static int [01;35m[Kinit_done[m[K = 0;
+[2.115s]       |            [01;35m[K^~~~~~~~~[m[K
+[2.115s] [01m[K/home/shipengl/LRSMT/agiletaur/src/agiletaur_controller/include/main.h:40:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kinit_cnt[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[2.115s]    40 | static float [01;35m[Kinit_cnt[m[K = 0;
+[2.115s]       |              [01;35m[K^~~~~~~~[m[K
+[2.186s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/agiletaur_controller.dir/all] Error 2
+[2.186s] make: *** [Makefile:141: all] Error 2
+[2.188s] Invoked command in '/home/shipengl/LRSMT/agiletaur/build/agiletaur_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shipengl/LRSMT/agiletaur/build/agiletaur_controller -- -j16 -l16

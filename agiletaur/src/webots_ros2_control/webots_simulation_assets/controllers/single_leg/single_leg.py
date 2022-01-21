@@ -84,13 +84,14 @@ class Singleleg(Robot):
         sita = self.inverse_kinematic([x,y])
         self.motor_control(sita)
         times = 0
-        i = -0.2
+        i = 0.2
         sign = 1
         # main loop control
         while(self.step(self.timeStep) != -1):
             times += 1
             '''key board control
             '''
+            i += 0.1
             # #wait for keyboard reponse
             # print(x,y)
             # key = self.keyboard.getKey()
@@ -113,20 +114,20 @@ class Singleleg(Robot):
             #     print("iterate", times)
 
             
-            sita = self.inverse_kinematic([0, i])
-            self.motor_control(sita)
+            # sita = self.inverse_kinematic([0, i])
+            self.motor_control([i,-i])
             print("y position", i)
 
-            if(sign == 1):
-                if(i>-0.26):
-                    i = i - 0.01
-                else:
-                    sign = -1
-            else:
-                if(i<-0.2):
-                    i = i + 0.01
-                else:
-                    sign = 1
+            # if(sign == 1):
+            #     if(i>-0.26):
+            #         i = i - 0.01
+            #     else:
+            #         sign = -1
+            # else:
+            #     if(i<-0.2):
+            #         i = i + 0.01
+            #     else:
+            #         sign = 1
 
 
             

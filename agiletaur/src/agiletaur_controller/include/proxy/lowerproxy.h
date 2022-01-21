@@ -28,31 +28,31 @@ class lowerproxy:public rclcpp::Node{
   private:
 
     rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr 
-                                                  joint0_velocity_publisher;
+                                                  joint0_publisher;
     rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr 
-                                                  joint1_velocity_publisher;
-    rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr 
-                                                  joint2_velocity_publisher;
-    rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr 
-                                                  joint3_velocity_publisher; 
-    rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr 
-                                                  joint4_velocity_publisher;
-    rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr 
-                                                  joint5_velocity_publisher;
-    rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr 
-                                                  joint6_velocity_publisher;
-    rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr 
-                                                  joint7_velocity_publisher;
-    rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr 
-                                                  joint8_velocity_publisher;
-    rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr 
-                                                  joint9_velocity_publisher;
-    rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr 
-                                                  joint10_velocity_publisher;
-    rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr 
-                                                  joint11_velocity_publisher;                                                                                                 
+                                                  joint1_publisher;
+    // rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr 
+    //                                               joint2_velocity_publisher;
+    // rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr 
+    //                                               joint3_velocity_publisher; 
+    // rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr 
+    //                                               joint4_velocity_publisher;
+    // rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr 
+    //                                               joint5_velocity_publisher;
+    // rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr 
+    //                                               joint6_velocity_publisher;
+    // rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr 
+    //                                               joint7_velocity_publisher;
+    // rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr 
+    //                                               joint8_velocity_publisher;
+    // rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr 
+    //                                               joint9_velocity_publisher;
+    // rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr 
+    //                                               joint10_velocity_publisher;
+    // rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr 
+    //                                               joint11_velocity_publisher;                                                                                                 
     rclcpp::TimerBase::SharedPtr _timer;
-    int _count;
+    float _count;
 
     // const char* motor_c[8] = { "motor_4","motor_3",
     //         "motor_8","motor_7",

@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target driver[0m
+[ 22%] Built target webots_ros2_driver_imu
+[ 27%] [32mBuilding CXX object CMakeFiles/driver.dir/src/WebotsNode.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable driver[0m
+[100%] Built target driver
